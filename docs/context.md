@@ -1,13 +1,9 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+O Brasil é um país de doadores. Segundo pesquisa do Instituto para o Desenvolvimento do Investimento Social (IDIS), em 2020, mais de dois terços da população realizou algum tipo de doação; no entanto, o número era ainda maior em 2015, com a doação em dinheiro tendo a maior queda. A causas mais citada é a pandemia, que afetou a renda de grande parte dos cidadãos e transformou parte dos doadores mais pobres em pessoas que também necessitam de doação. No entanto, a pesquisa também indicou que apesar da queda nos índices, a cultura de ajudar ao próximo através de ONG's tem se fortalecido no país.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+Assim, é possível imaginar que quanto mais fácil o ato de doar for, mais dinheiro será arrecadado. Também é importante notar que apesar de ter aumentado nos últimos anos, a porcentagem da população que acredita que as ONG's fazem um trabalho competente ainda é de apenas 60%. Isso se deve parcialmente ao fato de que a maioria das organizações não oferece um canal fixo através do qual os doadores possam se manter informados sobre suas ações. Portanto, conclui-se que há amplo espaço para mudanças e desenvolvimento nessa importante área da sociedade.
 
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
