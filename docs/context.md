@@ -30,6 +30,8 @@ Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs
  
 ## Justificativa
 
+Facilitar acesso às informações como propósitos, missões, programas e projetos sobre organizações não governamentais é um passo fundamental para promover a transparência e a prestação de contas e incentivar maior participação da comunidade. Separá-las por causa e região facilitará identificação do público-alvo com a causa de cada, acelerando processo de decisão e melhorando o engajamento.
+
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
