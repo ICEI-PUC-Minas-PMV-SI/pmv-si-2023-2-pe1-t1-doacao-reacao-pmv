@@ -7,6 +7,8 @@ Assim, é possível imaginar que quanto mais fácil o ato de doar for, mais dinh
 
 ## Problema
 
+De acordo com a Pesquisa Doação Brasil (PDB), 75% das pessoas entendem que as ONGs precisam de ajuda financeira para sobreviver. No entanto, apenas 36% fez doações instucionais. Justificando esse número, verifica-se que apenas 31% acha as ONGs confiáveis, 31% que também aparecem quando se trata da parcela da população que acredita que as ongs deixam claro o que fazem com os recursos aplicados. Portanto, percebe-se um claro incômodo com a falta de transparência das organizações.
+
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
@@ -24,13 +26,15 @@ Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs
 
 - Mapear as principais ONGs de (região)
 
-- Exibir história, informações, dados e contato de cada ONG.
+- Exibir história, informações, dados, contato e redes sociais de cada ONG.
 
 - Categorizá-las por região, causa e movimentação financeira
  
 ## Justificativa
 
-Facilitar acesso às informações como propósitos, missões, programas e projetos sobre organizações não governamentais é um passo fundamental para promover a transparência e a prestação de contas e incentivar maior participação da comunidade. Separá-las por causa e região facilitará identificação do público-alvo com a causa de cada, acelerando processo de decisão e melhorando o engajamento.
+Verifica-se na pesquisa World Giving Index, ao comparar o ano de 2021 com o de 2022, um crescimento substancial de ações solidárias como doação e voluntariado. Há um espaço crescente para o diálogo sobre doações institucionais, e informação acessível é de suma importância para fomentar, embasar e sustentar essa discussão.
+
+Facilitar acesso a informações como propósitos, missões, programas e projetos das organizações não governamentais promove a transparência e encoraja a prestação de contas por parte das organizações, atuando diretamente sobre o problema da confiança. Separá-las por causa e região facilitará identificação do público-alvo com a causa de cada, aumentando o engajamento de possíveis doadores e voluntários.
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
@@ -42,6 +46,8 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 ## Público-Alvo
 
 Nosso projeto busca atingir pessoas economicamente ativas e empresas da região que querem engajar ou já estão engajadas com causas sociais. Elas possuem interesse em causas de caridade, mas estão com dificuldades em encontrar uma ONG com cuja causa elas se identifiquem e não sabem por onde começar.
+
+O instituto IDIS, na análise da PDB, também indicou que mais de 80% das pessoas com renda superior a um salário mínimo fizeram uma doação, e que a geração Z, jovens de 18 a 27 anos, está mais engajada do que a população geral com as causas solidárias e simpatizam mais com instituições do terceiro setor. Portanto, o perfil do usuário é mais jovem e mais abastado.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
