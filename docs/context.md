@@ -28,7 +28,9 @@ Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs
 
 - Exibir história, informações, dados, contato e redes sociais de cada ONG.
 
-- Categorizá-las por região, causa e movimentação financeira
+- Categorizá-las por região, causa e movimentação financeira.
+
+- Permitir que usuários rastreiem atividades das ONGs para as quais doaram.
  
 ## Justificativa
 
