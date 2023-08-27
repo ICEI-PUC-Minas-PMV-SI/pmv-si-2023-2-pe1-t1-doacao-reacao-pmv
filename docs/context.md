@@ -7,7 +7,7 @@ Assim, é possível imaginar que quanto mais fácil o ato de doar for, mais dinh
 
 ## Problema
 
-De acordo com a Pesquisa Doação Brasil (PDB), 75% das pessoas entendem que as ONGs precisam de ajuda financeira para sobreviver. No entanto, apenas 36% fez doações instucionais. Justificando esse número, verifica-se que apenas 31% acha as ONGs confiáveis, 31% que também aparecem quando se trata da parcela da população que acredita que as ongs deixam claro o que fazem com os recursos aplicados. Portanto, percebe-se um claro incômodo com a falta de transparência das organizações.
+De acordo com a Pesquisa Doação Brasil (PDB), 75% das pessoas entendem que as ONGs precisam de ajuda financeira para sobreviver. No entanto, apenas 36% fez doações instucionais. Justificando esse número, verifica-se que apenas 31% acha as ONGs confiáveis, 31% que também aparecem quando se trata da parcela da população que acredita que as ONGs deixam claro o que fazem com os recursos aplicados. Logo, percebe-se um claro incômodo com a falta de transparência das organizações.
 
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
