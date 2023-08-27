@@ -9,16 +9,6 @@ Assim, é possível imaginar que quanto mais fácil o ato de doar for, mais dinh
 
 De acordo com a Pesquisa Doação Brasil (PDB), 75% das pessoas entendem que as ONGs precisam de ajuda financeira para sobreviver. No entanto, apenas 36% fez doações instucionais. Justificando esse número, verifica-se que apenas 31% acha as ONGs confiáveis, 31% que também aparecem quando se trata da parcela da população que acredita que as ONGs deixam claro o que fazem com os recursos aplicados. Logo, percebe-se um claro incômodo com a falta de transparência das organizações.
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
@@ -34,27 +24,12 @@ Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs
  
 ## Justificativa
 
-Verifica-se na pesquisa World Giving Index, ao comparar o ano de 2021 com o de 2022, um crescimento substancial de ações solidárias como doação e voluntariado. Há um espaço crescente para o diálogo sobre doações institucionais, e informação acessível é de suma importância para fomentar, embasar e sustentar essa discussão.
+Ao comparar o ano de 2021 com o de 2022, verifica-se na pesquisa World Giving Index um crescimento substancial de ações solidárias como doação e voluntariado - Logo, há um espaço crescente para o diálogo sobre doações institucionais, e informação acessível é de suma importância para fomentar, embasar e sustentar essa discussão.
 
-Facilitar acesso a informações como propósitos, missões, programas e projetos das organizações não governamentais promove a transparência e encoraja a prestação de contas por parte das organizações, atuando diretamente sobre o problema da confiança. Separá-las por causa e região facilitará identificação do público-alvo com a causa de cada, aumentando o engajamento de possíveis doadores e voluntários.
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Facilitar acesso a informações como propósitos, missões, programas e projetos das organizações não governamentais promove a transparência e encoraja a prestação de contas por parte das organizações, atuando diretamente sobre o problema da confiança. Separá-las por causa e região facilitará a identificação do público-alvo com a causa de cada uma, aumentando o engajamento de possíveis doadores e voluntários.
 
 ## Público-Alvo
 
-Nosso projeto busca atingir pessoas economicamente ativas e empresas da região que querem engajar ou já estão engajadas com causas sociais. Elas possuem interesse em causas de caridade, mas estão com dificuldades em encontrar uma ONG com cuja causa elas se identifiquem e não sabem por onde começar.
+Nosso projeto busca atingir pessoas economicamente ativas e empresas da região que querem engajar ou já estão engajadas com causas sociais. Elas possuem interesse em causas de caridade, mas estão com dificuldades em encontrar uma ONG cuja causa elas se identifiquem e não sabem por onde começar.
 
 O instituto IDIS, na análise da PDB, também indicou que mais de 80% das pessoas com renda superior a um salário mínimo fizeram uma doação, e que a geração Z, jovens de 18 a 27 anos, está mais engajada do que a população geral com as causas solidárias e simpatizam mais com instituições do terceiro setor. Portanto, o perfil do usuário é mais jovem e mais abastado.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
