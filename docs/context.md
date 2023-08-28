@@ -24,9 +24,11 @@ Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs
  
 ## Justificativa
 
-Ao comparar o ano de 2021 com o de 2022, verifica-se na pesquisa World Giving Index um crescimento substancial de ações solidárias como doação e voluntariado no Brasil - Portanto, há um espaço crescente para o diálogo sobre doações institucionais.Informação acessível é de suma importância para fomentar, embasar e sustentar essa discussão.
+Ao comparar o ano de 2021 com o de 2022, verifica-se na pesquisa World Giving Index um crescimento substancial de ações solidárias como doação e voluntariado no Brasil - Portanto, há um espaço crescente para o diálogo sobre doações institucionais. Informação acessível é de suma importância para fomentar, embasar e sustentar essa discussão.
 
-Facilitar acesso a informações como propósitos, missões, programas e projetos das organizações não governamentais promove a transparência e encoraja a prestação de contas por parte das organizações, atuando diretamente sobre o problema da confiança. Separá-las por causa e região facilitará a identificação do público-alvo com a causa de cada uma, aumentando o engajamento de possíveis doadores e voluntários.
+De acordo com o relato a CEO do Instituto para o Desenvolvimento do Investimento Social (IDIS) para a World Giving Index 2022, o histórico de situações políticas tumultosas nos países latinos levaram as pessoas a assumirem a responsabilidade de melhorar suas comunidades. "Em contextos em que as ações dos órgãos governamentais parecem limitadas ou insuficientes em suprir a necessidade das pessoas, muitos indivíduos se disporam a dirigir esforços de ajuda". Portanto, as ONGs, uma referência não atrelada ao governo, possuem uma atuação fundamental no quesito ajuda humanitária no Brasil.
+
+Ao facilitar acesso a informações como propósitos, missões, programas e projetos das organizações não governamentais, promove-se a transparência e encoraja-se a prestação de contas por parte das organizações, atuando diretamente sobre o problema da confiança. Separá-las por causa e região facilitará a identificação do público-alvo com a causa de cada uma, aumentando o engajamento de possíveis doadores e voluntários.
 
 ## Público-Alvo
 
