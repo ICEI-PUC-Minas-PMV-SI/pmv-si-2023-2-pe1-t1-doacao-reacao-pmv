@@ -4,6 +4,8 @@
 
 **[2]** - _PESQUISA DOAÇÃO BRASIL, **Pesquisa Doação Brasil 2022**. Disponível em: https://pesquisadoacaobrasil.org.br Acesso em: 24 Ago 2023_
 
+**[4]** - _INSTITUTO PARA O DESENVOLVIMENTO E INVESTIMENTO SOCIAL, **Analisando a Geração Z**. Disponível em: https://www.idis.org.br/analisando-a-geracao-z/ Acesso em: 24 Ago 2023_
+
 
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
