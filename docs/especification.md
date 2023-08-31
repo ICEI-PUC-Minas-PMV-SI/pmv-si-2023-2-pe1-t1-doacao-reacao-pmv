@@ -16,6 +16,10 @@ Enzo Gabriel tem 13 anos, está no ensino fundamental e deve fazer um trabalho p
 
 Anabela Cristina tem 25 anos, é formada em direito e atua como advogada. Enquanto dirigia, viu uma ONG distribuindo marmitas na praça. Ela sensibilizou-se com a atitude e decidiu que faria uma doação quando chegasse em casa. No entanto, embora tenha visto o nome da ONG, não conseguiu encontrá-la online porque várias empresas usam o mesmo nome.
 
+Gabriela Costa tem 32 anos, trabalha home office como psicóloga autônoma e tem 2 cachorros. Ela realizou uma doação na época da pandemia para uma ONG chamava-se 'sAUde em foco' e queria ver as atividades dela para ver se seu dinheiro foi bem gasto e doar novamente. No entanto, ela não encontrou a ONG no google de forma alguma. Ela desconfia que o nome mudou, mas pensa em procurar pela localidade.
+
+Maria Fernanda é Professora de Jardim de infância, e uma filantropa. Ela gostaria de realizar um trabalho voluntário durante o seu fim de semana, mas as ONGs próximas que ela conhece operam durante a semana, apenas. Ela gostaria de encontrar uma ONG perto de casa para não precisar se deslocar muito e realizar um trabalho comunitário
+
 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
