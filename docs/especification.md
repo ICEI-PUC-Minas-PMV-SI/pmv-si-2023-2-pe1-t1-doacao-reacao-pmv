@@ -53,6 +53,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Enzo Gabriel        | Monitorar ações de ONGs            | Incluir em sua apresentação            |
 |Anabela Cristina    | Localizar ONGs por nome            | Encontrar uma ONG específica           |
 |Anabela Cristina    | Realizar doações online            | Praticidade                            |
+|Gabriela Costa |Ver as atividades de uma ONG de nome desconhecido de uma região conhecida | Verificar se usaram bem a doação e julgar se deve doar novamente|
+|Maria Fernanda| Achar uma ONG próxima de casa| entrar em contato pelas plataformas de redes sociais e se voluntariar|
+|Jefferson Silva| Encontrar ong de causa determinada em região próxima| Repassar doações de uma instituição |
+|Paulo Ferreira| Encontrar ong de um bairro específico e causa específica| Saber mais sobre a causa e atividades da organização |
 
 
 
