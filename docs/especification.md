@@ -10,6 +10,10 @@ Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se de
 
 Francisco Augusto tem 61 anos e é aposentado, classe média alta. Assiste o jornal local todos os dias. É altruísta e tenta ajudar o próximo sempre que possível. Após assistir um documentário sobre a crise dos moradores de rua, decidiu doar para ONGs da sua região, mas não sabe como encontrá-las.
 
+Michele Patrícia tem 47 anos, é professora doutura em uma universidade federal e pretende criar uma ONG voltada a acolher animais. No entanto, ela primeiro quer descobrir quantas ONGs voltadas para essa área já existem na região; caso o número seja muito alto, ela preferirá doar para as organizações já existentes ao invés de criar mais uma.
+
+
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
