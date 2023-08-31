@@ -20,6 +20,10 @@ Gabriela Costa tem 32 anos, trabalha home office como psicóloga autônoma e tem
 
 Maria Fernanda é Professora de Jardim de infância, e uma filantropa. Ela gostaria de realizar um trabalho voluntário durante o seu fim de semana, mas as ONGs próximas que ela conhece operam durante a semana, apenas. Ela gostaria de encontrar uma ONG perto de casa para não precisar se deslocar muito e realizar um trabalho comunitário
 
+Jefferson Silva tem 25 anos e trabalha no financeiro de uma grande empresa de processados. Seu chefe pediu para que ele encontre uma organização da região relacionada à saúde pública para que eles realizem uma doação, recebendo assim incentivo fiscal.
+
+Paulo Ferreira tem 21, estudante de veterinária, é um grande fã dos esportes. Por acreditar que eles promovem melhor socialização e desenvolvimento para crianças e jovens, ele gostaria de fazer uma doação que ajudasse nessa causa em sua região, pois observou um movimento de jovens e crianças na quadra comunitária de seu bairro. Como não viu uniforme, atribuiu a uma ação voluntária e está buscando saber se há alguma organização envolvida para que ele possa doar.
+
 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
