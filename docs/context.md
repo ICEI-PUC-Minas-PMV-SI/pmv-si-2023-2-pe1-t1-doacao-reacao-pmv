@@ -34,4 +34,4 @@ Ao facilitar acesso a informações como propósitos, missões, programas e proj
 
 Nosso projeto busca atingir pessoas economicamente ativas e empresas da região que querem engajar ou já estão engajadas com causas sociais. Elas possuem interesse em causas de caridade, mas estão com dificuldades em encontrar uma ONG com causa com que se identifiquem e não sabem por onde começar.
 
-O instituto IDIS, na análise da PDB, também indicou que mais de 80% das pessoas com renda superior a um salário mínimo fizeram uma doação, e que a geração Z, jovens de 18 a 27 anos, está mais engajada do que a população geral com as causas solidárias e simpatizam mais com instituições do terceiro setor. Portanto, o perfil do usuário é mais jovem e mais abastado.
+O instituto IDIS, na análise da PDB [4], também indicou que mais de 80% das pessoas com renda superior a um salário mínimo fizeram uma doação, e que a geração Z, jovens de 18 a 27 anos, está mais engajada do que a população geral com as causas solidárias e simpatizam mais com instituições do terceiro setor. Portanto, o perfil do usuário é mais jovem e mais abastado.
