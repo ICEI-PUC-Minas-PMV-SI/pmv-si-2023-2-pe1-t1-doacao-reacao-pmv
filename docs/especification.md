@@ -8,6 +8,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
+Francisco Augusto tem 61 anos e é aposentado, classe média alta. Assiste o jornal local todos os dias. É altruísta e tenta ajudar o próximo sempre que possível. Após assistir um documentário sobre a crise dos moradores de rua, decidiu doar para ONGs da sua região, mas não sabe como encontrá-las.
+
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
