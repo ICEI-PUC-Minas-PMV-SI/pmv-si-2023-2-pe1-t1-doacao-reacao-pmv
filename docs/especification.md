@@ -12,6 +12,9 @@ Francisco Augusto tem 61 anos e é aposentado, classe média alta. Assiste o jor
 
 Michele Patrícia tem 47 anos, é professora doutura em uma universidade federal e pretende criar uma ONG voltada a acolher animais. No entanto, ela primeiro quer descobrir quantas ONGs voltadas para essa área já existem na região; caso o número seja muito alto, ela preferirá doar para as organizações já existentes ao invés de criar mais uma.
 
+Enzo Gabriel tem 13 anos, está no ensino fundamental e deve fazer um trabalho para a escola. Ele precisa escolher uma ONG de seu Estado para apresentar na sala de aula, e para isso precisa pesquisar a fundo sobre sua história e suas ações.
+
+Anabela Cristina tem 25 anos, é formada em direito e atua como advogada. Enquanto dirigia, viu uma ONG distribuindo marmitas na praça. Ela sensibilizou-se com a atitude e decidiu que faria uma doação quando chegasse em casa. No entanto, embora tenha visto o nome da ONG, não conseguiu encontrá-la online porque várias empresas usam o mesmo nome.
 
 
 
