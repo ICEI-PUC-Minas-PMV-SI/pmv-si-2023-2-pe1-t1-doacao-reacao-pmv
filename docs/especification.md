@@ -47,6 +47,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Francisco Augusto   | Encontrar ONGs na região           | Doar                                   |
+|Francisco Augusto   | Encontrar ONGs na região           | Doar                                   |
+|Michele Patricia    | Encontrar ONGs para animais na região | Contabilizá-las                     |
+|Enzo Gabriel        | Ler a biografia das ONGs           | Escolher e apresentar alguma           |
+|Enzo Gabriel        | Monitorar ações de ONGs            | Incluir em sua apresentação            |
+|Anabela Cristina    | Localizar ONGs por nome            | Encontrar uma ONG específica           |
+|Anabela Cristina    | Realizar doações online            | Praticidade                            |
 
 
 
