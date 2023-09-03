@@ -24,7 +24,7 @@ Jefferson Silva tem 25 anos e trabalha no financeiro de uma grande empresa de pr
 
 Paulo Ferreira, Veterinário, é um grande fã dos esportes. Por acreditar que eles promovem melhor socialização e desenvolvimento para crianças e jovens, ele gostaria de fazer uma doação que ajudasse nessa causa em sua região, pois observou um movimento de jovens e crianças na quadra comunitária de seu bairro. Como não viu uniforme, atribuiu a uma ação voluntária e está buscando saber se há alguma organização envolvida para que ele possa saber mais sobre suas atividades.
 
-
+Lucas Farias é uma pessoa muito rigorosa com suas finanças. Ele tem um orçamento mensal para doações e quer doar para uma ONG da sua região que ajude crianças carentes. No entanto, ele não quer doar para uma ONG que não seja transparente com suas finanças, então ele quer acompanhar as atividades da ONG para ver se ela usa o dinheiro de forma responsável.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
