@@ -24,7 +24,9 @@ Jefferson Silva tem 25 anos e trabalha no financeiro de uma grande empresa de pr
 
 Paulo Ferreira, Veterinário, é um grande fã dos esportes. Por acreditar que eles promovem melhor socialização e desenvolvimento para crianças e jovens, ele gostaria de fazer uma doação que ajudasse nessa causa em sua região, pois observou um movimento de jovens e crianças na quadra comunitária de seu bairro. Como não viu uniforme, atribuiu a uma ação voluntária e está buscando saber se há alguma organização envolvida para que ele possa saber mais sobre suas atividades.
 
+Guilherme tem 19 anos, é estudante de engenharia e está procurando um estágio. Ele quer se voluntariar em uma ONG para adquirir experiência e melhorar seu currículo, mas não sabe como encontrar uma que esteja procurando voluntários.
 
+Ana Bella tem 32 anos, é CEO de uma empresa de tecnologia e está procurando ONGs para fazer doações. Ela quer que cada doação seja feita online, pois não tem tempo para ir até a ONGs. Além disso, ela quer escolher ONGs com causas específicas e com um bom histórico de movimentação financeira.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
