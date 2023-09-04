@@ -4,7 +4,6 @@ O Brasil é um país de doadores. Segundo pesquisa do Instituto para o Desenvolv
 
 Assim, é possível imaginar que quanto mais fácil o ato de doar for, mais dinheiro será arrecadado. Também é importante notar que, apesar de ter aumentado nos últimos anos, a porcentagem da população que acredita que as ONG's fazem um trabalho competente ainda é de apenas 60%. Isso se deve parcialmente ao fato de que a maioria das organizações não oferece um canal fixo através do qual os doadores possam se manter informados sobre suas ações. Portanto, observamos que há amplo espaço para mudanças e desenvolvimento nessa importante área da sociedade.
 
-
 ## Problema
 
 De acordo com a Pesquisa Doação Brasil (PDB) de 2022 [2], 75% das pessoas entendem que as ONGs precisam de ajuda financeira para sobreviver. No entanto, apenas 36% fez doações instucionais. Justificando esse número, verifica-se que apenas 31% acha as ONGs confiáveis, 31% que também aparecem quando se trata da parcela da população que acredita que as ONGs deixam claro o que fazem com os recursos aplicados. Logo, percebe-se um claro incômodo com a falta de transparência das organizações.
@@ -15,16 +14,18 @@ De acordo com o relato a CEO do Instituto para o Desenvolvimento do Investimento
 
 ## Objetivos
 
-Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs de (região) para resolver o problema acima.
+Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs de cada região para afim de ampliar a visualização e o engajamento com as causas sociais. A aplicação deve ser capaz de:
 
-- Mapear as principais ONGs de (região)
+- Permitir que usuários encontrem ONGs de acordo com a causa e região que desejam apoiar.
 
-- Exibir história, informações, dados, contato e redes sociais de cada ONG.
+- Mapear as principais ONGs de cada região.
 
-- Categorizá-las por região, causa e movimentação financeira.
+- Exibir a história, principais informações, dados de contato e redes sociais de cada ONG.
+
+- Categorizá-las por causa, região, metas mensais e tipo de atuação.
 
 - Permitir que usuários rastreiem atividades das ONGs para as quais doaram.
- 
+
 ## Justificativa
 
 Ao facilitar acesso a informações como propósitos, missões, programas e projetos das organizações não governamentais, promove-se a transparência e encoraja-se a prestação de contas por parte das organizações, atuando diretamente sobre o problema da confiança. Separá-las por causa e região facilitará a identificação do público-alvo com a causa de cada uma, aumentando o engajamento de possíveis doadores e voluntários.
