@@ -6,23 +6,23 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Pedro Paulo tem 26 anos e é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente por meio de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma organização que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Francisco Augusto tem 61 anos e é aposentado, classe média alta. Assiste o jornal local todos os dias. É altruísta e tenta ajudar o próximo sempre que possível. Após assistir um documentário sobre a crise dos moradores de rua, decidiu doar para ONGs da sua região, mas não sabe como encontrá-las.
 
-Michele Patrícia tem 47 anos, é professora doutura em uma universidade federal e pretende criar uma ONG voltada a acolher animais. No entanto, ela primeiro quer descobrir quantas ONGs voltadas para essa área já existem na região; caso o número seja muito alto, ela preferirá doar para as organizações já existentes ao invés de criar mais uma.
+Michele Patrícia tem 47 anos, é professora doutura em uma universidade federal e pretende fundar uma ONG voltada a acolher animais. No entanto, ela primeiro quer descobrir quantas ONGs voltadas para essa área já existem na região; caso o número seja muito alto, ela preferirá doar para as organizações já existentes ao invés de criar mais uma.
 
-Enzo Gabriel tem 13 anos, está no ensino fundamental e deve fazer um trabalho para a escola. Ele precisa escolher uma ONG de seu Estado para apresentar na sala de aula, e para isso precisa pesquisar a fundo sobre sua história e suas ações.
+Enzo Gabriel tem 17 anos, está no ensino médio, é aluno do IFMG e entrou em um projeto de extensão que envolve ensinar inglês para alunos a nível médio e superior. Ele precisa escolher uma ONG de seu Estado na área da educação para visitar, ajudando-o a melhorar a sua metodologia, e divulgar durante as aulas. para isso precisa pesquisar a fundo sobre sua história e suas ações.
 
-Anabela Cristina tem 25 anos, é formada em direito e atua como advogada. Enquanto dirigia, viu uma ONG distribuindo marmitas na praça. Ela sensibilizou-se com a atitude e decidiu que faria uma doação quando chegasse em casa. No entanto, embora tenha visto o nome da ONG, não conseguiu encontrá-la online porque várias empresas usam o mesmo nome.
+Anabela Cristina tem 25 anos, é formada em direito e atua como advogada. Enquanto dirigia, viu uma ONG distribuindo marmitas na praça. Ela sensibilizou-se com a atitude e decidiu que faria uma doação quando chegasse em casa. No entanto, embora tenha visto o nome da ONG, não conseguiu encontrá-la online porque várias organizações usam o mesmo nome.
 
 Gabriela Costa tem 32 anos, trabalha home office como psicóloga autônoma e tem 2 cachorros. Ela realizou uma doação na época da pandemia para uma ONG chamava-se 'sAUde em foco' e queria ver as atividades dela para ver se seu dinheiro foi bem gasto e doar novamente. No entanto, ela não encontrou a ONG no google de forma alguma. Ela desconfia que o nome mudou, mas pensa em procurar pela localidade.
 
-Maria Fernanda é Professora de Jardim de infância, e uma filantropa. Ela gostaria de realizar um trabalho voluntário durante o seu fim de semana, mas as ONGs próximas que ela conhece operam durante a semana, apenas. Ela gostaria de encontrar uma ONG perto de casa para não precisar se deslocar muito e realizar um trabalho comunitário
+Maria Fernanda tem 40 anos, é Professora de Jardim de infância, e uma filantropa. Ela gostaria de realizar um trabalho voluntário durante o seu fim de semana, mas as ONGs próximas que ela conhece operam durante a semana, apenas. Ela gostaria de encontrar uma ONG perto de casa para não precisar se deslocar muito e realizar um trabalho comunitário
 
 Jefferson Silva tem 25 anos e trabalha no financeiro de uma grande empresa de processados. Seu chefe pediu para que ele encontre uma organização da região relacionada à saúde pública para que eles realizem uma doação, recebendo assim incentivo fiscal.
 
-Paulo Ferreira, Veterinário, é um grande fã dos esportes. Por acreditar que eles promovem melhor socialização e desenvolvimento para crianças e jovens, ele gostaria de fazer uma doação que ajudasse nessa causa em sua região, pois observou um movimento de jovens e crianças na quadra comunitária de seu bairro. Como não viu uniforme, atribuiu a uma ação voluntária e está buscando saber se há alguma organização envolvida para que ele possa saber mais sobre suas atividades.
+Paulo Ferreira, 21 anos, classe média-alta, estudante de veterinária, é um grande fã dos esportes. Por acreditar que eles promovem melhor socialização e desenvolvimento para crianças e adolescentes, ele gostaria de fazer uma doação que ajudasse nessa causa em sua região, pois observou um movimento de jovens e crianças na quadra comunitária de seu bairro. Como não viu uniforme, atribuiu a uma ação voluntária e está buscando saber se há alguma organização envolvida para que ele possa saber mais sobre suas atividades.
 
 
 
@@ -44,19 +44,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Francisco Augusto   | Encontrar ONGs na região           | Doar                                   |
-|Francisco Augusto   | Encontrar ONGs na região           | Doar                                   |
-|Michele Patricia    | Encontrar ONGs para animais na região | Contabilizá-las                     |
-|Enzo Gabriel        | Ler a biografia das ONGs           | Escolher e apresentar alguma           |
-|Enzo Gabriel        | Monitorar ações de ONGs            | Incluir em sua apresentação            |
-|Anabela Cristina    | Localizar ONGs por nome            | Encontrar uma ONG específica           |
-|Anabela Cristina    | Realizar doações online            | Praticidade                            |
-|Gabriela Costa |Ver as atividades de uma ONG de nome desconhecido de uma região conhecida | Verificar se usaram bem a doação e julgar se deve doar novamente|
-|Maria Fernanda| Achar uma ONG próxima de casa| entrar em contato pelas plataformas de redes sociais e se voluntariar|
-|Jefferson Silva| Encontrar ong de causa determinada em região próxima| Repassar doações de uma instituição |
-|Paulo Ferreira| Encontrar ong de um bairro específico e causa específica| Saber mais sobre a causa e atividades da organização |
+| Francisco Augusto | Encontrar ONGs na região | Doar |
+| Michele Patricia | Encontrar ONGs para animais na região | Listá-las |
+| Enzo Gabriel     | Ler a biografia das ONGs               | Escolher e visitar alguma |
+| Enzo Gabriel     | Monitorar ações de ONGs                | Divulgar em seu projeto de extensão |
+| Anabela Cristina | Localizar ONGs por nome                | Encontrar uma ONG específica |
+| Anabela Cristina | Praticidade                             | Realizar doações online |
+| Gabriela Costa | Ver as atividades de uma ONG de nome desconhecido de uma região conhecida | Verificar se usaram bem a doação e julgar se deve doar novamente |
+| Maria Fernanda | Achar uma ONG próxima de casa | entrar em contato pelas plataformas de redes sociais e se voluntariar |
+| Jefferson Silva | Encontrar ong de causa determinada em região próxima | Repassar doações de uma instituição |
+| Paulo Ferreira | Encontrar ong de um bairro específico e causa específica | Saber mais sobre a causa e atividades da organização |
 
 
 
