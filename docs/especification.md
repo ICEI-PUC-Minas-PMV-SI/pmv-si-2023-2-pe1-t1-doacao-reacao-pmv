@@ -62,18 +62,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+| ID     | Descrição do Requisito                                  | Prioridade | Responsável |
+| ------ | ------------------------------------------------------- | ---------- | ----------- |
+| RF-001 | Filtar ONGS de acordo com área de atuação               | ALTA       |             |
+| RF-002 | Exibir as principais informações da ONG selecionada     | ALTA       |             |
+| RF-003 | Exibir cronograma de ação das ONGS                      | MÉDIA      |             |
+| RF-004 | Exibir feed do instagram ou facebook de cada ONG        | BAIXA      |             |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| ID     | Descrição do Requisito                                               | Prioridade |
+| ------ | -------------------------------------------------------------------- | ---------- |
+|RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel    | MÉDIA      | 
+|RNF-002 | Deve processar requisições do usuário em no máximo 3s                | BAIXA      | 
+|RNF-003 | Integrar feed do instagram ou facebook de cada ONG                   | BAIXA      |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
