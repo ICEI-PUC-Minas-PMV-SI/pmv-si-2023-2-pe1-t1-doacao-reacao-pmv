@@ -31,7 +31,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Sofia Isabela | Catálogo de ONGs próximas | Escolher pra quais dentre elas doar |
 | Sofia Isabela | Receber updates da ONG | Monitorar o uso da doação |
 | ComPatas | Cadastrar a ONG no site | Aumentar a visiblidade |
-| ComPatas | Receber doações | Manter a ONG |
 | ComPatas | Vincular redes sociais | Divulgar ações da organização |
 
 ## Requisitos
@@ -43,16 +42,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ID     | Descrição do Requisito                                  | Prioridade | Responsável |
 | ------ | ------------------------------------------------------- | ---------- | ----------- |
 | RF-001 | Filtar ONGS de acordo com área de atuação               | ALTA       |             |
-| RF-002 | Exibir as principais informações da ONG selecionada     | ALTA       |             |
-| RF-003 | Exibir cronograma de ação das ONGS                      | MÉDIA      |             |
-| RF-004 | Exibir feed do instagram ou facebook de cada ONG        | BAIXA      |             |
+| RF-002 | Mapear ONGS de acordo com logalização                   | ALTA       |             |
+| RF-003 | Exibir as principais informações da ONG selecionada     | ALTA       |             |
+| RF-004 | Cadastrar uma organização não listada no site           | ALTA       |             |
+| RF-005 | Exibir cronograma de ação das ONGS                      | MÉDIA      |             |
+| RF-006 | Exibir feed do instagram ou facebook de cada ONG        | BAIXA      |             |
 
 
 ### Requisitos não Funcionais
 
 | ID     | Descrição do Requisito                                               | Prioridade |
 | ------ | -------------------------------------------------------------------- | ---------- |
-|RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel    | MÉDIA      | 
+|RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móveis   | MÉDIA      | 
 |RNF-002 | Deve processar requisições do usuário em no máximo 3s                | BAIXA      | 
 |RNF-003 | Integrar feed do instagram ou facebook de cada ONG                   | BAIXA      |
 
