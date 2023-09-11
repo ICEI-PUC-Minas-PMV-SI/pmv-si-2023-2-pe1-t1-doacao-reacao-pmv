@@ -1,4 +1,4 @@
-# Especificações do Projeto
+; # Especificações do Projeto
 
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
@@ -13,6 +13,8 @@ A Maria Fernanda tem 40 anos, é Professora de Jardim de infância e é uma fila
 [comment]: <> (Persona: o Doador)
 A Sofia Isabela tem 28 anos, é médica e quer ajudar ao próximo sempre que possível. Ela possui interesse em doar para ONGs na região, mas gostaria de, além de um catálogo que a permitisse escolher a organização com a qual mais se identificasse, poder acompanhar as ações em que sua doação fosse utilizada. 
 
+[comment]: <> (Persona: a ONG)
+A ONG "ComPatas", voltada para a causa animal, quer aumentar sua visibilidade online. Para isso, eles procuram se juntar a um site onde outras ONGs também estejam cadastradas, onde possam receber doações e criar publicações demonstrando o dia-a-dia da organização.
 
 
 
@@ -38,6 +40,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Maria Fernanda | Ver cronograma de uma ONG | Voluntariar-se em seu tempo livre |
 | Sofia Isabela | Catálogo de ONGs próximas | Escolher entre elas |
 | Sofia Isabela | Receber updates da ONG | Monitorar o uso da doação |
+| ComPatas | Cadastrar a ONG | Aumentar a visiblidade |
+| ComPatas | Receber doações | Manter a ONG |
+| ComPatas | Criar publicações | Atualizar os doadores |
 
 
 
