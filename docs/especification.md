@@ -10,6 +10,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 [comment]: <> (Persona: o Voluntário)
 A Maria Fernanda tem 40 anos, é Professora de Jardim de infância e é uma filantropa. Ela gostaria de realizar um trabalho voluntário durante o seu fim de semana, mas as ONGs próximas que ela conhece operam durante a semana, apenas. Ela gostaria de encontrar uma ONG perto de casa, que está aceitando voluntários, para não precisar se deslocar muito e realizar um trabalho comunitário. Por sua afinidade, ela prefere uma organização que ajude crianças e adolescentes.
 
+[comment]: <> (Persona: o Doador)
+A Sofia Isabela tem 28 anos, é médica e quer ajudar ao próximo sempre que possível. Ela possui interesse em doar para ONGs na região, mas gostaria de, além de um catálogo que a permitisse escolher a organização com a qual mais se identificasse, poder acompanhar as ações em que sua doação fosse utilizada. 
+
+
 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
@@ -32,7 +36,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 | Maria Fernanda | Achar uma ONG próxima que aceite voluntários | entrar em contato pelas plataformas de redes sociais e se voluntariar |
 | Maria Fernanda | Ver cronograma de uma ONG | Voluntariar-se em seu tempo livre |
-
+| Sofia Isabela | Catálogo de ONGs próximas | Escolher entre elas |
+| Sofia Isabela | Receber updates da ONG | Monitorar o uso da doação |
 
 
 
