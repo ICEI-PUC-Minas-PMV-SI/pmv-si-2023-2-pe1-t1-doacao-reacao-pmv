@@ -40,7 +40,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ID     | Descrição do Requisito                                  | Prioridade | Responsável |
 | ------ | ------------------------------------------------------- | ---------- | ----------- |
 | RF-001 | Filtar ONGS de acordo com área de atuação               | ALTA       |             |
-| RF-002 | Mapear ONGS de acordo com logalização                   | ALTA       |             |
+| RF-002 | Mapear ONGS de acordo com localização                   | ALTA       |             |
 | RF-003 | Exibir as principais informações da ONG selecionada     | ALTA       |             |
 | RF-004 | Cadastrar uma organização não listada no site           | ALTA       |             |
 | RF-005 | Exibir cronograma de ação das ONGS                      | MÉDIA      |             |
