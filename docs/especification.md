@@ -6,28 +6,18 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-
 [comment]: <> (Persona: o Voluntário)
 A Maria Fernanda tem 40 anos, é Professora de Jardim de infância e é uma filantropa. Ela gostaria de realizar um trabalho voluntário durante o seu fim de semana, mas as ONGs próximas que ela conhece operam durante a semana, apenas. Ela gostaria de encontrar uma ONG perto de casa, que está aceitando voluntários, para não precisar se deslocar muito e realizar um trabalho comunitário. Por sua afinidade, ela prefere uma organização que ajude crianças e adolescentes.
 
+[comment]: <> (Persona: o Curioso)
 João Miguel, 20 anos de idade, tem muito interesse no trabalho de ONGs, mas ainda não sabe por onde começar. Ele gostaria de coletar informações sobre as entidades para que possa começar a dar suporte a alguma organização.
+
 [comment]: <> (Persona: o Doador)
 A Sofia Isabela tem 28 anos, é médica e quer ajudar ao próximo sempre que possível. Ela possui interesse em doar para ONGs na região, mas gostaria de, além de um catálogo que a permitisse escolher a organização com a qual mais se identificasse, poder acompanhar as ações em que sua doação fosse utilizada. 
 
 [comment]: <> (Persona: a ONG)
-A ONG "ComPatas", voltada para a causa animal, quer aumentar sua visibilidade online. Para isso, eles procuram se juntar a um site onde outras ONGs também estejam cadastradas, onde possam receber doações e criar publicações demonstrando o dia-a-dia da organização.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
+A ONG "ComPatas", voltada para a causa animal, quer aumentar sua visibilidade online. Para isso, eles procuram se juntar a um site onde outras ONGs também estejam cadastradas, onde possam receber doações e divulgar publicações, demonstrando o dia-a-dia da organização.
 >
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -40,21 +30,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | João Miguel | Ver informações sobre ONGs | Conhecer melhor as organizações |
 | Sofia Isabela | Catálogo de ONGs próximas | Escolher pra quais dentre elas doar |
 | Sofia Isabela | Receber updates da ONG | Monitorar o uso da doação |
-| ComPatas | Cadastrar a ONG | Aumentar a visiblidade |
+| ComPatas | Cadastrar a ONG no site | Aumentar a visiblidade |
 | ComPatas | Receber doações | Manter a ONG |
-| ComPatas | Criar publicações | Atualizar os doadores |
-
-
-
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| ComPatas | Vincular redes sociais | Divulgar ações da organização |
 
 ## Requisitos
 
@@ -78,21 +56,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002 | Deve processar requisições do usuário em no máximo 3s                | BAIXA      | 
 |RNF-003 | Integrar feed do instagram ou facebook de cada ONG                   | BAIXA      |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -101,10 +64,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
