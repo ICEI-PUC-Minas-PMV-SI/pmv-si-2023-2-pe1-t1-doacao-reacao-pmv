@@ -10,7 +10,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 [comment]: <> (Persona: o Voluntário)
 A Maria Fernanda tem 40 anos, é Professora de Jardim de infância e é uma filantropa. Ela gostaria de realizar um trabalho voluntário durante o seu fim de semana, mas as ONGs próximas que ela conhece operam durante a semana, apenas. Ela gostaria de encontrar uma ONG perto de casa, que está aceitando voluntários, para não precisar se deslocar muito e realizar um trabalho comunitário. Por sua afinidade, ela prefere uma organização que ajude crianças e adolescentes.
 
-
+João Miguel, 20 anos de idade, tem muito interesse no trabalho de ONGs, mas ainda não sabe por onde começar. Ele gostaria de coletar informações sobre as entidades para que possa começar a dar suporte a alguma organização.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
