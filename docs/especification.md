@@ -38,7 +38,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 | Maria Fernanda | Achar uma ONG próxima que aceite voluntários | entrar em contato pelas plataformas de redes sociais e se voluntariar |
 | Maria Fernanda | Ver cronograma de uma ONG | Voluntariar-se em seu tempo livre |
-| Sofia Isabela | Catálogo de ONGs próximas | Escolher entre elas |
+| Sofia Isabela | Catálogo de ONGs próximas | Escolher pra quais dentre elas doar |
 | Sofia Isabela | Receber updates da ONG | Monitorar o uso da doação |
 | ComPatas | Cadastrar a ONG | Aumentar a visiblidade |
 | ComPatas | Receber doações | Manter a ONG |
