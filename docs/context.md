@@ -14,7 +14,7 @@ De acordo com o relato a CEO do Instituto para o Desenvolvimento do Investimento
 
 ## Objetivos
 
-Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs de cada região para afim de ampliar a visualização e o engajamento com as causas sociais. A aplicação deve ser capaz de:
+Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs de uma região a fim de melhorar o engajamento com as causas sociais. A aplicação deve ser capaz de:
 
 - Permitir que usuários encontrem ONGs de uma região.
 
