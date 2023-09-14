@@ -33,13 +33,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID     | Descrição do Requisito                                  | Prioridade | Responsável |
 | ------ | ------------------------------------------------------- | ---------- | ----------- |
-| RF-001 | Exibir as principais informações das ONGs selecionadas     | ALTA       |             |
+| RF-001 | Mapear e exibir ONGS de acordo com localização          | ALTA       |             |
 | RF-002 | Filtar ONGS de acordo com área de atuação               | ALTA       |             |
-| RF-003 | Mapear e exibir ONGS de acordo com localização                   | ALTA       |             |
+| RF-003 | Exibir as principais informações das ONGs selecionadas  | ALTA       |             |
 | RF-004 | Cadastrar uma organização não listada no site           | ALTA       |             |
-| RF-005 | Enviar feed de atividades da ONG para os usuários           | ALTA       |             |
-| RF-006 | Exibir cronograma de ação das ONGS                      | MÉDIA      |             |
-| RF-007 | Exibir feed do instagram ou facebook de cada ONG        | BAIXA      |             |
+| RF-005 | Enviar feed de atividades da ONG para os usuários       | ALTA       |             |
+| RF-006 | Permitir que ONGs criem anúncios de recrutamento de voluntários | MÉDIA |          |
+| RF-007 | Exibir cronograma de ação das ONGS                      | MÉDIA      |             |
+| RF-008 | Exibir feed do instagram ou facebook de cada ONG        | BAIXA      |             |
 
 
 ### Requisitos não Funcionais
