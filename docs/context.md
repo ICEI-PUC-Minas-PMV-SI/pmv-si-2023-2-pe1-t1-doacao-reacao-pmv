@@ -16,7 +16,7 @@ De acordo com o relato a CEO do Instituto para o Desenvolvimento do Investimento
 
 Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs de uma região a fim de melhorar o engajamento com as causas sociais. A aplicação deve ser capaz de:
 
-- Permitir que uma ONGs cadastrem seus dados.
+- Permitir que ONGs cadastrem seus dados.
 
 - Permitir que usuários encontrem ONGs por região, causa e tipo de atuação.
 
