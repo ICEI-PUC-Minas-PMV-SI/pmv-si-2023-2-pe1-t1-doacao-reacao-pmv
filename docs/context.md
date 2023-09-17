@@ -24,7 +24,7 @@ Desenvolver uma aplicação Web que apresente de forma clara e intuitiva as ONGs
 
 - Permitir que as principais informações das organizações sejam exibidas, tais como: história, formas de contato, links pra doação e redes sociais.
 
-- Permitir que usuários sejam capazes de rastrear atividades das ONGs para as quais doaram.
+- Permitir que usuários sejam capazes de acompanhar atividades das ONGs para as quais doaram.
 
 ## Justificativa
 
