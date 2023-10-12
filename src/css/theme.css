@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: sans-serif;
   margin: 0;
   box-sizing: border-box;
 }
@@ -17,7 +17,7 @@ body,
 input,
 textarea,
 button {
-  font: 400 1rem 'Montserrat', sans-serif;
+  font: 400 1rem, sans-serif;
 }
 
 button {
@@ -47,7 +47,7 @@ a {
   --backdrop: rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   html {
     font-size: 93.75%;
   }
