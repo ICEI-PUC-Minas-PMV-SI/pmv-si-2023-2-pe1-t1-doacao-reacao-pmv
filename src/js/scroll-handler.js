@@ -2,7 +2,6 @@ let hasScrolledDown = false;
 
 const handleScroll = () => {
   const scrollPosition = window.scrollY;
-  const className = document.getElementById('navigation-bar').className;
 
   if (scrollPosition > 100 && !hasScrolledDown) {
     hasScrolledDown = true;
