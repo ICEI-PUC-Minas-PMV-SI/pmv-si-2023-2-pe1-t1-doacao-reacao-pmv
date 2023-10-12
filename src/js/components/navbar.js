@@ -35,6 +35,15 @@ class NavigationBar extends HTMLElement {
     return h1;
   };
 
+  toggle = () => {
+    const div = document.createElement('div');
+    div.classList.add('toggle');
+    div.appendChild(document.createElement('span'));
+    div.appendChild(document.createElement('span'));
+    div.appendChild(document.createElement('span'));
+    return div;
+  };
+
   searchBox = () => document.createElement('search-box');
 
   constructor() {
@@ -48,6 +57,7 @@ class NavigationBar extends HTMLElement {
     this.appendChild(this.ul());
     this.appendChild(this.h1());
     this.appendChild(this.searchBox());
+    this.appendChild(this.toggle());
   }
 
   makeListItems(ul) {

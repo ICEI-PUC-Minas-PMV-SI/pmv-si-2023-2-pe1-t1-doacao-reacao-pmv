@@ -37,3 +37,13 @@
     background-color: var(--accent);
   }
 }
+
+/**
+  Media Queries
+*/
+
+@media only screen and (min-width: 768px) {
+  .search-container {
+    width: 50%;
+  }
+}
