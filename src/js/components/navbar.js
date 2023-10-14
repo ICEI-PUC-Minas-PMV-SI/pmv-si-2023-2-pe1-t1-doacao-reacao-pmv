@@ -23,8 +23,24 @@ class NavigationBar extends HTMLElement {
     },
   ];
 
+  menuContainer = () => {
+    const div = document.createElement('div');
+    div.classList.add('menu-container');
+    div.appendChild(this.img());
+    div.appendChild(this.ul());
+    return div;
+  };
+
+  img = () => {
+    const img = document.createElement('img');
+    img.src = 'https://picsum.photos/100/65';
+    img.alt = 'logo';
+    return img;
+  };
+
   ul = () => {
     const ul = document.createElement('ul');
+    ul.id = 'menu';
     this.makeListItems(ul);
     return ul;
   };
@@ -41,6 +57,7 @@ class NavigationBar extends HTMLElement {
     div.appendChild(document.createElement('span'));
     div.appendChild(document.createElement('span'));
     div.appendChild(document.createElement('span'));
+    div.onclick = this.toggleMenu;
     return div;
   };
 
@@ -54,7 +71,7 @@ class NavigationBar extends HTMLElement {
     this.classList.add('nav');
     this.id = 'navigation-bar';
 
-    this.appendChild(this.ul());
+    this.appendChild(this.menuContainer());
     this.appendChild(this.h1());
     this.appendChild(this.searchBox());
     this.appendChild(this.toggle());
@@ -70,6 +87,11 @@ class NavigationBar extends HTMLElement {
       li.appendChild(a);
       ul.appendChild(li);
     });
+  }
+
+  toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
   }
 
   connectedCallback() {
