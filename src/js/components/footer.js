@@ -1,4 +1,4 @@
-class Footer extends HTMLElement {
+class CustomFooter extends HTMLElement {
     companyTitle = 'Empresa'
     companyParagraph = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
     usefulLinksTitle = 'Links úteis'
@@ -29,31 +29,30 @@ class Footer extends HTMLElement {
         {
             label: 'Link1',
             href: '#home',
-            icon: 'file.png'
+            // icon: 'file.png'
         },
         {
             label: 'Link2',
             href: '#home',
-            icont: 'file.png'
+            // icon: 'file.png' 
         },
         {
             label: 'Link3',
             href: '#home',
-            icont: 'file.png'
+            // icon: 'file.png'
         },
         {
             label: 'Link4',
             href: '#home',
-            icont: 'file.png'
+            // icon: 'file.png'
         },
         {
             label: 'Link5',
             href: '#home',
-            icont: 'file.png'
+            // icon: 'file.png'
         },
     ];
-
-    copyrightText = '© 2023 Copyright doacaoreacao.com'
+    copyrightText = '© 2023 Copyright doacaoreacao.com';
 
     companyH1 = () => {
         let h1 = document.createElement('h1');
@@ -69,7 +68,7 @@ class Footer extends HTMLElement {
 
     linksH1 = () => {
         let h1 = document.createElement('h1');
-        h1.textContent = this.linksH1;
+        h1.textContent = this.usefulLinksTitle;
         return h1;
     };
 
@@ -80,16 +79,16 @@ class Footer extends HTMLElement {
     };
 
     contactH1 = () => {
-        const ul = document.createElement('ul');
-        this.makeIconedListItems(ul);
-        return ul;
-    }
+        let h1 = document.createElement('h1');
+        h1.textContent = this.contactTitle;
+        return h1;
+    };
 
     contactUl = () => {
         const ul = document.createElement('ul');
         this.makeIconedListItems(ul);
         return ul;
-    }
+    };
 
     copyrightP = () => {
         let p = document.createElement('p');
@@ -102,16 +101,11 @@ class Footer extends HTMLElement {
     }
 
     makeFooter() {
-        this.classList.add('footer');
-        this.id = 'footer';
+        this.classList.add('custom-footer');
+        this.id = 'cfoot';
 
-        this.appendChild(this.companyH1());
-        this.appendChild(this.companyP());
-        this.appendChild(this.linksH1());
-        this.appendChild(this.linksUl());
-        this.appendChild(this.contactH1());
-        this.appendChild(this.contactUl());
-        this.appendChild(this.copyrightP());
+        this.appendChild(this.makeWrapperDiv());
+        //this.appendChild(this.copyrightP());
     }
 
     makeListItems(ul) {
@@ -138,9 +132,40 @@ class Footer extends HTMLElement {
         });
     }
 
+    makeCompanyDiv() {
+        const div = document.createElement('div');
+        div.appendChild(this.companyH1());
+        div.appendChild(this.companyP());
+        return div;
+    }
+
+    makeUsefulLinksDiv() {
+        const div = document.createElement('div');
+        div.classList.add('useful-links');
+        div.appendChild(this.linksH1());
+        div.appendChild(this.linksUl());
+        return div;
+    }
+
+    makeContactDiv() {
+        const div = document.createElement('div');
+        div.appendChild(this.contactH1());
+        div.appendChild(this.contactUl());
+        return div;
+    }
+
+    makeWrapperDiv() {
+        const div = document.createElement('div');
+        div.classList.add('wrapper');
+        div.appendChild(this.makeCompanyDiv());
+        div.appendChild(this.makeUsefulLinksDiv());
+        div.appendChild(this.makeContactDiv());
+        return div;
+    }
+
     connectedCallback() {
         this.makeFooter();
     }
 }
 
-window.customElements.define('foooter', Footer);
+window.customElements.define('custom-footer', CustomFooter);
