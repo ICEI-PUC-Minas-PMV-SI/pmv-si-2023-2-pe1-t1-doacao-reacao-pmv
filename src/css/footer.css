@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    background-color: lightgrey;
+
+    >.wrapper {
+        width: 90%;
+        margin: 0 15%;
+        display: flex;
+        flex-flow: row wrap;
+        flex-wrap: wrap;
+
+        >div {
+            width: 25%;
+            padding: 20px;
+            margin: 30px 30px;
+            border: 1px solid black;
+
+            >h1 {
+                font-weight: 700;
+                margin: 0 0 15px 0;
+                text-align: left;
+            }
+
+            >p {
+                font-weight: 300;
+            }
+
+            >ul {
+                list-style-type: circle;
+                padding: 0;
+
+                >li {
+                    margin: 2.5px 0 2.5px 15px;
+                }
+            }
+        }
+    }
+}
