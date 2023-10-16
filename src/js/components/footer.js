@@ -101,7 +101,7 @@ class CustomFooter extends HTMLElement {
         this.id = 'cfoot';
 
         this.appendChild(this.makeWrapperDiv());
-        this.appendChild(this.copyrightP());
+        //this.appendChild(this.copyrightP());
     }
 
     makeListItems(ul) {
