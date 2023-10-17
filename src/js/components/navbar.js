@@ -1,5 +1,4 @@
 class NavigationBar extends HTMLElement {
-  navTitle = 'Doação & Reação';
   navItems = [
     {
       label: 'Home',
@@ -22,6 +21,11 @@ class NavigationBar extends HTMLElement {
       href: '#contact',
     },
   ];
+
+  navTitle = () => {
+    if (window.innerWidth <= 600) return 'D&R';
+    return 'Doação & Reação';
+  };
 
   menuContainer = () => {
     const div = document.createElement('div');
@@ -47,7 +51,7 @@ class NavigationBar extends HTMLElement {
 
   h1 = () => {
     let h1 = document.createElement('h1');
-    h1.textContent = this.navTitle;
+    h1.textContent = this.navTitle();
     return h1;
   };
 
@@ -100,3 +104,8 @@ class NavigationBar extends HTMLElement {
 }
 
 window.customElements.define('navigation-bar', NavigationBar);
+
+addEventListener('resize', () => {
+  const nav = document.getElementById('navigation-bar');
+  nav.querySelector('h1').textContent = nav.navTitle();
+});
