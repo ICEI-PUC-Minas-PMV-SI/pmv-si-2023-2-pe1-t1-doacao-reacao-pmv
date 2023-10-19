@@ -1,0 +1,80 @@
+
+/*HERO*/
+.hero {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://picsum.photos/1920/766');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 50px 0;
+}
+
+.hero-content{
+    width: 30%;
+    margin-right: 15%;
+    >h1{
+        font-size: xxx-large;
+        font-weight: 900;
+        color: white;
+        margin: 0 0 10px 0;
+    }
+
+    >p{
+        margin: auto;
+        color: white;
+        font-size: large;
+    }
+}
+
+.hero-image{
+    width: 30%;
+}
+
+/*CARDS*/
+.card-wrapper {
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+
+    >div {
+        width: 25%;
+        padding: 10px;
+        margin: 0px 75px 15px 75px;
+        border-radius: 25px;
+        padding: 20px;
+    }
+}
+
+.card-content {
+    padding: 20px;
+    border: 1px solid black;
+    border-top: 0px;
+    width: 300px;
+    align-items: center;
+
+    >h1 {
+        font-size: large;
+        font-weight: 700;
+        margin: 0 0 10px 0;
+    }
+
+    >p {
+        font-size: medium;
+    }
+
+    >a {
+        font-size: larger;
+        color: #169BD5;
+        display: block;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+}
