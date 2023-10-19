@@ -13,6 +13,12 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
 
+/* Color Theme Swatches in Hex */
+.poster-collection-vol.-1-1-hex { color: #D9597B; }
+.poster-collection-vol.-1-2-hex { color: #D98BA0; }
+.poster-collection-vol.-1-3-hex { color: #D9A79C; }
+.poster-collection-vol.-1-4-hex { color: #F2D5CE; }
+.poster-collection-vol.-1-5-hex { color: #D9857E; }
 
 ## Tipografia
 
