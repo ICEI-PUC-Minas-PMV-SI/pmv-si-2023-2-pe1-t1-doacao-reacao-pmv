@@ -31,18 +31,18 @@ a {
 
 :root,
 :root body[data-theme='light'] {
-  --primary: #31262e;
-  --accent: #979797;
+  --primary: #D9A79C;
+  --accent: #F2D5CE;
   --background: #fafafa;
   --nav-background: #fdfdfd;
   --text: #222;
   --light-text: #fdfdfd;
   --paragraph: #999;
-  --title: #2e384d;
+  --title: #D9857E;
   --border: #eaeaea;
   --circle: #eaeaea;
   --dark: #222;
-  --icon: #414141;
+  --icon: #D98BA0;
   --box-shadow: rgba(0, 0, 0, 0.1);
   --backdrop: rgba(0, 0, 0, 0.5);
 }
