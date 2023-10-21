@@ -2,8 +2,6 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-Explique as guias de estilo utilizadas no seu projeto.
-
 ## Design
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
@@ -11,19 +9,47 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+### Paleta de cores base:
+| #D9597B                  | #D98BA0                  | #D9A79C                  | #F2D5CE                  | #D9857E                  |
+|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
+| ![#D9597B](https://via.placeholder.com/100/D9597B?text=+) | ![#D98BA0](https://via.placeholder.com/100/D98BA0?text=+) | ![#D9A79C](https://via.placeholder.com/100/D9A79C?text=+) | ![#F2D5CE](https://via.placeholder.com/100/F2D5CE?text=+) | ![#D9857E](https://via.placeholder.com/100/D9857E?text=+) |
 
-/* Color Theme Swatches in Hex */
-.poster-collection-vol.-1-1-hex { color: #D9597B; }
-.poster-collection-vol.-1-2-hex { color: #D98BA0; }
-.poster-collection-vol.-1-3-hex { color: #D9A79C; }
-.poster-collection-vol.-1-4-hex { color: #F2D5CE; }
-.poster-collection-vol.-1-5-hex { color: #D9857E; }
+
+### Tema
+
+```
+:root-theme:{
+  --primary: #D9597B;
+  --accent: #D9A79C;
+  --background:  #fff1e6;
+  --nav-background: #D98BA0;
+  --light-text: #ffffff;
+  --dark-text:  #333333;
+  --paragraph: #999;
+  --title: #2e384d;
+  --border: #eaeaea;
+  --circle: #eaeaea;
+  --dark: #222;
+  --icon: #414141;
+  --box-shadow: rgba(0, 0, 0, 0.1);
+  --backdrop: rgba(0, 0, 0, 0.5);
+}
+```
 
 ## Tipografia
+Família: sans-serif
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+### Título de Página:
+- Fonte: Raleway
 
+### Título de Seção:
+- Fonte: Montserrat
+
+### Rótulos de Componentes:
+- Fonte: Lato
+
+### Corpo de Texto:
+- Fonte: Open Sans
 
 ## Iconografia
 
