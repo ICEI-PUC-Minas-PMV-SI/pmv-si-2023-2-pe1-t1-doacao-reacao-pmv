@@ -46,27 +46,42 @@
         color: #777;
         margin: 20px 0 0 0;
     }
+
+    >form {
+        margin-top: 30px;
+    }
 }	
 
 .form-group {
     margin: 50px 0 50px 0;
+    >label {
+        display: block;
+        font-size: large;
+        text-align: left;
+        margin-bottom: 10px;
+        color: #797979;
+    }
+
+    >input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        height: 54px;
+    }
 }
 
-.form-group label {
-    display: block;
-    font-size: large;
-    text-align: left;
-    margin-bottom: 10px;
-    color: #797979;
+.double-form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    >.form-group {
+        width: 49%;
+        margin: 0;
+    }
 }
 
-.form-group input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    height: 54px;
-}
 
 .button {
     width: 90%;
