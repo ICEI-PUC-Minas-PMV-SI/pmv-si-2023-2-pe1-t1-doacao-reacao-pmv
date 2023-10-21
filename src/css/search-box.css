@@ -24,6 +24,7 @@
     width: 40px;
     height: 100%;
     border: 1px solid var(--light-text);
+    border-radius: 0;
     border-left: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
