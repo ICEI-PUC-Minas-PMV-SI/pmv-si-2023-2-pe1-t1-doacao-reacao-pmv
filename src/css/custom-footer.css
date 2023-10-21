@@ -1,6 +1,6 @@
 .custom-footer {
     display: flex;
-    background-color: lightgrey;
+    background-color: var(--accent);
 }
 
 .wrapper {

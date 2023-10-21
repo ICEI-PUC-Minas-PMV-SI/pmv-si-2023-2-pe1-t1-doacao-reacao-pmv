@@ -10,11 +10,12 @@
   transition: all 200ms ease-in;
   -webkit-transition: all 200ms ease-in;
   -o-transition: all 200ms ease-in;
+  background-color: var(--nav-background);
 
   > h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--text);
+    color: var(--light-text);
   }
 }
 
@@ -54,7 +55,7 @@
           display: block;
           width: 0;
           height: 2px;
-          background: var(--text);
+          background: var(--light-text);
           -webkit-transition: all 300ms ease;
           -o-transition: all 300ms ease;
           transition: all 300ms ease;
@@ -78,7 +79,7 @@
   > span {
     height: 4px;
     width: 25px;
-    background: var(--text);
+    background: var(--light-text);
     margin-bottom: 5px;
     border-radius: 5px;
 
@@ -89,7 +90,7 @@
 }
 
 .sticky {
-  background-color: var(--background);
+  background-color: var(--nav-background);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
   height: 80px;
 }

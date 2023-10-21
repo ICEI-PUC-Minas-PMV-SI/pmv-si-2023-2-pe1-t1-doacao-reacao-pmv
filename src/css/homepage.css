@@ -61,6 +61,7 @@
     align-items: center;
 
     >h1 {
+        color: var(--dark-text);
         font-size: large;
         font-weight: 700;
         margin: 0 0 10px 0;
@@ -68,11 +69,20 @@
 
     >p {
         font-size: medium;
+        color: var(--dark-text);
     }
 
     >a {
         font-size: larger;
-        color: #169BD5;
+        color: var(--primary);
+        display: block;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+
+    >a:hover {
+        font-size: larger;
+        color: var(--accent);
         display: block;
         text-align: center;
         margin: 30px 0 10px 0;
