@@ -24,6 +24,22 @@ button {
   cursor: pointer;
 }
 
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+label {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -31,12 +47,12 @@ a {
 
 :root,
 :root body[data-theme='light'] {
-  --primary: #31262e;
-  --accent: #979797;
-  --background: #fafafa;
-  --nav-background: #fdfdfd;
-  --text: #222;
-  --light-text: #fdfdfd;
+  --primary: #D9597B;
+  --accent: #D9A79C;
+  --background:  #fff1e6;
+  --nav-background: #D98BA0;
+  --text: #ffffff;
+  --dark-text:  #333333;
   --paragraph: #999;
   --title: #2e384d;
   --border: #eaeaea;
