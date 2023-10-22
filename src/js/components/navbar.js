@@ -2,7 +2,7 @@ class NavigationBar extends HTMLElement {
   navItems = [
     {
       label: 'Home',
-      href: '#home',
+      href: './index.html',
     },
     {
       label: 'About',
