@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buscar ONGS</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/search-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="js/components/search-box.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/footer.js"></script>
+</head>
+
+<body>
+    <navigation-bar></navigation-bar>
+    <div class="page-search-container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"
+            class="logo">
+        <div class="page-search-box">
+            <input type="text" class="page-search-input" placeholder="Procure uma ONG pelo nome">
+            <button type="submit" class="page-search-button">
+                <i class="fas fa-search"></i>
+            </button>        </div>
+        <button class="filter-button" id='popup-button' onclick="myFunction()">
+            <i class="fas fa-filter"></i> Filtrar por causa
+        </button>
+        <div class="popup">
+            <span class="popup-box" id="myPopup">   
+                <i class="fa-solid fa-x"></i>
+                <h1>Causas</h1>
+                <ul>
+                    <li><input type="checkbox" id="causa1"> causa 1</li>
+                    <li><input type="checkbox" id="causa2"> causa 2</li>
+                    <li><input type="checkbox" id="causa3"> causa 3</li>
+                    <li><input type="checkbox" id="causa4"> causa 4</li>
+                  </ul>
+            </span>
+        </div>
+        <div class="region-map-card">
+            <a class="card" href="https://example.com">
+                <img class="card-image" src="https://picsum.photos/1000" alt="Image Description">
+                <div class="card-text">Mapa da Região</div>
+            </a>
+        </div>
+    </div>
+    <custom-footer></custom-footer>
+    <script src="./js/scroll-handler.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+
+</html>

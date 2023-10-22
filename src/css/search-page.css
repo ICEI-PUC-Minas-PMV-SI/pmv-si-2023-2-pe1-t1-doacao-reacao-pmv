@@ -1,0 +1,152 @@
+.page-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 30%px;
+    margin-bottom: 2%;
+}
+
+fas fa-filter {
+    margin-right: 10px;
+}
+
+.page-search-box {
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: 0 2px 6px var(--box-shadow);
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    width: 41%;
+}
+
+.page-search-input {
+    border: none;
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+.page-search-button {
+    background-color: var(--primary);
+    border: none;
+    color: var(--light-text);
+    border-radius: 0 24px 24px 0;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.page-search-button:hover {
+    background-color: var(--accent);
+}
+
+.filter-button{
+    width: 18%;
+    height: 4%;
+    background-color: var(--primary);
+    border: none;
+    color: var(--light-text);
+    margin-top: 30px;
+    padding: 12px 16px;
+    font-size: x-large;
+}
+
+.filter-button:hover{
+    background-color: var(--accent);
+}
+
+.popup {
+    visibility: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup-box {
+    height: 500px;
+    width: 350px;
+    background-color: var(--primary);
+    text-align: center;
+    border: 3px solid black;
+    padding: 8px;
+    position: absolute;
+    bottom: 1%;
+}
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+.region-map-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    height: 22%;
+    width: 12%;
+    margin-top: 3%;
+    transition: transform 0.2s;
+}
+
+.region-map-card:hover{
+    transform: scale(1.05); 
+}    
+
+.card{
+    width: 100%;
+    text-align: center;
+    text-indent: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.card-text {
+    margin-top: 7%;
+    font-size: x-large;
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.card-text:hover {
+    color: var(--accent);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
