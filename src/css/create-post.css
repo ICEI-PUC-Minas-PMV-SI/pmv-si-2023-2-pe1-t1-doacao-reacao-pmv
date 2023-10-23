@@ -1,0 +1,60 @@
+.post-box {
+    background: white;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-right: 10vw;
+    margin-bottom: 5vh;
+}
+
+.ong-name {
+    position: relative;
+    top: -11vh;
+    left: 10vw;
+    color: var(--dark-text);
+    font-size: 25px;
+}
+
+.profile-photo {
+    position: relative;
+    margin-left: 3vw;
+    margin-top: 4vh;
+    border-radius: 50%;
+}
+
+.form-tip {
+    position: relative;
+    left: 10vw;
+    top: -10vh;
+    bottom: 0vh;
+    color: rgb(143, 141, 141);
+    font-size: 15px;
+}
+
+
+.input1 {
+    display: inline-block;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    margin-top: -9vh;
+    height: 20vh;
+    width: 80%;
+    border: 1px solid gray;
+    background-color: #f8f8f8;
+    padding: 10px 2px;
+    font-size: 16px;
+    resize: none;
+}
+
+.input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 80px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 32vw;
+    font-size: 20px;
+  }
+  
