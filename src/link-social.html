@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/components/search-box.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/footer.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" href="css/link-social.css" />
+    <title>Vincular ONG</title>
+ </head>
+
+ <body>
+    <navigation-bar></navigation-bar>
+    <div id="main">
+        <div style="height: 10vh;"></div>
+        <div class="gridbox">
+        <div class="section">
+         <h2 class="section-title">Dados da sua ONG</h2>
+         <h2 class="section-content">Para cadastrar a sua ONG em nosso site, é preciso preencher os seguintes dados:</h2>
+         <form class="form1">
+            <label for="ongname">Nome da ONG:</label><br>
+            <input type="text" id="ongname" name="ONGname"><br><br>
+            <label for="local">Local:</label><br>
+            <input type="text" id="local" name="local"><br><br>
+            <label for="causas">Causa:</label>
+            <select id="causas" name="causas">
+              <option value="animais">Animais</option>
+              <option value="homeless">Moradores de rua</option>
+              <option value="disablity">Necessidades especiais</option>
+              <option value="kids">Crianças</option>
+              <option value="women">Mulheres</option>
+              <option value="school">Educação</option>
+              <option value="home">Moradias</option>
+            </select><br><br>
+            <button class="input" type="button" type="submit">Cadastrar</button>
+         </form>
+        </div>
+        <img class="photo1" src="https://picsum.photos/318/279"><br>
+        <img class="icon1" src="/docs/img/twitterlogo.png">
+        <img class="icon2" src="/docs/img/instagram-icon.png">
+        <img class="icon3" src="/docs/img/facebook-icon.png">
+        <img class="icon4" src="/docs/img/youtube-icon.png">
+        </div>
+          
+
+
+
+
+        <div style="height: 30vh;"></div>
+
+
+
+
+        <script src="js/scroll-handler.js"></script>
+    </div>
+    <custom-footer></custom-footer>  
+ </body>
+</html>
