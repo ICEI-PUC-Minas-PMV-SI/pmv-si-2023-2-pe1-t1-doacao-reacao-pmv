@@ -1,25 +1,26 @@
 .custom-footer {
     display: flex;
-    background-color: var(--accent);
+    background-color: var(--nav-background);
+    width: 100%;
 }
 
 .wrapper {
     width: 100%;
-    margin: 1vh 10% 0 10%;
+    margin: 1vh 0 1vh 0;
     display: flex;
     flex-flow: row wrap;
-    flex-wrap: wrap;
+    justify-content: center;
 
     >div {
         width: 25%;
         padding: 10px;
-        margin: 0px 60px 15px 60px;
+        margin: 0px 2% 15px 2%;
 
         >h1 {
-            font-size: large;
+            font-size: normal;
             font-weight: 900;
             margin: 0 0 15px 0;
-            text-align: left;
+            text-align: justify;
         }
 
         >p {
@@ -31,6 +32,7 @@
 
             >li {
                 margin: 0px 0 12px 0px;
+                text-align: justify;
             }
         }
     }
