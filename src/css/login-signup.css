@@ -2,30 +2,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .login-box {
-    background-color: var(--background);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 15px var(--box-shadow);
     text-align: center;
     width: 55%;
     max-width: 55%;
-    height: 53%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1%;
 }
 
 .login-interface {
     border-radius: 5px;
     padding: 20px;
     text-align: center;
-    width: 67%;
+    min-width: 67%;
     height: 100%;
+    flex-flow: non-wrap column;
     >h1 {
         font-size: x-large;
         font-weight: bold;
@@ -52,7 +53,7 @@
 }	
 
 .form-group {
-    margin: 50px 0 50px 0;
+    margin: 50px auto 50px auto;
     >label {
         display: block;
         font-size: large;
@@ -83,7 +84,7 @@
 
 
 .button {
-    width: 90%;
+    width: 100%;
     background-color: var(--primary);
     color: #fff;
     padding: 10px 20px;
@@ -107,3 +108,4 @@
         color: var(--accent);
     }
 }
+
