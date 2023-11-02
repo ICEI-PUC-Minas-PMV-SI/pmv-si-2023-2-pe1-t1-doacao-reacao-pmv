@@ -6,147 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./dependencies/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/home-page-logged.css">
 
     <script src="./js/components/search-box.js"></script>
     <script src="./js/components/navbar.js"></script>
     <script src="./js/components/footer.js"></script>
-    <script src="./dependencies/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <navigation-bar></navigation-bar>
     <div style="height: 10vh;"></div>
     <div name="carousel-wrapper">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="cards-wrapper">
-                    <div class="card">
-                        <div class="image-wrapper">
-                        <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-                    </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+        <div id="container">
+            <div id="slider-container">
+                <span onclick="slideRight()" class="btn"></span>
+                <div id="slider">
+                    <div class="slide"><span>1</span></div>
+                    <div class="slide"><span>2</span></div>
+                    <div class="slide"><span>3</span></div>
+                    <div class="slide"><span>4</span></div>
+                    <div class="slide"><span>5</span></div>
+                    <div class="slide"><span>6</span></div>
+                    <div class="slide"><span>7</span></div>
+                    <div class="slide"><span>8</span></div>
+                    <div class="slide"><span>9</span></div>
+                    <div class="slide"><span>10</span></div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="cards-wrapper">
-
-                    <div class="card">
-                        <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="cards-wrapper">
-                    <div class="card">
-                        <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://picsum.photos/300/202" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://picsum.photos/300/201" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+                <span onclick="slideLeft()" class="btn"></span>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-</div>
     <div style="height: 10vh;"></div>
-
     <div style="height: 10vh;"></div>
-
     <custom-footer></custom-footer>
+    <script src="./js/carousel-scroll.js"></script>
 </body>
 
 </html>
