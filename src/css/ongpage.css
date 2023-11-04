@@ -1,4 +1,18 @@
 
+.main,
+.image-container2 {
+    justify-content: center;
+    display: flex;
+    flex-flow: column wrap ;
+    max-width: 80vw;
+}
+
+.content-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .image-container {
     position: relative;
     text-align: center;
@@ -9,8 +23,6 @@
     justify-content: space-around;
     display: inline-block;
     position: relative;
-    margin-left: 15%;
-    margin-right: -15%;
     text-align: center;
 }
 
@@ -36,7 +48,7 @@
 .centered h1 {
     color: var(--dark-text);
     font-weight: bold;
-    font-size: 48px;
+    font-size: 3rem; 
     margin: 0;
 }
 
@@ -57,13 +69,13 @@
 .text-two h3 {
     color: var(--dark-text);
     font-weight: bold;
-    font-size: 26px;
+    font-size: 2rem;
 }
 
 .text-two1 h3 {
     color: var(--dark-text);
     font-weight: bold;
-    font-size: 26px;
+    font-size: 2rem;
 }
 
 
@@ -81,7 +93,7 @@
     position: relative;
     text-align: center;
     color: var(--dark-text);
-    font-size: 32px;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-top: 5vh;
     margin-bottom: 4vh;
@@ -99,33 +111,43 @@
 .paragraph1 p {
     width: 30vw;
     color: var(--dark-text);
-    font-size: 20px;
+    font-size: 1.4rem;
     margin-left: 6vw;
 }
 
 .paragraph2 p {
     width: 30vw;
     color: var(--dark-text);
-    font-size: 20px;
+    font-size: 1.4rem;
     margin-right: -10vw;
 }
 
 .container {
+    min-width: 200px;
     display: grid;
     align-items: center;
     grid-template-columns: 2fr 2fr;
-    column-gap: 0vw;
+    column-gap: 0vh;
+    row-gap: 1vw;
 }
+
+.container img {
+    width: 300px;
+    max-height: 200px;
+    object-fit: fill;
+}
+
 
 .text-three,
 .text-four {
-    font-size: 20px;
-    width: 30vw;
+    font-size: 1.4rem;
+    text-align: left;
     color: var(--dark-text);
+    float: bottom;
 }
 
 .text-three {
-    margin-right: -10vw;
+    margin-right: 4vw;
 }
 
 .text-four {
