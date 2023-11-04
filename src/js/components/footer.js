@@ -99,7 +99,6 @@ class CustomFooter extends HTMLElement {
     makeFooter() {
         this.classList.add('custom-footer');
         this.id = 'cfoot';
-
         this.appendChild(this.makeWrapperDiv());
         //this.appendChild(this.copyrightP());
     }

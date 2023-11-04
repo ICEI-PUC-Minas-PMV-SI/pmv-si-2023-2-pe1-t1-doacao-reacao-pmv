@@ -11,27 +11,17 @@
     <script src="./js/components/search-box.js"></script>
     <script src="./js/components/navbar.js"></script>
     <script src="./js/components/footer.js"></script>
+    <script src="./js/components/carousel-slider.js"></script>
 </head>
 
 <body>
     <navigation-bar></navigation-bar>
     <div style="height: 10vh;"></div>
-    <div name="carousel-wrapper">
+    <div class="carousel-wrapper">
         <div id="container">
             <div id="slider-container">
                 <span onclick="slideRight()" class="btn"></span>
-                <div id="slider">
-                    <div class="slide"><span>1</span></div>
-                    <div class="slide"><span>2</span></div>
-                    <div class="slide"><span>3</span></div>
-                    <div class="slide"><span>4</span></div>
-                    <div class="slide"><span>5</span></div>
-                    <div class="slide"><span>6</span></div>
-                    <div class="slide"><span>7</span></div>
-                    <div class="slide"><span>8</span></div>
-                    <div class="slide"><span>9</span></div>
-                    <div class="slide"><span>10</span></div>
-                </div>
+                  <carousel-slider></carousel-slider>
                 <span onclick="slideLeft()" class="btn"></span>
             </div>
         </div>
