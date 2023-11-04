@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/home-page-logged.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <script src="./js/components/search-box.js"></script>
     <script src="./js/components/navbar.js"></script>
     <script src="./js/components/footer.js"></script>
     <script src="./js/components/carousel-slider.js"></script>
+
 </head>
 
 <body>
@@ -21,9 +24,44 @@
         <div id="container">
             <div id="slider-container">
                 <span onclick="slideRight()" class="btn"></span>
-                  <carousel-slider></carousel-slider>
+                <carousel-slider></carousel-slider>
                 <span onclick="slideLeft()" class="btn"></span>
             </div>
+        </div>
+    </div>
+    <div class="post">
+        <div class="user-info">
+            <img src="https://placehold.co/50x50">
+            <div class="user-details">
+                <p class="user-name">Nome da ONG</p>
+                <p class="post-time">15 minutos atrás</p>
+            </div>
+        </div>
+        <p class="post-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo vitae est fermentum bibendum.
+            Curabitur feugiat sapien at libero viverra, a ultricies justo condimentum.
+        </p>
+        <div class="post-image-container">
+            <a class="post-image-link" href="#">
+                <img class="post-image" src="https://placehold.co/150x100">
+            </a>
+            <a class="post-image-link" href="#">
+                <img class="post-image" src="https://placehold.co/150x100">
+            </a>
+            <a class="post-image-link" href="#">
+                <img class="post-image" src="https://placehold.co/150x100">
+            </a>
+        </div>
+        <div class="post-actions">
+            <button class="share-button"><i class="fas fa-share"></i>
+                <p class="button-text">Compartilhar</p>
+            </button>
+            <button class="comment-button"><i class="fa-regular fa-comment"></i>
+                <p class="button-text">Comentar</p>
+            </button>
+            <button class="like-button"><i class="fa-regular fa-heart"></i>
+                <p class="button-text">Gostei</p>
+            </button>
         </div>
     </div>
     <div style="height: 10vh;"></div>
