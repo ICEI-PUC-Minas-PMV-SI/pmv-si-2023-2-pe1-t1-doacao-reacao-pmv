@@ -2,6 +2,8 @@ body {
   flex-flow: column nowrap;
 }
 
+/* código do Carousel foi adaptado a partir do https://codepen.io/hershkirsh/pen/BXBprB?editors=1111, referência 5 do trabalho */
+
 #container {
   height: 35vh;
   width: 100%;
