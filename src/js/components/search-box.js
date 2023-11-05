@@ -6,7 +6,7 @@ class SearchBox extends HTMLElement {
   makeInput() {
     const input = document.createElement('input');
     input.type = 'text';
-    input.placeholder = 'Search';
+    input.placeholder = 'Buscar';
     return input;
   }
 
