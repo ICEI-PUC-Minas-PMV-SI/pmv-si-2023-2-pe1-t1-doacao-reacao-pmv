@@ -4,48 +4,48 @@ class CustomFooter extends HTMLElement {
     usefulLinksTitle = 'Links úteis'
     usefulLinksItens = [
         {
-            label: 'Link1',
-            href: '#home',
+            label: 'Instituto Doar',
+            href: 'https://www.institutodoar.org/blog/',
         },
         {
-            label: 'Link2',
-            href: '#about',
+            label: 'Plataforma de Voluntários',
+            href: 'https://www.atados.com.br',
         },
         {
-            label: 'Link3',
-            href: '#services',
+            label: 'Prêmio Melhores ONGs',
+            href: 'https://doar.pro/melhores',
         },
         {
-            label: 'Link4',
-            href: '#work',
+            label: 'Associação Brasileira de Captadores de Recursos',
+            href: 'https://captadores.org.br',
         },
         {
-            label: 'Link5',
-            href: '#contact',
+            label: 'Rede Filantropia',
+            href: 'https://www.filantropia.ong',
         },
     ];
     contactTitle = 'Contato'
     contactItens = [
         //TODO: Add icons
         {
-            label: 'Link1',
-            href: '#home',
+            label: 'WhatsApp',
+            href: '#wa.me',
         },
         {
-            label: 'Link2',
-            href: '#home',
+            label: 'Instagram',
+            href: '#instagram/D&R',
         },
         {
-            label: 'Link3',
-            href: '#home',
+            label: 'Twitter/X',
+            href: '#Twitter/D&R',
         },
         {
-            label: 'Link4',
-            href: '#home',
+            label: 'Facebook',
+            href: '#Facebook/D&R',
         },
         {
-            label: 'Link5',
-            href: '#home',
+            label: 'LinkedIn',
+            href: '#LinkedIn/D&R',
         },
     ];
     copyrightText = '© 2023 Copyright doacaoreacao.com';
