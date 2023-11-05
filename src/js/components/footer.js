@@ -1,6 +1,6 @@
 class CustomFooter extends HTMLElement {
     companyTitle = 'Empresa'
-    companyParagraph = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.'
+    companyParagraph = 'O Brasil é um país de doadores. E quanto mais fácil o ato de doar for, mais dinheiro será arrecadado. Nosso projeto busca fortalecer essa cultura ao promover visibilidades das organizações e engajamento da população.  Por meio de nosso site, o usuário poderá encontrar ONG\'s próximas a ele e se informar de forma rápida e fácil'
     usefulLinksTitle = 'Links úteis'
     usefulLinksItens = [
         {

@@ -1,24 +1,21 @@
 class NavigationBar extends HTMLElement {
   navItems = [
     {
-      label: 'Home',
+      label: 'Página Inicial',
       href: './index.html',
     },
     {
-      label: 'About',
-      href: '#about',
+      label: 'Mapa de Ongs',
+      href: './ongs-map.html',
+    },
+    //ao fazer conteúdo dinâmico, não queremos que o cliente logado veja esse elemento
+    {
+      label: 'Entrar',
+      href: './login.html',
     },
     {
-      label: 'Services',
-      href: '#services',
-    },
-    {
-      label: 'Work',
-      href: '#work',
-    },
-    {
-      label: 'Contact',
-      href: '#contact',
+      label: 'Cadastrar-se',
+      href: './sign-up.html',
     },
   ];
 
