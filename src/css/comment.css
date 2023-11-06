@@ -6,13 +6,6 @@
     margin-bottom: 5vh;
 }
 
-.ong-name {
-    position: relative;
-    top: -11vh;
-    left: 10vw;
-    color: var(--dark-text);
-    font-size: 25px;
-}
 
 .profile-photo {
     position: relative;
@@ -24,7 +17,7 @@
 .post-content {
     position: relative;
     left: 10vw;
-    top: -8vh;
+    top: 0vh;
     color: var(--dark-text);
     font-size: 18px;
     width: 65vw;
@@ -35,25 +28,36 @@
     position: relative;
     color: var(--dark-text);
     font-size: 25px;
-    left: 3vw;
+    left: 0vw;
     top: 0vh;
 }
 
 .comment-section-box {
-    background: white;
-    margin-left: 16vw;
-    margin-top: 5vh;
-    margin-right: 70vw;
-    margin-bottom: 1vh;
+    background-color: white;
+    max-width: 70vw;
+    margin: 10px auto;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 5px var(--box-shadow);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
 }
 
 .write-comment-box {
-    background: white;
-    margin-left: 18vw;
-    margin-top: 3vh;
-    margin-right: 20vw;
-    margin-bottom: 5vh;
+    background-color: white;
+    max-width: 70vw;
+    margin: 10px auto;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 5px var(--box-shadow);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
 }
+
 
 .profile-photo2 {
     position: relative;
@@ -64,18 +68,20 @@
 
 .form-tip {
     position: relative;
-    left: 7vw;
-    top: -6vh;
+    left: 1vw;
+    top: 4vh;
     bottom: 0vh;
     color: rgb(143, 141, 141);
     font-size: 15px;
 }
 
 .input1 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     margin-left: 7vw;
     margin-bottom: 5vh;
-    margin-top: -4vh;
+    margin-top: 2vh;
     height: 20vh;
     width: 80%;
     border: 1px solid gray;
@@ -83,35 +89,106 @@
     padding: 10px 2px;
     font-size: 14px;
     resize: none;
+    
 }
+
+
 
 .user-name {
     position: relative;
-    top: -6vh;
-    left: 7vw;
+    top: 0vh;
+    left: 1.5vw;
     color: var(--dark-text);
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 
 .user-comment {
     position: relative;
-    left: 7vw;
-    top: -4vh;
+    left: 8vw;
+    top: -1vh;
+    margin-bottom: 2vh;
     color: var(--dark-text);
-    font-size: 18px;
+    font-size: 1.2rem;
     width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .input[type=button], input[type=submit], input[type=reset] {
     background-color:#D9597B;
     border: none;
     color: white;
-    padding: 16px 80px;
+    padding: 1vh 1vw;
     text-decoration: none;
+    align-items: center;
     margin: 4px 2px;
     cursor: pointer;
     position: relative;
     left: 44vw;
     top: -2vh;
     font-size: 20px;
+    max-width: 17vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+
+.ong-name {
+    position: relative;
+    top: 0vh;
+    left: 5.5vw;
+    color: var(--dark-text);
+    font-size: 1.7rem;
+}
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info p {
+    height: 2vh;
+}
+
+.post {
+    background-color: whitesmoke;
+    max-width: 80vw;
+    margin: 20px auto;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 5px var(--box-shadow);
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-info img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.liner {
+    background-color: white;
+    min-width: 200px;
+    max-width: 9vw;
+    margin: 10px auto;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 5px var(--box-shadow);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    align-items: center;
+  }
