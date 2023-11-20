@@ -1,9 +1,56 @@
 {
-    "posts": [
-      { "id": 1, "title": "Aberto a voluntários", "author": "ONG" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "ongs":[
+     {
+        "id": 1,
+        "title":"AUJUDANDO OS BICHINHOS",
+        "author":"ONG",
+        "profile-picture":"https://picsum.photos/200/300",
+        "location": {
+          "city": "Belo Horizonte",
+          "uf": "MG",
+          "neighborhood": "Savassi",
+          "street": "Rua dos Bobos",
+          "number": "0",
+          "position":"-19.919157028198242,-43.93867874145508"
+        }
+     },
+     {
+      "id": 2,
+      "title":"AUJUDANDO OS BICHINHOS",
+      "author":"ONG",
+      "profile-picture":"https://picsum.photos/200/300",
+      "location": {
+        "city": "Belo Horizonte",
+        "uf": "MG",
+        "neighborhood": "Savassi",
+        "street": "Rua dos Bobos",
+        "number": "0",
+        "position":"-19.919157028198242,-43.93867874145508"
+      }
+     },
+     {
+      "id": 3,
+      "title":"AUJUDANDO OS BICHINHOS",
+      "author":"ONG",
+      "profile-picture":"https://picsum.photos/200/300",
+      "location": {
+        "city": "Belo Horizonte",
+        "uf": "MG",
+        "neighborhood": "Savassi",
+        "street": "Rua dos Bobos",
+        "number": "0",
+        "position":"-19.919157028198242,-43.93867874145508"
+      }
+     }
+  ],
+  "comments":[
+     {
+        "id":1,
+        "body":"some comment",
+        "postId":1
+     }
+  ],
+  "profile":{
+     "name":"typicode"
   }
+}
