@@ -68,5 +68,21 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "posts": [
+     {
+      "postId": 1,
+      "belongsTo": (id da ong),
+      "text":,
+      "image": (aqui poderia ter uma lista de imagens, por exemplo),
+      "comments":[
+        {
+          "id": 1,
+          "text":tal,
+          "owner": id de quem postou
+        }
+       }
+        
+      ]
+  ]
 }
