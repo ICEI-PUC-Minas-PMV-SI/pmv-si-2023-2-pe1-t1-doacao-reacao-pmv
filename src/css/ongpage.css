@@ -153,3 +153,9 @@
 .text-four {
     margin-left: 15vw;
 }
+
+.twitter-timeline {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-bottom: 10vh;
+}
