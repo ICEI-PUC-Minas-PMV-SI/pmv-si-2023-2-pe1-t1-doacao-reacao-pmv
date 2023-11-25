@@ -109,6 +109,15 @@
     }
 }
 
+.error-message{
+    color: red;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    opacity: 0;
+}
+
 @media screen and (max-width: 768px) {
     .login-box {
         width: 90%;
