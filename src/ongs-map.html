@@ -7,17 +7,20 @@
     <script src="js/components/search-box.js"></script>
     <script src="js/components/navbar.js"></script>
     <script src="js/components/footer.js"></script>
-    <script src="js/components/ong-map.js"></script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOzyfEhuXvMeutrTT0aAEavs9dPT1YRFQ&callback=console.debug&libraries=maps,marker&v=beta"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOzyfEhuXvMeutrTT0aAEavs9dPT1YRFQ&callback=initMap&v=weekly"
+    defer
+  ></script>
     <link rel="stylesheet" type="text/css" href="./css/index.css">
     <link rel="stylesheet" href="./css/map.css" />
 </head>
 <body>
     <navigation-bar></navigation-bar>
     <div style="height: 105px;"></div>
-        <div class="container">
-            <ongs-map></ongs-map>
+    <div id="ongs-map-container">
+            <div id="ongs-map"></div>
         </div>
     <custom-footer></custom-footer>
+    <script src="./js/map.js"></script>
 </body>
 </html>
