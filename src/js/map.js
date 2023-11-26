@@ -29,7 +29,7 @@ ongs.forEach(ong => {
                     // TODO icon: heartIcon,
                 });
                 marker.addListener('click', function () {
-                    window.open('./ongpage.html', '_blank');
+                    window.open(`./ongpage.html?id=${ong.id}`, '_blank');
                 });
             })
 
