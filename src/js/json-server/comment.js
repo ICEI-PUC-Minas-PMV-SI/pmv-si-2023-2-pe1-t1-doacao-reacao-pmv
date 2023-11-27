@@ -1,27 +1,24 @@
-const post = document.getElementById(sendcomment)
-const accountsURL= 'http://localhost:3001/accounts/${id}'
+const commentsURL= 'http://localhost:3001/comments/${id}'
 
 
 
 post.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    const post = document.getElementById(sendcomment);
+    const comment = document.getElementById(comentario);
 
 
  fetch(
-    accountsURL,
+    commentsURL,
     {
     headers: {
         'Content-Type': 'application/json'
     },
         method: 'POST',
         body: JSON.stringify({
-            posts:[{
-                postId: posts.length + 1,
-                belongsTo: ${id}, 
-                text: post,
-          }]
+            "id": commentsURL.length + 1,
+            "body": comment,
+            "postId": 1
         }),
         }).then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
  location.replace(loggedOngPage);
