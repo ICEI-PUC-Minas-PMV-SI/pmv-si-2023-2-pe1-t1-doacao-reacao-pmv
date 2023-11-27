@@ -1,3 +1,5 @@
+const ongsPath = 'https://localhost:3001/ongs'
+
 const filterObjectByFlags = (objectData, flags) => {
     const filteredData = objectData.some((ong)=>{
         flags.includes(ong.causa)
@@ -5,10 +7,7 @@ const filterObjectByFlags = (objectData, flags) => {
     return filteredData;
 }
 
-const search = (event, objectData, flags, setReturnedData) => {
-    event.preventDefault();
-
-    const input = event.target.value.toLowerCase();
+const search = (objectData, flags,) => {
 
     const result = objectData.filter((ong)=>{
         if (flags.length > 0){
@@ -17,7 +16,20 @@ const search = (event, objectData, flags, setReturnedData) => {
             return ong.title.toLowerCase().includes(input.toLowerCase())
         }
     })
+
+    return result
 }
 
-let data = fetch
+const getFilters = () => {
+    const checkboxes = document.querySelectorAll('#causes-list input[type="checkbox"]')
+    const checkedBoxes = Array.from(checkboxes).filter(checkbox => checkbox.checked)
+    const filters = checkedBoxes.map(checkbox => checkbox.id)
+    return filters
+}
+
+const filters = getCheckedCheckboxes()
+
+const ongsData = fetch()
+
+
 
