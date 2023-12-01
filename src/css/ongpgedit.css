@@ -64,7 +64,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
   }
 
 .centered h1 {
@@ -195,4 +194,15 @@
     font-weight: bold;
     margin-top: 0vh;
     margin-bottom: 4vh;
+}
+
+
+.form1 input {
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    height: 54px;
+    font-size: 3rem;
+    
 }
