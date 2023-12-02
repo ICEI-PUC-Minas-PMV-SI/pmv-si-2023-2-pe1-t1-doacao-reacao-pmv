@@ -1,17 +1,10 @@
-const ongsPath = 'https://localhost:3001/ongs'
+const ongsPath = 'http://localhost:3001/ongs'
 
-const filterObjectByFlags = (objectData, flags) => {
-    const filteredData = objectData.some((ong)=>{
-        flags.includes(ong.causa)
-    })
-    return filteredData;
-}
-
-const search = (objectData, flags,) => {
+const search = (objectData, input, flags,) => {
 
     const result = objectData.filter((ong)=>{
         if (flags.length > 0){
-        return ong.title.toLowerCase().includes(input.toLowerCase()) && filterObjectByFlags(objectData, flags)
+        return ong.title.toLowerCase().includes(input.toLowerCase()) && flags.includes(ong.cause)
         } else {
             return ong.title.toLowerCase().includes(input.toLowerCase())
         }
@@ -27,9 +20,28 @@ const getFilters = () => {
     return filters
 }
 
-const filters = getCheckedCheckboxes()
+const searchInput = document.getElementById("search-input")
+const searchButton = document.getElementById("search-button")
 
-const ongsData = fetch()
+searchButton.addEventListener("click", async() => {
 
+const response = await fetch(ongsPath)
+
+const ongs = await response.json()
+
+console.log(ongs)
+
+const filters = getFilters()
+console.log(filters)
+const results = search(ongs, searchInput.value, filters)
+
+if (results.length <= 0) {
+    return alert("Nenhuma ONG encontrada")
+}
+
+const results_ids = results.map(result => result.id)
+
+return window.location.replace(`./search-results.html?results=${JSON.stringify(results_ids)}`);
+})
 
 
