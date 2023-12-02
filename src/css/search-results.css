@@ -4,8 +4,9 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: left;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
 }
 
 #topbar {
@@ -13,7 +14,7 @@
     height: 64px;
     width: 100%;
     align-items: flex-end;
-    position: fixed;
+    margin-bottom: 15px;
 }
 
 #searchbarimage {
@@ -22,11 +23,6 @@
     cursor: pointer;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    height: auto;
-}
 
 #searchbarbutton {
     height: 45px;
@@ -185,25 +181,53 @@ html, body {
     display: flex;
     flex-direction: row;
     font-size: 12px;
+    margin-top: 100px;
     margin-bottom: 30px;
     margin-left: 100px;
-}
-
-.pagelistprevious::before {
-    content: '<';
-    display: block;
+  }
+  
+  .pagelist li {
+    position: relative;
+  }
+  
+  .pagelist li span {
     position: absolute;
-    right: 12px;
-    top: -35px;
-    color: rgb(29, 135, 255);
-    font-size: 20px;
-    transform: scale(0.7, 1.2);
-}
-
-.pagelistprevious::after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .pagelistprevious::before,
+  .pagelistnext::before,
+  .pagelistfirst::before,
+  .pagelistnumber::before {
     content: '';
     display: block;
     position: absolute;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    z-index: 3;
+  }
+  
+  .pagelistprevious::after,
+  .pagelistnext::after,
+  .pagelistfirst::after,
+  .pagelistnumber::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50px;
+    z-index: 2;
+  }
+  
+  .pagelistprevious::before {
+    left: -2px;
+    top: -21px;
+  }
+  
+  .pagelistprevious::after {
     right: -40px;
     top: -35px;
     width: 40px;
@@ -211,77 +235,41 @@ html, body {
     background-image: url('images/g.png');
     background-repeat: no-repeat;
     background-size: 28px;
-}
-
-.pagelistfirst {
-    margin-left: 20px;
-    font-size: 13px;
-}
-
-.pagelistnumber::before, .pagelistfirst::before {
-    content: '';
-    display: block;
-    position: absolute;
+  }
+  
+  .pagelistfirst::before,
+  .pagelistnumber::before {
     left: -2px;
     top: -21px;
-    border-radius: 50px;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    z-index: 3;
-}
-
-.pagelistnumber::after {
-    content: '';
-    display: block;
-    position: absolute;
+  }
+  
+  .pagelistfirst::after,
+  .pagelistnumber::after {
     left: -6px;
     top: -25px;
-    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .pagelistfirst::after {
+    background-color: red;
+  }
+  
+  .pagelistnumber::before,
+  .pagelistnumber::after {
+    left: -6px;
+    top: -25px;
     width: 18px;
     height: 18px;
     background-color: rgb(255, 196, 0);
-    z-index: 2;
-}
-
-.pagelistfirst::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: -6px;
-    top: -25px;
-    border-radius: 50px;
-    width: 18px;
-    height: 18px;
-    background-color: red;
-    z-index: 2;
-}
-
-.pagelist li {
-    margin-right: 15px;
-    position: relative;
-}
-
-.pagelistnext {
-    margin-left: 40px;
-    font-size: 13px;
-}
-
-.pagelistnext::before {
-    content: '>';
-    display: block;
-    position: absolute;
+  }
+  
+  .pagelistnext::before {
     left: 5px;
     top: -35px;
-    color: rgb(29, 135, 255);
-    font-size: 20px;
-    transform: scale(0.7, 1.2);
-}
-
-.pagelistnext::after {
-    content: '';
-    display: block;
-    position: absolute;
+  }
+  
+  .pagelistnext::after {
     left: -55px;
     top: -37px;
     width: 50px;
@@ -289,5 +277,4 @@ html, body {
     background-image: url('images/gle.png');
     background-repeat: no-repeat;
     background-size: 48px;
-}
-
+  }
