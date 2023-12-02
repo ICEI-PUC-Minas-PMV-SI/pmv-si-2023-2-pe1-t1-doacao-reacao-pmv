@@ -76,205 +76,53 @@
 }
 
 #searchresultsarea {
-    margin-left: 150px;
+    margin-left: 10%;
     font-family: 'Arial';
 }
 
 .searchresult {
+    display: flex;
     margin-left: 8px;
+    margin-bottom: 5%;
+}
+
+.searchresult img {
+    max-width: 10rem;
+    max-height: 5rem;
+    margin-right: 15px;
+    object-fit: contain;
 }
 
 .searchresult h2 {
-    font-size: 19px;
-    line-height: 18px;
+  font-size: 1.3rem;
+  line-height: 1.125rem;
     font-weight: normal;
-    color: rgb(29, 1, 189);
+    color: var(--primary);
     margin-bottom: 0px;
     margin-top: 25px;
 }
 
-.searchresult a {
-    font-size: 14px;
-    line-height: 14px;
-    color: green;
+.searchresult h2:hover {
+  color: var(--accent)
+}
+
+.ongadress {
+  font-size: 1rem;
+  line-height: 0.875rem;
+    color: var(--title);
     margin-bottom: 0px;
 }
 
-.searchresult button {
-    font-size: 10px;
-    line-height: 14px;
-    color: green;
-    margin-bottom: 0px;
-    padding: 0px;
-    border-width: 0px;
-    background-color: white;
+
+.searchresult {
+  width: 625px;
+  font-size: 1rem;
+  margin-top: 0px;
+  color: var(--dark-text);
 }
 
-#bellicon {
-    width: 20px;
-    height: 20px;
-    background-color: rgb(105, 105, 105);
-    background-image: url('images/bell.png');
-    background-size: 12px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    position: absolute;
-    right: 90px;
-    bottom: 18px;
+.searchresult p{
+  margin-top: 0.5rem;
 }
 
-#profileimage {
-    border-radius: 50px;
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    right: 40px;
-    bottom: 12px;
-}
 
-#optionsbar {
-    width: 100%;
-    height: 50px;
-    border-width: 0px;
-    border-bottom: 1px;
-    border-color: lightgray;
-    border-style: solid;
-    display: flex;
-    align-items: flex-end;
-    font-family: 'Arial';
-    font-size: 13px;
-    color: rgb(112, 112, 112);
-    padding-top: 64px;
-}
-
-#optionsmenu1 {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    margin: 0px;
-    margin-left: 150px;
-}
-
-#optionsmenu1 li {
-    padding: 0px 10px 15px 20px;
-}
-
-#optionsmenuactive {
-    color: #4285F4;
-    font-weight: bold;
-    position: relative;
-    z-index: -1;
-}
-
-.searchresult p {
-    width: 625px;
-    font-size: 13px;
-    margin-top: 0px;
-    color: rgb(82, 82, 82);
-}
-
-.pagelist {
-    list-style: none;
-    color: rgb(29, 135, 255);
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    margin-top: 100px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-  }
-  
-  .pagelist li {
-    position: relative;
-  }
-  
-  .pagelist li span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .pagelistprevious::before,
-  .pagelistnext::before,
-  .pagelistfirst::before,
-  .pagelistnumber::before {
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 50px;
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    z-index: 3;
-  }
-  
-  .pagelistprevious::after,
-  .pagelistnext::after,
-  .pagelistfirst::after,
-  .pagelistnumber::after {
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 50px;
-    z-index: 2;
-  }
-  
-  .pagelistprevious::before {
-    left: -2px;
-    top: -21px;
-  }
-  
-  .pagelistprevious::after {
-    right: -40px;
-    top: -35px;
-    width: 40px;
-    height: 40px;
-    background-image: url('images/g.png');
-    background-repeat: no-repeat;
-    background-size: 28px;
-  }
-  
-  .pagelistfirst::before,
-  .pagelistnumber::before {
-    left: -2px;
-    top: -21px;
-  }
-  
-  .pagelistfirst::after,
-  .pagelistnumber::after {
-    left: -6px;
-    top: -25px;
-    width: 18px;
-    height: 18px;
-  }
-  
-  .pagelistfirst::after {
-    background-color: red;
-  }
-  
-  .pagelistnumber::before,
-  .pagelistnumber::after {
-    left: -6px;
-    top: -25px;
-    width: 18px;
-    height: 18px;
-    background-color: rgb(255, 196, 0);
-  }
-  
-  .pagelistnext::before {
-    left: 5px;
-    top: -35px;
-  }
-  
-  .pagelistnext::after {
-    left: -55px;
-    top: -37px;
-    width: 50px;
-    height: 50px;
-    background-image: url('images/gle.png');
-    background-repeat: no-repeat;
-    background-size: 48px;
-  }
