@@ -18,27 +18,19 @@
         <img src="./assets/procurar1.jpg" alt="Google"
             class="logo">
         <div class="page-search-box">
-            <input type="text" class="page-search-input" placeholder="Procure uma ONG pelo nome">
-            <button type="submit" class="page-search-button">
+            <input type="text" class="page-search-input" placeholder="Procure uma ONG pelo nome" id="search-input">
+            <button type="submit" class="page-search-button" id ="search-button">
                 <i class="fas fa-search"></i>
             </button>        
         </div>
-        <button class="filter-button" id='popup-button' onclick="myFunction()">
+        <button class="filter-button" id='popup-button'>
             <i class="fas fa-filter"></i> Filtrar por causa
         </button>
         <div class="popup">
             <span class="popup-box" id="myPopup">   
                 <i class="fa-solid fa-x" id="x-button"></i>
                 <h1>Causas</h1>
-                <ul>
-                    <li><input type="checkbox" id="causa1"> causa 1</li>
-                    <li><input type="checkbox" id="causa2"> causa 2</li>
-                    <li><input type="checkbox" id="causa3"> causa 3</li>
-                    <li><input type="checkbox" id="causa4"> causa 5</li>
-                    <li><input type="checkbox" id="causa5"> causa 6</li>
-                    <li><input type="checkbox" id="causa6"> causa 7</li>
-                    <li><input type="checkbox" id="causa7"> causa 8</li>
-                  </ul>
+                <ul id="causes-list"></ul>
             </span>
         </div>
         <div class="region-map-card">
@@ -51,6 +43,8 @@
     <custom-footer></custom-footer>
     <script src="./js/scroll-handler.js"></script>
     <script src="./js/popup.js"></script>
+    <script src="./js/components/causes-list.js"></script>
+    <script src="./js/search-engine.js"></script>
 </body>
 
 </html>

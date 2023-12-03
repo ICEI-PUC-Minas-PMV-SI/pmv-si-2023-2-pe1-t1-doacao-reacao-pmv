@@ -1,7 +1,7 @@
 .section-title {
     position: relative;
     top: 11vh;
-    left: 14vw;
+    left: 4vw;
     color: var(--dark-text);
     font-size: 25px;
     font-weight: bold;
@@ -24,7 +24,7 @@
     font-size: 17px;
 }
 
-.input[type=button], input[type=submit], input[type=reset] {
+.button {
     background-color: #D9597B;;
     border: none;
     color: white;
@@ -46,10 +46,11 @@ input[type=text] {
 }
 
 select {
-    display: block;
-    width: 52%;
-    padding: 8px 8px;
-    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    height: 54px;
     font-size: 17px;
 }
 
@@ -108,17 +109,20 @@ select {
 }
 
 .post {
-    background-color: #fce4d2;
-    max-width: 80vw;
-    min-width: 670px;
-    margin: 20px auto;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 0 5px var(--box-shadow);
-    padding: 30px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px var(--box-shadow);
+    text-align: center;
+    width: 55%;
+    max-width: 55%;
+    height: 90%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
     gap: 10px;
+    margin-left: 20vw;
 }
 
 
@@ -129,3 +133,24 @@ select {
     margin-right: 0px;
     margin-left: 0vw;
   }
+
+
+
+.form1 {
+    margin: 50px auto 50px auto;
+    >label {
+        display: block;
+        font-size: large;
+        text-align: left;
+        margin-bottom: 10px;
+        color: var(--dark-text);
+    }
+
+    >input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 60%;
+        height: 54px;
+    }
+}

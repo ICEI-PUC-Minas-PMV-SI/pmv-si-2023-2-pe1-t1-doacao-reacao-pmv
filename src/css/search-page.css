@@ -76,7 +76,6 @@
     height: 500px;
     width: 350px;
     background-color: var(--primary);
-    text-align: center;
     align-content: space-around;
     border: 3px solid black;
     padding: 8px;
@@ -94,13 +93,22 @@
         margin-top: 5%;
         margin-bottom: 10%;
         font-weight: 700;
+        text-align: center;
+    }
+}
+
+#causes-list {
+    > ul {
+        text-align: left;
+        padding-left: 0;
+        list-style-type: none;
     }
 
-    >ul {
-        >li {
-            font-size: 2rem;
-            margin: 5%;
-        }
+    >li {
+        font-size: 2rem;
+        margin: 5%;
+        list-style-type: none;
+        margin-left: 15%;
     }
 }
 

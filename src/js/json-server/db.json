@@ -19,8 +19,10 @@
     {
       "id": 1,
       "title": "AUJUDANDO OS BICHINHOS",
+      "cause": "Pets",
+      "description": "ONG que ajuda os bichinhos",
       "author": "ONG",
-      "profile-picture": "https://picsum.photos/200/300",
+      "profilePicture": "https://picsum.photos/200/300",
       "location": {
         "city": "Belo Horizonte",
         "uf": "MG",
@@ -32,9 +34,11 @@
     },
     {
       "id": 2,
-      "title": "ABENÇOADA FAMÍLIA",
+      "title": "ABRAÇADORES DE ÁRVORES",
+      "cause": "Meio Ambiente",
+      "description": "ONG que ajuda as árvores",
       "author": "ONG",
-      "profile-picture": "https://picsum.photos/200/300",
+      "profilePicture": "https://picsum.photos/200/300",
       "location": {
         "city": "Belo Horizonte",
         "uf": "MG",
@@ -46,9 +50,11 @@
     },
     {
       "id": 3,
-      "title": "AUJUDANDO OS BICHINHOS",
+      "title": "CRIANÇAS FELIZES",
+      "cause": "Filantropia",
+      "description": "ONG que ajuda as crianças",
       "author": "ONG",
-      "profile-picture": "https://picsum.photos/200/300",
+      "profilePicture": "https://picsum.photos/200/300",
       "location": {
         "city": "Belo Horizonte",
         "uf": "MG",
