@@ -19,6 +19,7 @@
     {
       "id": 1,
       "title": "AUJUDANDO OS BICHINHOS",
+      "cause": "Pets",
       "description": "ONG que ajuda os bichinhos",
       "author": "ONG",
       "profilePicture": "https://picsum.photos/200/300",
@@ -34,6 +35,7 @@
     {
       "id": 2,
       "title": "ABRAÇADORES DE ÁRVORES",
+      "cause": "Meio Ambiente",
       "description": "ONG que ajuda as árvores",
       "author": "ONG",
       "profilePicture": "https://picsum.photos/200/300",
@@ -49,6 +51,7 @@
     {
       "id": 3,
       "title": "CRIANÇAS FELIZES",
+      "cause": "Filantropia",
       "description": "ONG que ajuda as crianças",
       "author": "ONG",
       "profilePicture": "https://picsum.photos/200/300",
@@ -71,21 +74,5 @@
   ],
   "profile": {
     "name": "typicode"
-  },
-  "posts": [
-     {
-      "postId": 1,
-      "belongsTo": (id da ong),
-      "text":,
-      "image": (aqui poderia ter uma lista de imagens, por exemplo),
-      "comments":[
-        {
-          "id": 1,
-          "text":tal,
-          "owner": id de quem postou
-        }
-       }
-        
-      ]
-  ]
+  }
 }

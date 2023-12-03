@@ -1,18 +1,128 @@
 .container {
     height: calc(200vh - 105px);
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:flex-start;
     align-items: center;
-
-    >img {
-        width: 	75%;
-        height: calc(200vh - 105px);
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: cover;
-    }
 }
+
+#topbar {
+    display: flex;
+    height: 64px;
+    width: 100%;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+#searchbarimage {
+    height: 30px;
+    padding: 0px 28px 10px 30px;
+    cursor: pointer;
+}
+
+
+#searchbarbutton {
+    height: 45px;
+    width: 55px;
+    position: relative;
+    margin-right: -2px;
+    background-color: var(--primary);
+}
+
+#searchbarbutton svg {
+    height: 25px;
+    width: 35px;
+    position: relative;
+    left: -3px;
+}
+
+#searchbarbutton svg path {
+    fill: #4285F4
+}
+
+#searchbar {
+    width: 625px;
+    height: 45px;
+    border-radius: 100px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    position: relative;
+    bottom: 5px;
+    overflow: hidden;
+    display: flex;
+    z-index: 100;
+}
+
+#searchbar:hover {
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+#searchbar > input {
+    height: 45px;
+    border-style: none;
+    font-size: 16px;
+    line-height: 45px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+#searchbar > input:focus {
+    outline: none;
+}
+
+#searchresultsarea {
+    margin-left: 10%;
+    font-family: 'Arial';
+}
+
+.searchresult {
+    display: flex;
+    margin-left: 8px;
+    margin-bottom: 5%;
+}
+
+.searchresult img {
+    max-width: 10rem;
+    max-height: 5rem;
+    margin-right: 15px;
+    object-fit: contain;
+}
+
+.searchresult h2 {
+  font-size: 1.3rem;
+  line-height: 1.125rem;
+    font-weight: normal;
+    color: var(--primary);
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.searchresult h2:hover {
+  color: var(--accent)
+}
+
+.ongadress {
+  font-size: 1rem;
+  line-height: 0.875rem;
+    color: var(--title);
+    margin-bottom: 0px;
+}
+
+
+.searchresult {
+  width: 625px;
+  font-size: 1rem;
+  margin-top: 0px;
+  color: var(--dark-text);
+}
+
+.searchresult p{
+  margin-top: 0.5rem;
+}
+
 
