@@ -6,7 +6,6 @@
 }
 
 .box {
-    padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 15px var(--box-shadow);
     text-align: center;
@@ -22,12 +21,7 @@
     background-color: #fff;
 }
 
-.image-container2 {
-    justify-content: center;
-    display: flex;
-    flex-flow: column wrap ;
-    max-width: 80vw;
-}
+
 
 .content-wrapper {
     justify-content: center;
@@ -38,6 +32,9 @@
 .image-container {
     position: relative;
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image-container2 {
@@ -49,13 +46,27 @@
 }
 
 .image-container img {
-    max-width: 100%;
+    max-width: 96%;
     height: auto;
+    align-self: center;
+}
+
+.image-container button {
+    margin-left: -5vw;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 .image-container2 img {
     max-width: 100%;
     height: auto;
+}
+
+.image-container2 button {
+    margin-left: -7vw;
+    margin-right: auto;
+    margin-top: 1vh;
+
 }
 
 
@@ -101,13 +112,15 @@
 
 
 .square-one {
-    margin-top: 1vh;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .square-two,
 .square-three {
-    margin-left: 3vw;
-    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-top: 0vh;
 }
 
 .text-one {
@@ -123,24 +136,28 @@
 .paragraph1, 
 .paragraph2 {
     display: flex;
-    justify-content: center;
+    align-content: center;
     position: relative;
-    margin-left: -4vw;
+    margin-left: 0vw;
     margin-bottom: 5vh;
 }
 
-.paragraph1 p {
+.paragraph1 textarea {
     width: 30vw;
     color: var(--dark-text);
     font-size: 1.4rem;
-    margin-left: 6vw;
+    margin-left: 5vw;
+    margin-right: 0vw;
+    height: 15vh;
 }
 
-.paragraph2 p {
+.paragraph2 textarea {
     width: 30vw;
     color: var(--dark-text);
     font-size: 1.4rem;
-    margin-right: -10vw;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    height: 15vh;
 }
 
 .container {
@@ -160,6 +177,16 @@
     margin-left: 1vw;
 }
 
+.img {
+    position: relative;
+}
+
+.img button {
+    margin-left: -5vw;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
 
 .text-three,
 .text-four {
@@ -167,23 +194,54 @@
     text-align: center;
     color: var(--dark-text);
     float: bottom;
-    max-width: 60vw;
+    max-width: 70vw;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.text-three textarea {
+    width: 50vw;
+    font-size: 1.2rem;
+    height: 15vh;
+}
+
+.text-four textarea {
+    width: 50vw;
+    font-size: 1.2rem;
+    height: 15vh;
+}
+
+.container1 {
+    width: 80vw;
+    margin-left: 0vw;
 }
 
 
 
 .twitter-timeline {
-    margin-left: 20vw;
-    margin-right: 20vw;
     padding-bottom: 10vh;
+    max-height: 60vh;
+    
 }
 
 .finalp {
     font-size: 1.2rem;
     color: var(--dark-text);
     margin-bottom: 20px;
+}
+
+.finalp button {
+    display: block;
+    margin-left: 28vw;
+    padding: 14px 12vw;
+}
+
+.finalp textarea {
+    width: 50vw;
+    font-size: 1.2rem;
+    height: 15vh;
 }
 
 .text-one1 {
@@ -205,4 +263,17 @@
     height: 54px;
     font-size: 3rem;
     
+}
+
+.button {
+    background-color: #D9597B;;
+    border: none;
+    color: white;
+    padding: 14px 12px;
+    text-decoration: none;
+    margin: 4px 4px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    border-radius: 5px;
 }
