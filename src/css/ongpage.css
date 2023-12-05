@@ -174,13 +174,10 @@
     margin-bottom: 20px;
 }
 
-
-
 .twitter-timeline {
-    margin-left: 20vw;
-    margin-right: 20vw;
-    padding-bottom: 10vh;
+    margin-left:8vw;
 }
+
 
 .finalp {
     font-size: 1.2rem;
@@ -196,4 +193,15 @@
     font-weight: bold;
     margin-top: 0vh;
     margin-bottom: 4vh;
+}
+
+.container {
+    margin-left: 30vw;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
