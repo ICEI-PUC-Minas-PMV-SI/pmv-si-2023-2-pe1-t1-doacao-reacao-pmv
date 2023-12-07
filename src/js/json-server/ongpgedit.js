@@ -1,16 +1,17 @@
 const ongpageURL= 'http://localhost:3001/ongpage'
-const accountsURL= 'http://localhost:3001/accounts/${i}'
+const accountsURL= 'http://localhost:3001/accounts/${id}'
+const loggedOngPage = './ongpage.html?ongid=4'
 
 
+const post = document.getElementById("butao");
 
 post.addEventListener("submit", async (e) => {
-    e.preventDefault();
 
-    const onginfo = document.getElementById(onginfo);
+    const onginfo = document.getElementById("onginfo");
 
 
  fetch(
-    postsURL,
+    ongpageURL,
     {
     headers: {
         'Content-Type': 'application/json'
@@ -26,8 +27,7 @@ post.addEventListener("submit", async (e) => {
                 bio3: onginfo.bio3.value,
                 bio4: onginfo.bio4.value,
                 donationinfo: onginfo.donationinfo.value,
-                belongsTo: 'FILLER'
+                belongsTo: 4
         }),
         }).then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
- location.replace(loggedOngPage);
     })
