@@ -11,11 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Maria Clara Freitas Soares @myverita
-* Vitor Cesar Reis Francisco
-* Samuel da Silva Bezerra Junior
-* Raul Max Moura Monteiro
-* Kennedy Pereira Barra
-* Daniel Vilanova Batalha
+* Vitor Cesar Reis Francisco @vcrfrancisco
 
 ## Orientador
 
