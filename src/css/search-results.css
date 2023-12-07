@@ -1,3 +1,5 @@
+/* o código que segue foi baseado na referência [6] do trabalho */
+
 .container {
     height: calc(200vh - 105px);
     text-align: left;
