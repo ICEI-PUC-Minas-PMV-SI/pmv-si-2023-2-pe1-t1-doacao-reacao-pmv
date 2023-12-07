@@ -2,7 +2,7 @@ const signupForm = document.getElementById("signup-form")
 const mailErrorMsg = document.getElementById("mail-error-msg")
 
 const loggedOngPage = "./home-logged.html"
-const accountsURL= 'http://localhost:3001/accounts'
+const accountsURL = 'http://localhost:3001/accounts'
 
 signupForm.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -13,32 +13,25 @@ signupForm.addEventListener("submit", async (e) => {
 
     const foundUser = accounts.find(account => account.mail === email)
 
-    if (foundUser){
+    if (foundUser) {
         return mailErrorMsg.style.opacity = 1;
     }
 
     const password = signupForm.senha.value;
     const confirmPassword = signupForm.confirmarSenha.value;
 
- if (password !== confirmPassword) {
+    if (password !== confirmPassword) {
         return passwordErrorMsg.style.opacity = 1;
     }
 
     const firstName = signupForm.firstname.value;
     const lastName = signupForm.lastname.value;
-    console.log({
-        id: accounts.length + 1,
-        mail: email,
-        password: password,
-        firstName: firstName,
-        lastName: lastName
-    })
     fetch(
         accountsURL,
         {
-        headers: {
-            'Content-Type': 'application/json'
-        },
+            headers: {
+                'Content-Type': 'application/json'
+            },
             method: 'POST',
             body: JSON.stringify({
                 id: accounts.length + 1,
@@ -47,6 +40,12 @@ signupForm.addEventListener("submit", async (e) => {
                 firstName: firstName,
                 lastName: lastName
             }),
-            }).then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
-    location.replace(loggedOngPage);
         })
+        .then(postResponse => {
+            localStorage.setItem("user_id", accounts.length)
+            postResponse.json()
+        })
+        .then(postResponse => console.log(postResponse))
+        
+    location.replace(loggedOngPage);
+})

@@ -27,6 +27,7 @@ loginForm.addEventListener("submit", async (e) => {
     }else if (foundUser.password !== password) {
         passwordErrorMsg.style.opacity = 1;
     } else {
+        localStorage.setItem("user_id", foundUser.id)
         location.replace(loggedOngPage);
     }
 })

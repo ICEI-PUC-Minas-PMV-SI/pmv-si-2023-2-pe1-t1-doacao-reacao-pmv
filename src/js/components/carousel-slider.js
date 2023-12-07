@@ -13,8 +13,6 @@ class CarouselSlider extends HTMLElement {
                 imgSrc: ong.profilePicture,
                 text: ong.description
             }));
-
-            console.log(slideContent);
             return slideContent;
         } catch (error) {
             console.error('Error fetching data:', error);
@@ -72,7 +70,6 @@ class CarouselSlider extends HTMLElement {
         div.id = 'slider';
         
         const carouselSlidesContent = await this.getCarouselSlidesContent();
-        console.log(carouselSlidesContent);
         
         carouselSlidesContent.forEach((slide) => {
             div.appendChild(this.makeSlideDiv(slide));
