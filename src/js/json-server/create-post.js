@@ -1,5 +1,5 @@
 const post = document.getElementById(sendcomment)
-const accountsURL= 'http://localhost:3001/accounts/${id}'
+const postsURL= 'http://localhost:3001/posts'
 
 
 
@@ -10,18 +10,16 @@ post.addEventListener("submit", async (e) => {
 
 
  fetch(
-    accountsURL,
+    postsURL,
     {
     headers: {
         'Content-Type': 'application/json'
     },
         method: 'POST',
         body: JSON.stringify({
-            posts:[{
                 postId: posts.length + 1,
-                belongsTo: ${id}, 
-                text: post,
-          }]
+                belongsTo: 'FILLER',
+                text: post
         }),
         }).then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
  location.replace(loggedOngPage);

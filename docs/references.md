@@ -10,6 +10,7 @@
 
 **[5]** - _HERSHKIRSH_, **Responsive Carousel Slider (CSS and JS )**. Disponível em: https://codepen.io/hershkirsh/pen/BXBprB. Acesso em: 03 de ago. de 2023
 
+**[6]** - _ABDURAIMOV MO'MINJON_, **google search results page**. Disponível em: https://codepen.io/MuminjonGuru/pen/XQBOge. Acesso em: 06 de dez. de 2023
 
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.

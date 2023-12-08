@@ -17,6 +17,7 @@ const getOngsList = async() => {
     return ongsList
 }
 
+// o código que segue foi baseado na referência [6] do trabalho
 const main = async() => {
     const ongs = await getOngsList()
 
@@ -60,7 +61,6 @@ const main = async() => {
         searchResultDiv.appendChild(searchResultContentDiv)
     
         searchResultslist.appendChild(searchResultDiv)
-        //TODO: adicionar imagem da ong
     }) 
 }
 

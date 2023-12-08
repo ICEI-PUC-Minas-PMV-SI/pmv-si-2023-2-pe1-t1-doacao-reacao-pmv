@@ -79,7 +79,10 @@ class NavigationBar extends HTMLElement {
   }
 
   makeListItems(ul) {
-    this.navItems.forEach((item) => {
+
+    const user_id = localStorage.getItem('user_id')
+    const barItems = user_id ? this.navItems.slice(0, 2) : this.navItems //TODO: inserir opções de "minha conta" e "sair" quando o usuário estiver logado
+    barItems.forEach((item) => {
       const li = document.createElement('li');
       const a = document.createElement('a');
 
