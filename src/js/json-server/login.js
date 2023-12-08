@@ -29,5 +29,7 @@ loginForm.addEventListener("submit", async (e) => {
     } else {
         localStorage.setItem("user_id", foundUser.id)
         location.replace(loggedOngPage);
+                //ATUALIZAR ONG ATUAL NO LOCAL STORAGE
+
     }
 })
