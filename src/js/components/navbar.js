@@ -1,5 +1,5 @@
 class NavigationBar extends HTMLElement {
-  navItems = [
+  defaultNavItems = [
     {
       label: 'Página Inicial',
       href: './index.html',
@@ -18,6 +18,38 @@ class NavigationBar extends HTMLElement {
       href: './sign-up.html',
     },
   ];
+
+  loggedNavItems = [
+    {
+      label: 'Página Inicial',
+      href: './home-logged.html',
+    },
+    {
+      label: 'Mapa de Ongs',
+      href: './ongs-map.html',
+    },
+    {
+      label: 'Cadastrar ONG',
+      href: './link-social.html',
+    },
+  ];
+
+  constructOngOwnerItems = (ong_id) => {
+    return [
+      {
+        label: 'Página Inicial',
+        href: './index.html',
+      },
+      {
+        label: 'Mapa de Ongs',
+        href: './ongs-map.html',
+      },
+      {
+        label: 'Cadastrar ONG',
+        href: `./ong-page.html?id=${ong_id}`,
+      }
+    ]
+  }
 
   navTitle = () => {
     if (window.innerWidth <= 600) return 'D&R';
@@ -78,19 +110,33 @@ class NavigationBar extends HTMLElement {
     this.appendChild(this.toggle());
   }
 
-  makeListItems(ul) {
-
-    const user_id = localStorage.getItem('user_id')
-    const barItems = user_id ? this.navItems.slice(0, 2) : this.navItems //TODO: inserir opções de "minha conta" e "sair" quando o usuário estiver logado
-    barItems.forEach((item) => {
+  buildNavbar(barItems, ul) {
+    return barItems.forEach((item) => {
       const li = document.createElement('li');
       const a = document.createElement('a');
-
       a.href = item.href;
       a.textContent = item.label;
       li.appendChild(a);
       ul.appendChild(li);
     });
+  }
+
+  makeListItems(ul) {
+    const user_id = localStorage.getItem('user_id')
+    const ong_id = localStorage.getItem('ong_id')
+    let barItems
+    let ongpage_id
+    if (user_id) {
+      if (ongpage_id) {
+        barItems = this.constructOngOwnerItems(ong_id)
+      } else {
+        barItems = this.loggedNavItems
+      }
+      this.buildNavbar(barItems, ul)
+    } else {
+      barItems = this.defaultNavItems
+      this.buildNavbar(barItems, ul)
+    }
   }
 
   toggleMenu() {

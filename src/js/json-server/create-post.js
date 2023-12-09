@@ -1,13 +1,12 @@
-const post = document.getElementById(sendcomment)
 const postsURL= 'http://localhost:3001/posts'
 
+const postForm = document.getElementById("post-form");
 
-
-post.addEventListener("submit", async (e) => {
+postForm.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     const post = document.getElementById(sendcomment);
-
+    const today = new Date()
 
  fetch(
     postsURL,
@@ -19,7 +18,8 @@ post.addEventListener("submit", async (e) => {
         body: JSON.stringify({
                 postId: posts.length + 1,
                 belongsTo: 'FILLER',
-                text: post
+                text: post,
+                time: today.getDate()
         }),
         }).then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
  location.replace(loggedOngPage);

@@ -38,7 +38,8 @@ signupForm.addEventListener("submit", async (e) => {
                 mail: email,
                 password: password,
                 firstName: firstName,
-                lastName: lastName
+                lastName: lastName,
+                ongpage: null,
             }),
         })
         .then(postResponse => {
@@ -46,6 +47,5 @@ signupForm.addEventListener("submit", async (e) => {
             postResponse.json()
         })
         .then(postResponse => console.log(postResponse))
-        
     location.replace(loggedOngPage);
 })
