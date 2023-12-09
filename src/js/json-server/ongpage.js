@@ -1,6 +1,29 @@
 const ongpageURL = 'http://localhost:3001/ongpages'
 const loggedOngPage = './ongpage.html?ongid=4'
 
+fetch(
+    ongpageURL,
+    {
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    method: 'GET',
+    body: JSON.stringify({
+    ongname: "QuatroPatas",
+    heading1: "",
+    heading2: "",
+    heading3: "",
+    bio1: "",
+    bio2: "",
+    bio3: "",
+    bio4: "",
+    donationinfo: "",
+    belongsTo: ""
+    }),
+).then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
+
+
+
 
 var mainDiv = document.createElement('div');
 mainDiv.id = 'main';
@@ -24,13 +47,13 @@ img1Div.appendChild(img1);
 
 var centeredDiv = document.createElement('div');
 centeredDiv.className = 'centered';
+centeredDiv.textContent = ongname;
 img1Div.appendChild(centeredDiv);
-//como faz pra dizer de onde vem o texto q fica aqui?
 
 var head1Div = document.createElement('div');
 head1Div.className = 'text-one';
+head1Div.textContent = heading1;
 boxDiv.appendChild(head1Div);
-//texto tbm
 
 var wrapperDiv = document.createElement('div');
 wrapperDiv.className = 'content-wrapper';
@@ -62,23 +85,26 @@ img4Div.appendChild(img4); //imagem
 
 var head2Div = document.createElement('div');
 head2Div.className = 'text-one';
-boxDiv.appendChild(head2Div); //texto
+head2Div.textContent = heading2;
+boxDiv.appendChild(head2Div); 
 
 var bloco1Div = document.createElement('div');
 bloco1Div.className = 'text-three';
+bloco1Div.textContent = bio1; bio2;
 boxDiv.appendChild(bloco1Div); //texto, dois parágrafos
 
 var head3Div = document.createElement('div');
 head3Div.className = 'text-one1';
-boxDiv.appendChild(head3Div); //texto
+head3Div.textContent = heading3;
+boxDiv.appendChild(head3Div);
 
 const emptyDiv = document.createElement('div');
 boxDiv.appendChild(emptyDiv);
 
 var bloco2Div = document.createElement('div');
 bloco2Div.className = 'text-three';
-emptyDiv.appendChild(bloco2Div); //texto
-
+bloco2Div.textContent = bio3;
+emptyDiv.appendChild(bloco2Div); 
 var img5Div = document.createElement('div');
 emptyDiv.appendChild(img5Div);
 
@@ -87,7 +113,8 @@ img5Div.appendChild(img5); //imagem
 
 var bloco3Div = document.createElement('div');
 bloco3Div.className = 'text-four';
-emptyDiv.appendChild(bloco3Div); //texto
+bloco3Div.textContent = bio4;
+emptyDiv.appendChild(bloco3Div); 
 
 var img6Div = document.createElement('div');
 emptyDiv.appendChild(img6Div);
@@ -97,10 +124,12 @@ img5Div.appendChild(img6); //imagem
 
 var head4Div = document.createElement('div');
 head4Div.className = 'text-one';
-boxDiv.appendChild(head4Div); //texto
+head4Div.textContent = donationinfo;
+boxDiv.appendChild(head4Div); 
 
 var bloco4Div = document.createElement('div');
 bloco4Div.className = 'finalp';
+bloco4Div.textContent = donationinfo;
 boxDiv.appendChild(bloco4Div); //texto, três parágrafos
 
 
