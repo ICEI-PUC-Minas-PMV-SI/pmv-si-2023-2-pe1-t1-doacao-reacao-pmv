@@ -28,7 +28,7 @@ loginForm.addEventListener("submit", async (e) => {
         passwordErrorMsg.style.opacity = 1;
     } else {
         localStorage.setItem("user_id", foundUser.id)
-        localStorage.setItem("ong_id", foundUser.ongpage)
+        localStorage.setItem("ong_id", foundUser.ong)
         location.replace(loggedOngPage);
     }
 })

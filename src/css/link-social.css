@@ -25,7 +25,8 @@
 }
 
 .button {
-    background-color: #D9597B;;
+    background-color: #D9597B;
+    ;
     border: none;
     color: white;
     padding: 14px 120px;
@@ -37,7 +38,7 @@
     font-size: 20px;
 }
 
-input[type=text] {
+input {
     width: 52%;
     height: 30px;
     border-radius: 4px;
@@ -55,10 +56,9 @@ select {
 }
 
 .gridbox {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: center;
 }
-
 
 .section {
     background: white;
@@ -132,12 +132,13 @@ select {
     border-radius: 2%;
     margin-right: 0px;
     margin-left: 0vw;
-  }
+}
 
 
 
 .form1 {
     margin: 50px auto 50px auto;
+
     >label {
         display: block;
         font-size: large;
@@ -153,4 +154,32 @@ select {
         width: 60%;
         height: 54px;
     }
+}
+
+.sb-title {
+    position: relative;
+    top: -12px;
+    font-weight: 500;
+}
+
+.sb-title-icon {
+    position: relative;
+    top: -5px;
+}
+
+.card-container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.panel {
+    box-shadow: 1px 1px var(--box-shadow); 
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }

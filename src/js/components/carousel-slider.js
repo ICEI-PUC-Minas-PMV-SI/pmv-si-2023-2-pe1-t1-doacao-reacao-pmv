@@ -1,6 +1,7 @@
 const ongsUrl = 'http://localhost:3001/ongs';
 
 class CarouselSlider extends HTMLElement {
+    //PRECISAREMOS PEGAR DO ONGPAGE, ao invés do ONGS
     async getCarouselSlidesContent() {
         try {
             const response = await fetch(ongsUrl);
