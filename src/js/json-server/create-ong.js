@@ -2,6 +2,7 @@ const ongInfoForm = document.getElementById("create-ong-info")
 
 const editOngPageAdress = "./ongpgedit.html"
 const ongsURL = 'http://localhost:3001/ongs'
+const accountsURL = 'http://localhost:3001/accounts'
 
 ongInfoForm.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -13,14 +14,13 @@ ongInfoForm.addEventListener("submit", async (e) => {
 
     const causes = ongInfoForm.causas
     const selectedCause = causes.options[causes.selectedIndex].text
-
-    console.log(ongInfoForm.ongname.value)
+    const newOngId = ongs.length + 1
 
     const ongInfo = {
-        id: ongs.length + 1,
+        id: newOngId,
         title: ongInfoForm.ongname.value,
         cause: selectedCause,
-        belongsToUser: localStorage.getItem("user_id"),
+        belongsToUser: Number(localStorage.getItem("user_id")),
         location: {
             city: ongInfoForm["locality-input"].value,
             uf: ongInfoForm["administrative_area_level_1-input"].value,
@@ -46,8 +46,15 @@ ongInfoForm.addEventListener("submit", async (e) => {
         })
         .then(postResponse => console.log(postResponse))
 
-        //ATUALIZAR DADOS DO USUÁRIO
-        //ATUALIZAR ONG ATUAL NO LOCAL STORAGE
 
-    location.replace(editOngPageAdress);
+    fetch(
+        `${accountsURL}/${localStorage.getItem("user_id")}`, {
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        method: 'PATCH',
+        body: JSON.stringify({ong: newOngId}),
+    })
+    localStorage.setItem("ong_id", newOngId)
+    location.replace(`${editOngPageAdress}?id=${newOngId}`);
 })
