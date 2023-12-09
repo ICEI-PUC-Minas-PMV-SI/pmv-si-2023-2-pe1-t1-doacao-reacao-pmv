@@ -20,9 +20,7 @@
       "id": 1,
       "title": "AUJUDANDO OS BICHINHOS",
       "cause": "Pets",
-      "description": "ONG que ajuda os bichinhos",
-      "author": "ONG",
-      "profilePicture": "https://picsum.photos/200/300",
+      "belongsToUser": "ONG",
       "location": {
         "city": "Belo Horizonte",
         "uf": "MG",
@@ -36,25 +34,21 @@
       "id": 2,
       "title": "ABRAÇADORES DE ÁRVORES",
       "cause": "Meio Ambiente",
-      "description": "ONG que ajuda as árvores",
-      "author": "ONG",
-      "profilePicture": "https://picsum.photos/200/300",
+      "belongsToUser": "ONG",
       "location": {
         "city": "Belo Horizonte",
         "uf": "MG",
         "neighborhood": "Savassi",
         "street": "Rua dos Bobos",
         "number": "0",
-        "position": "-19.919157028198242,-43.93867874145508"
+        "position": "-19.900357, -43.933753"
       }
     },
     {
       "id": 3,
       "title": "CRIANÇAS FELIZES",
       "cause": "Filantropia",
-      "description": "ONG que ajuda as crianças",
-      "author": "ONG",
-      "profilePicture": "https://picsum.photos/200/300",
+      "belongsToUser": "ONG",
       "location": {
         "city": "Belo Horizonte",
         "uf": "MG",
@@ -75,8 +69,5 @@
   "profile": {
     "name": "typicode"
   },
-  "ongpages": [
-    
-
-  ]
+  "ongpages": []
 }

@@ -34,7 +34,7 @@ class NavigationBar extends HTMLElement {
 
   img = () => {
     const img = document.createElement('img');
-    img.src = './pictures/logo.jpg';
+    img.src = './assets/logo.jpg';
     img.alt = 'logo';
     return img;
   };
