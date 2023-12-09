@@ -42,7 +42,7 @@ boxDiv.appendChild(img1Div);
 
 var img1 = document.createElement('img');
 img1.src = onginfo.img1; // como faz pra dizer da onde vem a imagem?
-img1Div.appendChild(onginfo.img1);
+img1Div.appendChild(img1);
 
 var centeredDiv = document.createElement('div');
 centeredDiv.className = 'centered';
