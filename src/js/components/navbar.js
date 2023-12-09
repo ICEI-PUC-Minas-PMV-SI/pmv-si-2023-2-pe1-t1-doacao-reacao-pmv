@@ -126,7 +126,7 @@ class NavigationBar extends HTMLElement {
     const ong_id = localStorage.getItem("ong_id")
     let barItems
     if (user_id) {
-      if (ong_id) {
+      if (ong_id && ong_id !== 'null' && ong_id !== 'undefined') {
         barItems = this.constructOngOwnerItems(ong_id)
       } else {
         barItems = this.loggedNavItems
