@@ -1,4 +1,5 @@
-const ongsURL = 'http://localhost:3001/ongs'
+const JSONServerURL = 'http://localhost:3001'
+const ongsURL = `${JSONServerURL}/ongs`
 
 
 const buildOngAdress = (ong) => {

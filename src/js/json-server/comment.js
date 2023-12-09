@@ -1,4 +1,5 @@
-const commentsURL= 'http://localhost:3001/comments/${id}'
+const JSONServerURL = 'http://localhost:3001'
+const commentsURL = `${JSONServerURL}/comments`
 
 
 

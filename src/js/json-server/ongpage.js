@@ -1,4 +1,5 @@
-const ongpageURL = 'http://localhost:3001/ongpages'
+const JSONServerURL = 'http://localhost:3001'
+const ongpageURL = `${JSONServerURL}/ongpages`
 const loggedOngPage = './ongpage.html?ongid=4'
 
 const getResultsFromQueryParams = () => {

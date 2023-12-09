@@ -5,14 +5,17 @@
       "mail": "example@mail.com",
       "password": "123456",
       "firstName": "John",
-      "lastName": "Doe"
+      "lastName": "Doe",
+      "ongpage": null,
+      "ong": 4
     },
     {
       "id": 2,
       "mail": "aaaa@gmial.com",
       "password": "123",
       "firstName": "aaa",
-      "lastName": "bbb"
+      "lastName": "bbb",
+      "ongpage": null
     }
   ],
   "ongs": [
@@ -56,6 +59,20 @@
         "street": "Rua dos Bobos",
         "number": "0",
         "position": "-19.919157028198242,-43.93867874145508"
+      }
+    },
+    {
+      "id": 4,
+      "title": "teste",
+      "cause": "Necessidades especiais",
+      "belongsToUser": 1,
+      "location": {
+        "city": "Belo Horizonte",
+        "uf": "SP",
+        "neighborhood": "Bandeirantes",
+        "street": "rua dos bobos",
+        "number": "0",
+        "position": null
       }
     }
   ],

@@ -2,7 +2,8 @@ const signupForm = document.getElementById("signup-form")
 const mailErrorMsg = document.getElementById("mail-error-msg")
 
 const loggedOngPage = "./home-logged.html"
-const accountsURL = 'http://localhost:3001/accounts'
+const JSONServerURL = 'http://localhost:3001'
+const accountsURL = `${JSONServerURL}/accounts`
 
 signupForm.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -38,7 +39,8 @@ signupForm.addEventListener("submit", async (e) => {
                 mail: email,
                 password: password,
                 firstName: firstName,
-                lastName: lastName
+                lastName: lastName,
+                ongpage: null,
             }),
         })
         .then(postResponse => {
@@ -46,6 +48,5 @@ signupForm.addEventListener("submit", async (e) => {
             postResponse.json()
         })
         .then(postResponse => console.log(postResponse))
-        
     location.replace(loggedOngPage);
 })
