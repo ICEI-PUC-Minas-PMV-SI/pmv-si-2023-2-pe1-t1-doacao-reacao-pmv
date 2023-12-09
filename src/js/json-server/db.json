@@ -88,29 +88,23 @@
   },
   "ongpages": [
     {
-      "ongname": "",
-      "heading1": "",
-      "heading2": "",
-      "heading3": "",
-      "bio1": "                    Nossa ONG foi fundada por um grupo de amigos que compartilhavam uma crença: a de que os animais merecem os mesmos direitos básicos - como vida, saúde e alimentação - que nós.\n                  ",
-      "bio2": "                  Assim, visamos permitir que isso se torne realidade. Trabalhamos diretamente com donos e animais, doando ração, garantindo cuidados veterinários e fornecendo abrigo.\n                ",
-      "bio3": "                 Nossa atuação não seria possível se não fosse por toda a ajuda que recebemos. Doações - dinheiro, ração, itens de limpeza e itens para animais -  são parte essencial de nossa organização, uma vez que não geramos lucro.\n                ",
-      "bio4": "                   E é claro que não podemos esquecer nossos voluntários. São eles que fazem a \"mágica\" acontecer, que traduzem nossos valores para o mundo real. Não recebem nada em troca, mas mesmo assim dedicam parte de seu tempo para fazer o bem.\n                  ",
-      "donationinfo": "                Para doações em dinheiro, nossa chave pix é: 123.456.789-00\n                Para doações de materiais, recebemos de segunda à sexta, das 8:00 às 16:00, no endereço Rua taltal número 0, bairro pspsp\n                Caso deseje voluntariar, favor entrar em contato via WhatsApp com o número (31)91234-5678\n              ",
-      "belongsTo": 4,
-      "id": 1
-    }
-  ],
-  "posts": [
-    {
-      "postId": 1,
-      "belongsTo": 4,
-      "ongPageURL": "./ongpage.html?ong_id=4",
-      "ongName": "teste",
-      "text": "sim, socorro",
-      "time": 1702147225044,
-      "comments": null,
-      "id": 1
+    "id": 1,
+    "ongname": "QuatroPatas",
+    "heading1": "",
+    "heading2": "",
+    "heading3": "",
+    "bio1": "",
+    "bio2": "",
+    "bio3": "",
+    "bio4": "",
+    "donationinfo": "",
+    "belongsTo": "",
+    "img1": "https://picsum.photos/1366/591",
+    "img2": "https://picsum.photos/400/350",
+    "img3": "https://picsum.photos/400/350",
+    "img4": "https://picsum.photos/400/350",
+    "img5": "https://picsum.photos/608/450",
+    "img6": "https://picsum.photos/608/450"
     }
   ]
 }
