@@ -26,7 +26,7 @@ async function initMap() {
                         // TODO icon: heartIcon,
                     });
                     marker.addListener('click', function () {
-                        window.open(`./ongpage.html?id=${ong.id}`, '_blank');
+                        window.open(`./ongpage.html?ongid=${ong.id}`, '_blank');
                     });
                 })
             }

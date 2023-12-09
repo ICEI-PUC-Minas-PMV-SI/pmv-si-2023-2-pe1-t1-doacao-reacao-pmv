@@ -21,6 +21,7 @@ fetch(
 }
 ).then(onginfo => onginfo.json()).then(onginfo => { 
 
+
 let ongpage = document.getElementById('ongpage');   
 
 var mainDiv = document.createElement('div');
@@ -40,8 +41,8 @@ img1Div.className = 'image-container';
 boxDiv.appendChild(img1Div);
 
 var img1 = document.createElement('img');
-img1.id = image1; // como faz pra dizer da onde vem a imagem?
-img1Div.appendChild(img1);
+img1.id = img1; // como faz pra dizer da onde vem a imagem?
+img1Div.appendChild(onginfo.img1);
 
 var centeredDiv = document.createElement('div');
 centeredDiv.className = 'centered';
@@ -69,7 +70,7 @@ wrapperDiv.appendChild(img2Div);
 
 var img2 = document.createElement('img');
 img2.className = 'square-one';
-img2Div.appendChild(img2); //imagem
+img2Div.appendChild(onginfo.img2); //imagem
 
 var img3Div = document.createElement('div');
 img3Div.className = 'image-container2';
@@ -77,7 +78,7 @@ wrapperDiv.appendChild(img3Div);
 
 var img3 = document.createElement('img');
 img3.className = 'square-two';
-img3Div.appendChild(img3); //imagem
+img3Div.appendChild(onginfo.img3); //imagem
 
 var img4Div = document.createElement('div');
 img4Div.className = 'image-container2';
@@ -85,7 +86,7 @@ wrapperDiv.appendChild(img4Div);
 
 var img4 = document.createElement('img');
 img4.className = 'square-three';
-img4Div.appendChild(img4); //imagem
+img4Div.appendChild(onginfo.img4); //imagem
 
 var head2Div = document.createElement('div');
 head2Div.className = 'text-one';
@@ -130,7 +131,7 @@ var img5Div = document.createElement('div');
 emptyDiv.appendChild(img5Div);
 
 var img5 = document.createElement('img');
-img5Div.appendChild(img5); //imagem
+img5Div.appendChild(onginfo.img5); //imagem
 
 var bloco3Div = document.createElement('div');
 bloco3Div.className = 'text-four';
@@ -144,6 +145,7 @@ var img6Div = document.createElement('div');
 emptyDiv.appendChild(img6Div);
 
 var img6 = document.createElement('img');
+img6.src = onginfo.img6;
 img5Div.appendChild(img6); //imagem
 
 var head4Div = document.createElement('div');
