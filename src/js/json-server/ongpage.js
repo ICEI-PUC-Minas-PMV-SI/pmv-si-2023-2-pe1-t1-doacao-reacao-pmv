@@ -48,7 +48,7 @@ var centeredDiv = document.createElement('div');
 centeredDiv.classList.add('centered');
 img1Div.appendChild(centeredDiv);
 
-var centered = document.createElement('h2');
+var centered = document.createElement('h1');
 centered.textContent = onginfo.ongname;
 centeredDiv.appendChild(centered);
 
