@@ -1,30 +1,25 @@
 const ongpageURL = 'http://localhost:3001/ongpages'
 const loggedOngPage = './ongpage.html?ongid=4'
 
+const getResultsFromQueryParams = () => {
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+      })
+      return params.ongid
+}
+
+const ongid = getResultsFromQueryParams()
+
+
 fetch(
-    ongpageURL,
+    `${ongpageURL}/${ongid}`,
     {
     headers: {
         'Content-Type': 'application/json'
     },
     method: 'GET',
-    body: JSON.stringify({
-    ongname: "QuatroPatas",
-    heading1: "",
-    heading2: "",
-    heading3: "",
-    bio1: "",
-    bio2: "",
-    bio3: "",
-    bio4: "",
-    donationinfo: "",
-    belongsTo: ""
-    }),
-).then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
-
-
-
-
+}
+).then(onginfo => onginfo.json()).then(onginfo => { 
 var mainDiv = document.createElement('div');
 mainDiv.id = 'main';
 document.body.appendChild(mainDiv);
@@ -47,13 +42,19 @@ img1Div.appendChild(img1);
 
 var centeredDiv = document.createElement('div');
 centeredDiv.className = 'centered';
-centeredDiv.textContent = ongname;
 img1Div.appendChild(centeredDiv);
+
+var centered = document.createElement('h2');
+centered.textContent = onginfo.ongname;
+centeredDiv.appendChild(centered);
 
 var head1Div = document.createElement('div');
 head1Div.className = 'text-one';
-head1Div.textContent = heading1;
 boxDiv.appendChild(head1Div);
+
+var head1 = document.createElement('h2');
+head1.textContent = onginfo.heading1;
+head1Div.appendChild(head1);
 
 var wrapperDiv = document.createElement('div');
 wrapperDiv.className = 'content-wrapper';
@@ -85,26 +86,43 @@ img4Div.appendChild(img4); //imagem
 
 var head2Div = document.createElement('div');
 head2Div.className = 'text-one';
-head2Div.textContent = heading2;
 boxDiv.appendChild(head2Div); 
+
+var head2 = document.createElement('h2');
+head2.textContent = onginfo.heading2;
+head2Div.appendChild(head2);
 
 var bloco1Div = document.createElement('div');
 bloco1Div.className = 'text-three';
-bloco1Div.textContent = bio1; bio2;
-boxDiv.appendChild(bloco1Div); //texto, dois parágrafos
+boxDiv.appendChild(bloco1Div);
+
+var bloco1 = document.createElement('p')
+bloco1.textContent = onginfo.bio1;
+bloco1Div.appendChild(bloco1);
+
+var bloco2 = document.createElement('p')
+bloco2.textContent = onginfo.bio2;
+bloco1Div.appendChild(bloco2);
 
 var head3Div = document.createElement('div');
 head3Div.className = 'text-one1';
-head3Div.textContent = heading3;
 boxDiv.appendChild(head3Div);
+
+var head3 = document.createElement('h2');
+head3.textContent = onginfo.heading3;
+head3Div.appendChild(head3);
 
 const emptyDiv = document.createElement('div');
 boxDiv.appendChild(emptyDiv);
 
 var bloco2Div = document.createElement('div');
 bloco2Div.className = 'text-three';
-bloco2Div.textContent = bio3;
-emptyDiv.appendChild(bloco2Div); 
+emptyDiv.appendChild(bloco2Div);
+
+var bloco2 = document.createElement('p');
+bloco2.textContent = onginfo.bio3;
+bloco2Div.appendChild(bloco2);
+
 var img5Div = document.createElement('div');
 emptyDiv.appendChild(img5Div);
 
@@ -113,8 +131,11 @@ img5Div.appendChild(img5); //imagem
 
 var bloco3Div = document.createElement('div');
 bloco3Div.className = 'text-four';
-bloco3Div.textContent = bio4;
 emptyDiv.appendChild(bloco3Div); 
+
+var bloco3 = document.createElement('p');
+bloco3.textContent = onginfo.bio4;
+bloco3Div.appendChild(bloco3);
 
 var img6Div = document.createElement('div');
 emptyDiv.appendChild(img6Div);
@@ -124,13 +145,19 @@ img5Div.appendChild(img6); //imagem
 
 var head4Div = document.createElement('div');
 head4Div.className = 'text-one';
-head4Div.textContent = donationinfo;
 boxDiv.appendChild(head4Div); 
+
+var head4 = document.createElement('h2');
+head4.textContent = 'Apoie nossa causa';
+head4Div.appendChild(head4);
 
 var bloco4Div = document.createElement('div');
 bloco4Div.className = 'finalp';
-bloco4Div.textContent = donationinfo;
-boxDiv.appendChild(bloco4Div); //texto, três parágrafos
+boxDiv.appendChild(bloco4Div); 
 
+var bloco4 = document.createElement('p');
+bloco4.textContent = onginfo.donationinfo;
+bloco4Div.appendChild(bloco4);
+})
 
 
