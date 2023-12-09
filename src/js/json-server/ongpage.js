@@ -41,11 +41,11 @@ img1Div.className = 'image-container';
 boxDiv.appendChild(img1Div);
 
 var img1 = document.createElement('img');
-img1.src = onginfo.img1; // como faz pra dizer da onde vem a imagem?
+img1.src = onginfo.img1;
 img1Div.appendChild(img1);
 
 var centeredDiv = document.createElement('div');
-centeredDiv.className = 'centered';
+centeredDiv.classList.add('centered');
 img1Div.appendChild(centeredDiv);
 
 var centered = document.createElement('h2');
@@ -71,7 +71,7 @@ wrapperDiv.appendChild(img2Div);
 var img2 = document.createElement('img');
 img2.className = 'square-one';
 img2.src = onginfo.img2;
-img2Div.appendChild(img2); //imagem
+img2Div.appendChild(img2);
 
 var img3Div = document.createElement('div');
 img3Div.className = 'image-container2';
@@ -80,7 +80,7 @@ wrapperDiv.appendChild(img3Div);
 var img3 = document.createElement('img');
 img3.className = 'square-two';
 img3.src = onginfo.img3;
-img3Div.appendChild(img3); //imagem
+img3Div.appendChild(img3); 
 
 var img4Div = document.createElement('div');
 img4Div.className = 'image-container2';
@@ -89,7 +89,7 @@ wrapperDiv.appendChild(img4Div);
 var img4 = document.createElement('img');
 img4.className = 'square-three';
 img4.src = onginfo.img4;
-img4Div.appendChild(img4); //imagem
+img4Div.appendChild(img4);
 
 var head2Div = document.createElement('div');
 head2Div.className = 'text-one';
@@ -135,7 +135,7 @@ emptyDiv.appendChild(img5Div);
 
 var img5 = document.createElement('img');
 img5.src = onginfo.img5;
-img5Div.appendChild(img5); //imagem
+img5Div.appendChild(img5)
 
 var bloco3Div = document.createElement('div');
 bloco3Div.className = 'text-four';
@@ -150,7 +150,7 @@ emptyDiv.appendChild(img6Div);
 
 var img6 = document.createElement('img');
 img6.src = onginfo.img6;
-img5Div.appendChild(img6); //imagem
+img5Div.appendChild(img6)
 
 var head4Div = document.createElement('div');
 head4Div.className = 'text-one';
