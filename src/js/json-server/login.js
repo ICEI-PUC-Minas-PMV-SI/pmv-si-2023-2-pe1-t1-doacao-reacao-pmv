@@ -1,9 +1,10 @@
-    const loginForm = document.getElementById("login-form")
+const loginForm = document.getElementById("login-form")
 const mailErrorMsg = document.getElementById("mail-error-msg")
 const passwordErrorMsg = document.getElementById("password-error-msg")
 
-const loggedOngPage = "./home-logged.html"
-const accountsURL= 'http://localhost:3001/accounts'
+const JSONServerURL = 'http://localhost:3001'
+const accountsURL = `${JSONServerURL}/accounts`
+const loggedPage = './home-logged.html'
 
 loginForm.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -29,6 +30,6 @@ loginForm.addEventListener("submit", async (e) => {
     } else {
         localStorage.setItem("user_id", foundUser.id)
         localStorage.setItem("ong_id", foundUser.ong)
-        location.replace(loggedOngPage);
+        location.replace(loggedPage);
     }
 })

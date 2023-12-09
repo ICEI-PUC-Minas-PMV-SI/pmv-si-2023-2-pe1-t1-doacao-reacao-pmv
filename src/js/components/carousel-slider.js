@@ -1,10 +1,11 @@
-const ongsUrl = 'http://localhost:3001/ongs';
+const JSONServerURL = 'http://localhost:3001'
+const ongsURL = `${JSONServerURL}/ongs`
 
 class CarouselSlider extends HTMLElement {
     //PRECISAREMOS PEGAR DO ONGPAGE, ao invés do ONGS
     async getCarouselSlidesContent() {
         try {
-            const response = await fetch(ongsUrl);
+            const response = await fetch(ongsURL);
             const ongs = await response.json();
             
             const selectedOngs = ongs.sort(() => Math.random() - 0.5).slice(0, 9);

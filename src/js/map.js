@@ -8,8 +8,8 @@ const mapProperties = {
 }
 
 //TODO const heartIcon = './assets/heart-icon.png';
-
-const ongsURL = 'http://localhost:3001/ongs';
+const JSONServerURL = 'http://localhost:3001'
+const ongsURL = `${JSONServerURL}/ongs`
 let map
 async function initMap() {
     map = new google.maps.Map(document.getElementById('ongs-map'), mapProperties);

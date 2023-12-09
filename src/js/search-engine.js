@@ -1,4 +1,5 @@
-const ongsPath = 'http://localhost:3001/ongs'
+const JSONServerURL = 'http://localhost:3001'
+const ongsURL = `${JSONServerURL}/ongs`
 
 const search = (objectData, input, flags,) => {
 
@@ -25,7 +26,7 @@ const searchButton = document.getElementById("search-button")
 
 searchButton.addEventListener("click", async() => {
 
-const response = await fetch(ongsPath)
+const response = await fetch(ongsURL)
 
 const ongs = await response.json()
 
