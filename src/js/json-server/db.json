@@ -80,7 +80,13 @@
     "bio3": "",
     "bio4": "",
     "donationinfo": "",
-    "belongsTo": ""
+    "belongsTo": "",
+    "img1": "https://picsum.photos/1366/591",
+    "img2": "https://picsum.photos/400/350",
+    "img3": "https://picsum.photos/400/350",
+    "img4": "https://picsum.photos/400/350",
+    "img5": "https://picsum.photos/608/450",
+    "img6": "https://picsum.photos/608/450"
     }
   ]
 }

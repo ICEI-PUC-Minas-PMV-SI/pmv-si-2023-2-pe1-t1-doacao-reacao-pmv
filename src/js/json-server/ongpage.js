@@ -20,6 +20,9 @@ fetch(
     method: 'GET',
 }
 ).then(onginfo => onginfo.json()).then(onginfo => { 
+
+let ongpage = document.getElementById('ongpage');   
+
 var mainDiv = document.createElement('div');
 mainDiv.id = 'main';
 document.body.appendChild(mainDiv);
@@ -158,6 +161,8 @@ boxDiv.appendChild(bloco4Div);
 var bloco4 = document.createElement('p');
 bloco4.textContent = onginfo.donationinfo;
 bloco4Div.appendChild(bloco4);
+
+ongpage.appendChild(mainDiv);
 })
 
 
