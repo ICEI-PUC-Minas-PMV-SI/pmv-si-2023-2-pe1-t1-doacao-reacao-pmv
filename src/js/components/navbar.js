@@ -38,15 +38,15 @@ class NavigationBar extends HTMLElement {
     return [
       {
         label: 'Página Inicial',
-        href: './index.html',
+        href: './home-logged.html',
       },
       {
         label: 'Mapa de Ongs',
         href: './ongs-map.html',
       },
       {
-        label: 'Cadastrar ONG',
-        href: `./ong-page.html?id=${ong_id}`,
+        label: 'Minha Ong',
+        href: `./ongpage.html?ongid=${ong_id}`,
       }
     ]
   }
@@ -122,12 +122,11 @@ class NavigationBar extends HTMLElement {
   }
 
   makeListItems(ul) {
-    const user_id = localStorage.getItem('user_id')
-    const ong_id = localStorage.getItem('ong_id')
+    const user_id = localStorage.getItem("user_id")
+    const ong_id = localStorage.getItem("ong_id")
     let barItems
-    let ongpage_id
     if (user_id) {
-      if (ongpage_id) {
+      if (ong_id) {
         barItems = this.constructOngOwnerItems(ong_id)
       } else {
         barItems = this.loggedNavItems

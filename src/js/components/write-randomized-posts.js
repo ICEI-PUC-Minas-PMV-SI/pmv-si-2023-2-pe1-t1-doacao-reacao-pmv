@@ -1,62 +1,70 @@
-const postsURL = 'http://localhost:3001/posts'
-
-const getResultsFromQueryParams = () => {
-    const params = new Proxy(new URLSearchParams(window.location.search), {
-        get: (searchParams, prop) => searchParams.get(prop),
-      })
-      return params.results
-}
+const JSONServerURL = 'http://localhost:3001'
+const postsURL = `${JSONServerURL}/posts`
 
 const getOngsList = async() => {
-    const ongsJson = await fetch(ongsURL)
-    const ongsList = await ongsJson.json()
-    return ongsList
+    const postsJson = await fetch(postsURL)
+    const postsList = await postsJson.json()
+    return postsList
 }
 
-// o código que segue foi baseado na referência [6] do trabalho
 const main = async() => {
-    const ongs = await getOngsList()
-
-    const resultsIds = getResultsFromQueryParams()
-    console.log(resultsIds)
-
+    const posts = await getPostsList()
     const resultsOngs = ongs.filter(ong => resultsIds.includes(ong.id))
 
-    console.log(resultsOngs)
+    let randomPostsListSpace = document.getElementById("randomized-posts")
 
-    let searchResultslist = document.getElementById("search-results")
-    resultsOngs.forEach((ong) => {
+    resultsOngs.forEach((post) => {
 
-        let searchResultDiv = document.createElement("div")
-        searchResultDiv.classList.add("searchresult")
+        let postDiv = document.createElemsent("div")
+        postDiv.classList.add("post")
 
-        const img = document.createElement("img")
-        img.src = ong.profilePicture
-        searchResultDiv.appendChild(img)
+        let userInfoDiv = document.createElement("div")
+        postDiv.classList.add("user-info")
+        let userName = document.createElement("a")
+        userName.classList.add("user-name")
+        userName.href = post.ongPageURL
+        userName.textContent = post.ongName
+        let postTime = document.createElement("p")
+        postTime.classList.add("post-time")
+        const time = new Date(Number(post.time))
+        formattedTime = time.toLocaleDateString('pt-Br',{ dateStyle: 'long' })
+        postTime.textContent = formattedTime
+        userInfoDiv.appendChild(userName)
+        userInfoDiv.appendChild(postTime)
+        postDiv.appendChild(userInfoDiv)
 
-        let searchResultContentDiv = document.createElement("div")
-        searchResultDiv.classList.add("searchresult-content")
-
-        let a = document.createElement("a")
-        a.href = `./ongpage.html?id=${ong.id}`
-        const h2 = document.createElement("h2")
-        h2.textContent = ong.title
-        a.appendChild(h2)
-        searchResultContentDiv.appendChild(a)
+        let postText = document.createElement("div")
+        postText.classList.add("post-text")
+        postText.textContent = post.text
+        postDiv.appendChild(postText)
         
-        const p1 = document.createElement("p")
-        p1.classList.add("ongadress")
-        p1.textContent = buildOngAdress(ong)
-        searchResultContentDiv.appendChild(p1);
-        
-        
-        const pElement2 = document.createElement("p")
-        pElement2.textContent = ong.description
-        searchResultContentDiv.appendChild(pElement2)
+        let postImageContainer = document.createElement("div")
+        postImageContainer.classList.add("post-image-container")
+        let postImages = post.images
+        postImages.forEach((image) =>{
+            {
+                let imageLinkElement = document.createElement("a")
+                imageLinkElement.href = image.src //TODO: link to image page
+                let imageElement = document.createElement("img")
+                imageElement.src = image.src
+                imageElement.classList.add("post-image")
+                imageLinkElement.appendChild(imageElement)
+                postImageContainer.appendChild(imageLinkElement)
+            }
+        })
+        postDiv.appendChild(postImageContainer)
 
+        /*
+        let postActionsDiv = document.createElement("div")
+        postActionsDiv.classList.add("post-actions")
+        let shareButton = document.createElement("button")
+        let shareButtonIcon = document.createElement("i")
+        shareButtonIcon.classList.add("fas")
+        //let commentButton = document.createElement("button")
+*/
         searchResultDiv.appendChild(searchResultContentDiv)
     
-        searchResultslist.appendChild(searchResultDiv)
+        randomPostsListSpace.appendChild()
     }) 
 }
 

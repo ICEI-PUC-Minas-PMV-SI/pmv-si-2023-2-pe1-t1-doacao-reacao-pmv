@@ -6,14 +6,16 @@
       "password": "123456",
       "firstName": "John",
       "lastName": "Doe",
-      "ongpage": null
+      "ongpage": null,
+      "ong": 4
     },
     {
       "id": 2,
       "mail": "aaaa@gmial.com",
       "password": "123",
       "firstName": "aaa",
-      "lastName": "bbb"
+      "lastName": "bbb",
+      "ongpage": null
     }
   ],
   "ongs": [
@@ -58,6 +60,20 @@
         "number": "0",
         "position": "-19.919157028198242,-43.93867874145508"
       }
+    },
+    {
+      "id": 4,
+      "title": "teste",
+      "cause": "Necessidades especiais",
+      "belongsToUser": 1,
+      "location": {
+        "city": "Belo Horizonte",
+        "uf": "SP",
+        "neighborhood": "Bandeirantes",
+        "street": "rua dos bobos",
+        "number": "0",
+        "position": null
+      }
     }
   ],
   "comments": [
@@ -70,5 +86,31 @@
   "profile": {
     "name": "typicode"
   },
-  "ongpages": []
+  "ongpages": [
+    {
+      "ongname": "",
+      "heading1": "",
+      "heading2": "",
+      "heading3": "",
+      "bio1": "                    Nossa ONG foi fundada por um grupo de amigos que compartilhavam uma crença: a de que os animais merecem os mesmos direitos básicos - como vida, saúde e alimentação - que nós.\n                  ",
+      "bio2": "                  Assim, visamos permitir que isso se torne realidade. Trabalhamos diretamente com donos e animais, doando ração, garantindo cuidados veterinários e fornecendo abrigo.\n                ",
+      "bio3": "                 Nossa atuação não seria possível se não fosse por toda a ajuda que recebemos. Doações - dinheiro, ração, itens de limpeza e itens para animais -  são parte essencial de nossa organização, uma vez que não geramos lucro.\n                ",
+      "bio4": "                   E é claro que não podemos esquecer nossos voluntários. São eles que fazem a \"mágica\" acontecer, que traduzem nossos valores para o mundo real. Não recebem nada em troca, mas mesmo assim dedicam parte de seu tempo para fazer o bem.\n                  ",
+      "donationinfo": "                Para doações em dinheiro, nossa chave pix é: 123.456.789-00\n                Para doações de materiais, recebemos de segunda à sexta, das 8:00 às 16:00, no endereço Rua taltal número 0, bairro pspsp\n                Caso deseje voluntariar, favor entrar em contato via WhatsApp com o número (31)91234-5678\n              ",
+      "belongsTo": 4,
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "postId": 1,
+      "belongsTo": 4,
+      "ongPageURL": "./ongpage.html?ong_id=4",
+      "ongName": "teste",
+      "text": "sim, socorro",
+      "time": 1702147225044,
+      "comments": null,
+      "id": 1
+    }
+  ]
 }

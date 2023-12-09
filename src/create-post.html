@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/components/search-box.js"></script>
@@ -9,30 +10,28 @@
     <link rel="stylesheet" type="text/css" href="./css/index.css">
     <link rel="stylesheet" href="css/create-post.css" />
     <title>Criar Publicação</title>
- </head>
+</head>
 
- <body>
+<body>
     <navigation-bar></navigation-bar>
     <div id="main">
         <div style="height: 11vh;"></div>
         <div class="post">
             <div class="user-info">
-             <img class="profile-photo" src="https://picsum.photos/103/103">
-             <div class="user-details">
-              <h2 class="ong-name">Nome da Ong</h2>
-             </div>
+                <div class="user-details">
+                    <h2 class="ong-name">Tem algo a dizer para os seus seguidores?</h2>
+                </div>
             </div>
-            <p class="form-tip">Tem algo a dizer para os seus seguidores?</p>
-            <textarea class="input1" id="sendcoment" name="message" rows="10" cols="30" placeholder="Digite aqui..."></textarea>             
-            <button class="input" type="submit">Enviar</button>
+            <form id="post-form">
+                <textarea class="input1" name="post" rows="10" cols="30" placeholder="Digite aqui..."></textarea>
+                <button class="input" type="submit">Enviar</button>
+            </form>
         </div>
         <div style="height: 30vh;"></div>
-
-
-
-
         <script src="js/scroll-handler.js"></script>
+        <script src="js/json-server/create-post.js"></script>
     </div>
-    <custom-footer></custom-footer>  
- </body>
+    <custom-footer></custom-footer>
+</body>
+
 </html>

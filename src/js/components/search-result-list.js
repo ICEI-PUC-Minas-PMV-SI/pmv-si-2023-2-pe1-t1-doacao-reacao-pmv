@@ -1,4 +1,5 @@
-const ongsURL = 'http://localhost:3001/ongs'
+const JSONServerURL = 'http://localhost:3001'
+const ongsURL = `${JSONServerURL}/ongs`
 
 
 const buildOngAdress = (ong) => {
@@ -42,7 +43,7 @@ const main = async() => {
         searchResultDiv.classList.add("searchresult-content")
 
         let a = document.createElement("a")
-        a.href = `./ongpage.html?id=${ong.id}`
+        a.href = `./ongpage.html?ongid=${ong.id}`
         const h2 = document.createElement("h2")
         h2.textContent = ong.title
         a.appendChild(h2)
