@@ -34,5 +34,5 @@ postForm.addEventListener("submit", async (e) => {
                 comments: null,
             }),
         }).then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
-    location.replace(`${ongPage}?id=${postingOngId}`);
+   window.location.replace(`${ongPage}?id=${postingOngId}`);
 })

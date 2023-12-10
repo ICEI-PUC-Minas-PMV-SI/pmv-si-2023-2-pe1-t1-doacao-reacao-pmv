@@ -30,6 +30,6 @@ loginForm.addEventListener("submit", async (e) => {
     } else {
         localStorage.setItem("user_id", foundUser.id)
         localStorage.setItem("ong_id", foundUser.ong)
-        location.replace(loggedPage);
+       window.location.replace(loggedPage);
     }
 })

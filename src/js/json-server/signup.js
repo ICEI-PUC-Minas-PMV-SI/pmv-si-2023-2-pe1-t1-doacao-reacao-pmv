@@ -48,5 +48,5 @@ signupForm.addEventListener("submit", async (e) => {
             postResponse.json()
         })
         .then(postResponse => console.log(postResponse))
-    location.replace(loggedOngPage);
+   window.location.replace(loggedOngPage);
 })
