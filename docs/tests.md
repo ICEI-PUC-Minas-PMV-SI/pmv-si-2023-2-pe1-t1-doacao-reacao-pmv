@@ -94,6 +94,19 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-004 - Cadastrar uma organização não listada no site|
 |Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/EdYFs8xrpRtJrtheVjfz6bkBYHwmK339OLlU9sTy6PnZjQ | 
 
+|*Caso de Teste*                                 |*TC-04 - Criar peril da ONG*                                         |
+|---|---|
+|Requisito Associado | RF-004 - Cadastrar uma organização não listada no site|
+|Link do vídeo do teste realizado: || 
+
+|*Caso de Teste*                                 |*TC-05 - Receber feed das ONGS*                                         |
+|---|---|
+|Requisito Associado | RF-005 - Enviar feed de atividades da ONG para os usuários|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/EbldRGQSbjxAl4lERFublNYBcHBleOlWiiDE-pANNzsXew?e=AnjVwV| 
+
+
+
+
 
 ## Avaliação dos Testes de Software
 
