@@ -1,19 +1,20 @@
 const JSONServerURL = 'https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app'
-const ongsURL = `${JSONServerURL}/ongs`
+const ongpagesURL = `${JSONServerURL}/ongpages`
 
 class CarouselSlider extends HTMLElement {
     //PRECISAREMOS PEGAR DO ONGPAGE, ao invés do ONGS
     async getCarouselSlidesContent() {
         try {
-            const response = await fetch(ongsURL);
-            const ongs = await response.json();
+            const response = await fetch(ongpagesURL);
+            const ongpages = await response.json();
+            console.log(ongpages)
             
-            const selectedOngs = ongs.sort(() => Math.random() - 0.5).slice(0, 9);
-            const slideContent = selectedOngs.map(ong => ({
-                title: ong.title,
-                href: `./ongpage.html?ongid=${ong.id}`,
-                imgSrc: ong.profilePicture,
-                text: ong.description
+            const selectedOngs = ongpages.sort(() => Math.random() - 0.5).slice(0, 9);
+            const slideContent = selectedOngs.map(ongpage => ({
+                title: ongpage.ongname,
+                href: `./ongpage.html?ongid=${ongpage.id}`,
+                imgSrc: ongpage.img1,
+                text: ongpage.bio1.slice(0,20) + '...'
             }));
             return slideContent;
         } catch (error) {
@@ -35,8 +36,7 @@ class CarouselSlider extends HTMLElement {
 
     makeSlideImg(imgSrc) {
         let img = document.createElement('img');
-        //img.src = imgSrc;
-        img.src = 'https://placehold.co/600x400';
+        img.src = imgSrc || 'https://placehold.co/600x400';
         return img;
     }
 
