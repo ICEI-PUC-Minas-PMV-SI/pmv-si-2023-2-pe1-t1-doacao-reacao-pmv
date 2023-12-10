@@ -73,48 +73,6 @@
   "ongs": [
     {
       "id": 1,
-      "title": "AUJUDANDO OS BICHINHOS",
-      "cause": "Pets",
-      "belongsToUser": "ONG",
-      "location": {
-        "city": "Belo Horizonte",
-        "uf": "MG",
-        "neighborhood": "Savassi",
-        "street": "Rua dos Bobos",
-        "number": "0",
-        "position": "-19.919157028198242,-43.93867874145508"
-      }
-    },
-    {
-      "id": 2,
-      "title": "ABRAÇADORES DE ÁRVORES",
-      "cause": "Meio Ambiente",
-      "belongsToUser": "ONG",
-      "location": {
-        "city": "Belo Horizonte",
-        "uf": "MG",
-        "neighborhood": "Savassi",
-        "street": "Rua dos Bobos",
-        "number": "0",
-        "position": "-19.900357, -43.933753"
-      }
-    },
-    {
-      "id": 3,
-      "title": "CRIANÇAS FELIZES",
-      "cause": "Filantropia",
-      "belongsToUser": "ONG",
-      "location": {
-        "city": "Belo Horizonte",
-        "uf": "MG",
-        "neighborhood": "Savassi",
-        "street": "Rua dos Bobos",
-        "number": "0",
-        "position": "-19.919157028198242,-43.93867874145508"
-      }
-    },
-    {
-      "id": 4,
       "title": "QuatroPatas",
       "cause": "Animais",
       "belongsToUser": 1,
@@ -128,7 +86,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 2,
       "title": "Abrace",
       "cause": "Necessidades especiais",
       "belongsToUser": 3,
@@ -142,7 +100,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "Vira Lata é Dez",
       "cause": "Animais",
       "belongsToUser": 4,
@@ -156,7 +114,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 4,
       "title": "Gatópoles",
       "cause": "Animais",
       "belongsToUser": 5,
@@ -170,7 +128,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 5,
       "title": "Focinhos de Luz",
       "cause": "Pets",
       "belongsToUser": "ONG",
@@ -184,7 +142,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 6,
       "title": "Iniciativa Verde",
       "cause": "Meio Ambiente",
       "belongsToUser": "ONG",
