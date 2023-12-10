@@ -100,6 +100,12 @@ class NavigationBar extends HTMLElement {
     super();
   }
 
+  script = () => {
+    const script = document.createElement('script');
+    script.src = './js/navbar-search-engine.js';
+    return script;
+  }
+
   makeNavbar() {
     this.classList.add('nav');
     this.id = 'navigation-bar';
@@ -108,6 +114,7 @@ class NavigationBar extends HTMLElement {
     this.appendChild(this.h1());
     this.appendChild(this.searchBox());
     this.appendChild(this.toggle());
+    this.appendChild(this.script());
   }
 
   buildNavbar(barItems, ul) {
