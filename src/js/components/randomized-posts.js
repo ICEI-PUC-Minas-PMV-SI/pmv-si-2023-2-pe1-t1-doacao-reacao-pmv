@@ -1,7 +1,6 @@
-const JSONServerURL = 'http://localhost:3001'
 const postsURL = `${JSONServerURL}/posts`
 
-const getOngsList = async() => {
+const getPostsList = async() => {
     const postsJson = await fetch(postsURL)
     const postsList = await postsJson.json()
     return postsList
@@ -9,17 +8,18 @@ const getOngsList = async() => {
 
 const main = async() => {
     const posts = await getPostsList()
-    const resultsOngs = ongs.filter(ong => resultsIds.includes(ong.id))
+    const resultsPosts = posts.sort(() => Math.random() - 0.5).slice(0, 9)
 
     let randomPostsListSpace = document.getElementById("randomized-posts")
 
-    resultsOngs.forEach((post) => {
-
-        let postDiv = document.createElemsent("div")
+    resultsPosts.forEach((post) => {
+        let postDiv = document.createElement("div")
         postDiv.classList.add("post")
 
         let userInfoDiv = document.createElement("div")
-        postDiv.classList.add("user-info")
+        userInfoDiv.classList.add("user-info")
+        let userDetailsDiv = document.createElement("div")
+        userDetailsDiv.classList.add("user-details")
         let userName = document.createElement("a")
         userName.classList.add("user-name")
         userName.href = post.ongPageURL
@@ -29,11 +29,12 @@ const main = async() => {
         const time = new Date(Number(post.time))
         formattedTime = time.toLocaleDateString('pt-Br',{ dateStyle: 'long' })
         postTime.textContent = formattedTime
-        userInfoDiv.appendChild(userName)
-        userInfoDiv.appendChild(postTime)
+        userDetailsDiv.appendChild(userName)
+        userDetailsDiv.appendChild(postTime)
+        userInfoDiv.appendChild(userDetailsDiv)
         postDiv.appendChild(userInfoDiv)
 
-        let postText = document.createElement("div")
+        let postText = document.createElement("p")
         postText.classList.add("post-text")
         postText.textContent = post.text
         postDiv.appendChild(postText)
@@ -45,6 +46,7 @@ const main = async() => {
             {
                 let imageLinkElement = document.createElement("a")
                 imageLinkElement.href = image.src //TODO: link to image page
+                imageLinkElement.classList.add("post-image-link")
                 let imageElement = document.createElement("img")
                 imageElement.src = image.src
                 imageElement.classList.add("post-image")
@@ -61,10 +63,8 @@ const main = async() => {
         let shareButtonIcon = document.createElement("i")
         shareButtonIcon.classList.add("fas")
         //let commentButton = document.createElement("button")
-*/
-        searchResultDiv.appendChild(searchResultContentDiv)
-    
-        randomPostsListSpace.appendChild()
+*/    
+        randomPostsListSpace.appendChild(postDiv)
     }) 
 }
 
