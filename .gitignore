@@ -3,3 +3,5 @@
 src/js/node_modules
 
 src/js/.env
+
+src/js/json-server/server-api/node_modules

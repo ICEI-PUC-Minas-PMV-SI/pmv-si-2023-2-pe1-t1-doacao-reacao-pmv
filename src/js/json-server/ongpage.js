@@ -151,7 +151,7 @@ emptyDiv.appendChild(img6Div);
 
 var img6 = document.createElement('img');
 img6.src = onginfo.img6;
-img5Div.appendChild(img6)
+img6Div.appendChild(img6)
 
 var head4Div = document.createElement('div');
 head4Div.classList.add('text-one');
