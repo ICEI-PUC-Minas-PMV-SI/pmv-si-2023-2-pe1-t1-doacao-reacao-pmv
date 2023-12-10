@@ -23,7 +23,7 @@ const searchButton = document.getElementById("search-button")
 
 searchButton.addEventListener("click", async() => {
 
-const response = await fetch('http://localhost:3001/ongs')
+const response = await fetch('https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/ongs')
 
 const ongs = await response.json()
 

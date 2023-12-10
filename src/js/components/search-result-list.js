@@ -12,7 +12,7 @@ const getResultsFromQueryParams = () => {
 }
 
 const getOngsList = async() => {
-    const ongsJson = await fetch(' http://localhost:3001/ongs')
+    const ongsJson = await fetch(' https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/ongs')
     const ongsList = await ongsJson.json()
     return ongsList
 }

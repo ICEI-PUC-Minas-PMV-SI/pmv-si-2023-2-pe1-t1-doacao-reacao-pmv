@@ -8,7 +8,7 @@ const main = async() => {
     }
 
     const getPostsList = async() => {
-        const postsJson = await fetch("http://localhost:3001/posts")
+        const postsJson = await fetch("https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/posts")
         const postsList = await postsJson.json()
         return postsList
     }

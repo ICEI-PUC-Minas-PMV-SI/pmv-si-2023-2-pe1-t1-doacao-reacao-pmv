@@ -12,7 +12,7 @@ postForm.addEventListener("submit", async (e) => {
     const posts = await postsResponse.json()
 
     const postingOngId = Number(localStorage.getItem("ong_id"))
-    const ongResponse = await fetch(`${' http://localhost:3001/ongs'}/${postingOngId}`)
+    const ongResponse = await fetch(`${' https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/ongs'}/${postingOngId}`)
     const ong = await ongResponse.json()
 
     console.log(ong.name)

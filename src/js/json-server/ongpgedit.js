@@ -1,4 +1,4 @@
-const JSONServerURL = 'http://localhost:3001'
+const JSONServerURL = 'https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app'
 const ongpageURL = `${JSONServerURL}/ongpages`
 const ongPage = './ongpage.html'
 

@@ -1,6 +1,6 @@
 
 const causesList = async() => {
-    const ongsResponse = await fetch(' http://localhost:3001/ongs')
+    const ongsResponse = await fetch(' https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/ongs')
     const ongs = await ongsResponse.json()
     const uniqueCauses = [...new Set(ongs.filter(ong => Boolean(ong.cause)).map(ong => ong.cause))]
     return Array.from(uniqueCauses)

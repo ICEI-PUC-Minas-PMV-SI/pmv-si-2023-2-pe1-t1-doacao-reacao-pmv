@@ -11,7 +11,7 @@ const mapProperties = {
 let map
 async function initMap() {
     map = new google.maps.Map(document.getElementById('ongs-map'), mapProperties);
-    const ongs = (await fetch('http://localhost:3001/ongs')).json()
+    const ongs = (await fetch('https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/ongs')).json()
     Promise.resolve(ongs)
         .then(
             ongs => {

@@ -1,4 +1,4 @@
-const JSONServerURL = 'http://localhost:3001'
+const JSONServerURL = 'https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app'
 const ongpageURL = `${JSONServerURL}/ongpages`
 const loggedOngPage = './ongpage.html?ongid=4'
 
@@ -13,7 +13,7 @@ const ongid = getResultsFromQueryParams()
 
 
 fetch(
-    `http://localhost:3001/ongpages/${ongid}`,
+    `https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/ongpages/${ongid}`,
     {
     headers: {
         'Content-Type': 'application/json'

@@ -2,7 +2,7 @@ const signupForm = document.getElementById("signup-form")
 const mailErrorMsg = document.getElementById("mail-error-msg")
 
 const loggedOngPage = "./home-logged.html"
-const JSONServerURL = 'http://localhost:3001'
+const JSONServerURL = 'https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app'
 const accountsURL = `${JSONServerURL}/accounts`
 
 signupForm.addEventListener("submit", async (e) => {

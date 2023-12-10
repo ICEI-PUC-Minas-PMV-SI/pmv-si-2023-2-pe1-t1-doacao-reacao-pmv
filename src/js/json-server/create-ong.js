@@ -1,14 +1,14 @@
 const ongInfoForm = document.getElementById("create-ong-info")
 
 const editOngPageAdress = "./ongpgedit.html"
-const accountsURL = 'http://localhost:3001/accounts'
+const accountsURL = 'https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/accounts'
 
 ongInfoForm.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     console.log(ongInfoForm)
 
-    const response = await fetch(' http://localhost:3001/ongs')
+    const response = await fetch(' https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/ongs')
     const ongs = await response.json()
 
     const causes = ongInfoForm.causas
@@ -31,7 +31,7 @@ ongInfoForm.addEventListener("submit", async (e) => {
     }
 
     fetch(
-        ' http://localhost:3001/ongs',
+        ' https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/ongs',
         {
             headers: {
                 'Content-Type': 'application/json'
