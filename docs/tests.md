@@ -81,13 +81,13 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*TC-01 - Criar uma conta de usuário*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | [https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t](https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/Efon7RVz1Q5FvGRTqEyn5jYBm-gZh1RHh63xNaPjrTt9CQ?e=RqDmIu)| 
+|Requisito Associado | RF-004 - Cadastrar uma organização não listada no site. |
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/Efon7RVz1Q5FvGRTqEyn5jYBm-gZh1RHh63xNaPjrTt9CQ?e=RqDmIu| 
 
 |*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-004 - Cadastrar uma organização não listada no site|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/EWgvHXY8ultGrVBOt5tMNWEBGjCtNCIgI5pnOUyGK9Zvjg?e=Mun0xo | 
 
 
 ## Avaliação dos Testes de Software
