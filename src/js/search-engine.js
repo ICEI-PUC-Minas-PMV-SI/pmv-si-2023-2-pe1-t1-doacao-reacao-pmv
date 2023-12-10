@@ -1,6 +1,3 @@
-const JSONServerURL = 'http://localhost:3001'
-const ongsURL = `${JSONServerURL}/ongs`
-
 const search = (objectData, input, flags,) => {
 
     const result = objectData.filter((ong)=>{
@@ -26,7 +23,7 @@ const searchButton = document.getElementById("search-button")
 
 searchButton.addEventListener("click", async() => {
 
-const response = await fetch(ongsURL)
+const response = await fetch('http://localhost:3001/ongs')
 
 const ongs = await response.json()
 

@@ -5,6 +5,7 @@ class SearchBox extends HTMLElement {
 
   makeInput() {
     const input = document.createElement('input');
+    input.id = 'navbar-search-input';
     input.type = 'text';
     input.placeholder = 'Buscar';
     return input;
@@ -12,6 +13,7 @@ class SearchBox extends HTMLElement {
 
   makeButton() {
     const button = document.createElement('p');
+    button.id = 'navbar-search-button';
     button.textContent = '🔎';
     return button;
   }
