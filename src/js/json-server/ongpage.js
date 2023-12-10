@@ -6,7 +6,7 @@ const getResultsFromQueryParams = () => {
     const params = new Proxy(new URLSearchParams(window.location.search), {
         get: (searchParams, prop) => searchParams.get(prop),
       })
-      return params.ong_id
+      return params.ongid
 }
 
 const ongid = getResultsFromQueryParams()
