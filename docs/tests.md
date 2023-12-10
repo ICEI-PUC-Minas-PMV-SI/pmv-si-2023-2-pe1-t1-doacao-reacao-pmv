@@ -66,9 +66,17 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT06 - Exibir feed de publicações de ONGs para usuários**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário clica em "Página inicial" na navbar.
+**Procedimento**  | 1) Usuário clica em "Página Inicial" na navbar.
 **Requisitos associados** | RF-005
 **Resultado esperado** | Usuário é redirecionado para a página inicial, onde recebe todos os posts de ONGs em um feed.
+**Dados de entrada** | Nenhum.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT07 - Exibir ONG por localização**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica em "Encontrar ONGs" na navbar. <br>2) Usuário é redirecionado para a página de busca e clica em "Mapa da Região". <br>3) Usuário é redirecionado para a API do Google Maps onde as ONGs estão mapeadas, e clica em uma delas.
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário é redirecionado para a página de perfil da ONG em que clicou.
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
@@ -110,6 +118,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-005 - Exibir as principais informações das ONGs selecionadas|
 |Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/ERbTs53Olk1Bg4MwUTabu_cBZEusCOy4idqG9MoUZvcqQA?e=9ooOIc| 
 
+Mapear e exibir ONGS de acordo com localização
+
+|*Caso de Teste*                                 |*TC-06 - Exibir ONGs no mapa*                                         |
+|---|---|
+|Requisito Associado | RF-001 - Mapear e exibir ONGS de acordo com localização|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/ERsrjkIVDw5MjGCEZzOhpO0Bx75Q8da49wzdjpnqx2NzCg?e=RpLImb| 
 
 
 
