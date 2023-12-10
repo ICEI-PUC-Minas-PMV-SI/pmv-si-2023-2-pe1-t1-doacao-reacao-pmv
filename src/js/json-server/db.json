@@ -23,7 +23,8 @@
       "password": "abcde",
       "firstName": "fulano",
       "lastName": "de tal",
-      "ongpage": null
+      "ongpage": null,
+      "ong": 5
     },
     {
       "id": 4,
@@ -31,7 +32,8 @@
       "password": "abcde",
       "firstName": "Emily",
       "lastName": "Smith",
-      "ongpage": null
+      "ongpage": null,
+      "ong": 6
     },
     {
       "id": 5,
@@ -39,7 +41,8 @@
       "password": "Secret123",
       "firstName": "David",
       "lastName": "Jones",
-      "ongpage": null  
+      "ongpage": null,
+      "ong": 7
     },
     {
       "id": 6,
@@ -47,7 +50,8 @@
       "password": "SafePassword678",
       "firstName": "Sarah",
       "lastName": "Wilson",
-      "ongpage": null  
+      "ongpage": null,
+      "ong": 8
     },
     {
       "id": 7,
@@ -55,7 +59,7 @@
       "password": "AlphaBeta321",
       "firstName": "Alexander",
       "lastName": "Brown",
-      "ongpage": null  
+      "ongpage": null
     },
     {
       "id": 8,
@@ -63,7 +67,7 @@
       "password": "MysteryPwd456",
       "firstName": "Lisa",
       "lastName": "Miller",
-      "ongpage": null  
+      "ongpage": null
     }
   ],
   "ongs": [
@@ -111,28 +115,28 @@
     },
     {
       "id": 4,
-      "title": "teste",
-      "cause": "Necessidades especiais",
+      "title": "QuatroPatas",
+      "cause": "Animais",
       "belongsToUser": 1,
       "location": {
         "city": "Belo Horizonte",
         "uf": "SP",
-        "neighborhood": "Bandeirantes",
-        "street": "rua dos bobos",
-        "number": "0",
+        "neighborhood": "Savassi",
+        "street": "Rua Cláudio Manoel",
+        "number": "529",
         "position": null
       }
     },
     {
       "id": 5,
-      "title": "ABRACE",
+      "title": "Abrace",
       "cause": "Necessidades especiais",
-      "belongsToUser": "ONG",
+      "belongsToUser": 3,
       "location": {
         "city": "Belo Horizonte",
-        "uf": "Mg",
+        "uf": "MG",
         "neighborhood": "Savassi",
-        "street": "Rua da Bahia",
+        "street": " Rua da Bahia",
         "number": "305",
         "position": null
       }
@@ -140,13 +144,13 @@
     {
       "id": 6,
       "title": "Vira Lata é Dez",
-      "cause": "Pets",
-      "belongsToUser": "ONG",
+      "cause": "Animais",
+      "belongsToUser": 4,
       "location": {
         "city": "Belo Horizonte",
-        "uf": "Mg",
+        "uf": "MG",
         "neighborhood": "Savassi",
-        "street": "Rua Tomé de Souza",
+        "street": " Rua Tomé de Souza",
         "number": "1205",
         "position": null
       }
@@ -154,13 +158,13 @@
     {
       "id": 7,
       "title": "Gatópoles",
-      "cause": "Pets",
-      "belongsToUser": "ONG",
+      "cause": "Animais",
+      "belongsToUser": 5,
       "location": {
         "city": "Belo Horizonte",
-        "uf": "Mg",
+        "uf": "MG",
         "neighborhood": "Savassi",
-        "street": "Rua Cláudio Manoel",
+        "street": " Rua Cláudio Manoel",
         "number": "5",
         "position": null
       }
@@ -181,7 +185,7 @@
     },
     {
       "id": 9,
-      "title": "Reflorestando",
+      "title": "Iniciativa Verde",
       "cause": "Meio Ambiente",
       "belongsToUser": "ONG",
       "location": {
@@ -190,34 +194,6 @@
         "neighborhood": "Savassi",
         "street": "Rua Paraíba",
         "number": "869",
-        "position": null
-      }
-    },
-    {
-      "id": 10,
-      "title": "Instituto Sequóia",
-      "cause": "Meio Ambiente",
-      "belongsToUser": "ONG",
-      "location": {
-        "city": "Belo Horizonte",
-        "uf": "Mg",
-        "neighborhood": "Savassi",
-        "street": "Rua Alagoas",
-        "number": "976",
-        "position": null
-      }
-    },
-    {
-      "id": 11,
-      "title": "SOS Mata Atlântica",
-      "cause": "Meio Ambiente",
-      "belongsToUser": "ONG",
-      "location": {
-        "city": "Belo Horizonte",
-        "uf": "Mg",
-        "neighborhood": "Savassi",
-        "street": "Rua Professor Moraes",
-        "number": "160",
         "position": null
       }
     }
@@ -234,23 +210,118 @@
   },
   "ongpages": [
     {
-    "id": 1,
-    "ongname": "QuatroPatas",
-    "heading1": "Atuando desde 2010",
-    "heading2": "Nossa missão",
-    "heading3": "Apoio da comunidade",
-    "bio1": "Nossa ONG foi fundada por um grupo de amigos que compartilhavam uma crença: a de que os animais merecem os mesmos direitos básicos - como vida, saúde e alimentação - que nós.",
-    "bio2": "Assim, visamos permitir que isso se torne realidade. Trabalhamos diretamente com donos e animais, doando ração, garantindo cuidados veterinários e fornecendo abrigo.",
-    "bio3": "Nossa atuação não seria possível se não fosse por toda a ajuda que recebemos. Doações - dinheiro, ração, itens de limpeza e itens para animais -  são parte essencial de nossa organização, uma vez que não geramos lucro.",
-    "bio4": "E é claro que não podemos esquecer nossos voluntários. São eles que fazem a \"mágica\" acontecer, que traduzem nossos valores para o mundo real. Não recebem nada em troca, mas mesmo assim dedicam parte de seu tempo para fazer o bem.",
-    "donationinfo": "Para doações em dinheiro, nossa chave pix é: 123.456.789-00 \n Para doações de materiais, recebemos de segunda à sexta, das 8:00 às 16:00, no endereço Rua taltal número 0, bairro pspsp \n Caso deseje voluntariar, favor entrar em contato via WhatsApp com o número (31)91234-5678 \n",
-    "belongsTo": "",
-    "img1": "https://picsum.photos/1366/591",
-    "img2": "https://picsum.photos/400/350",
-    "img3": "https://picsum.photos/400/350",
-    "img4": "https://picsum.photos/400/350",
-    "img5": "https://picsum.photos/608/450",
-    "img6": "https://picsum.photos/608/450"
+      "id": 1,
+      "ongname": "QuatroPatas",
+      "heading1": "Atuando desde 2010",
+      "heading2": "Nossa missão",
+      "heading3": "Apoio da comunidade",
+      "bio1": "Nossa ONG foi fundada por um grupo de amigos que compartilhavam uma crença: a de que os animais merecem os mesmos direitos básicos - como vida, saúde e alimentação - que nós.",
+      "bio2": "Assim, visamos permitir que isso se torne realidade. Trabalhamos diretamente com donos e animais, doando ração, garantindo cuidados veterinários e fornecendo abrigo.",
+      "bio3": "Nossa atuação não seria possível se não fosse por toda a ajuda que recebemos. Doações - dinheiro, ração, itens de limpeza e itens para animais -  são parte essencial de nossa organização, uma vez que não geramos lucro.",
+      "bio4": "E é claro que não podemos esquecer nossos voluntários. São eles que fazem a \"mágica\" acontecer, que traduzem nossos valores para o mundo real. Não recebem nada em troca, mas mesmo assim dedicam parte de seu tempo para fazer o bem.",
+      "donationinfo": "                Para doações em dinheiro, nossa chave pix é: 123.456.789-00\n                Para doações de materiais, recebemos de segunda à sexta, das 8:00 às 16:00, no endereço Rua Rua Cláudio Manoel número 529, bairro Savassi\n                Caso deseje voluntariar, favor entrar em contato via WhatsApp com o número (31)91234-5678\n              ",
+      "belongsTo": 1,
+      "img1": "https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_1280.jpg",
+      "img2": "https://cdn.pixabay.com/photo/2017/08/07/16/36/cat-2605502_640.jpg",
+      "img3": "https://cdn.pixabay.com/photo/2019/10/18/09/29/cat-4558651_1280.jpg",
+      "img4": "https://cdn.pixabay.com/photo/2019/02/06/15/18/puppy-3979350_1280.jpg",
+      "img5": "https://cdn.pixabay.com/photo/2020/03/16/11/46/stroller-4936770_1280.jpg",
+      "img6": "https://cdn.pixabay.com/photo/2020/06/10/11/20/dogs-5282275_1280.jpg"
+    },
+    {
+      "ongname": "Abrace",
+      "heading1": "Atuando desde 2005",
+      "heading2": "Nossa missão",
+      "heading3": "Apoio da comunidade",
+      "bio1": "                    Criamos essa ONG com o objetivo de ajudar e acolher todos com deficiências raras, cujo tratamento ainda é experimental ou que não possua outro ponto de apoio.\n                  ",
+      "bio2": "                  Assim, visamos permitir que nossa ONG se torne um ombro amigo para aqueles que precisam.\n                ",
+      "bio3": "                 Ao decorrer dos anos, recebemos apoio dos membros de nossa comunidade e foi isso que nos permitiu continuar nosso trabalho. Qualquer ajuda conta - nunca hesite ajudar por medo de não ser o suficiente!\n                ",
+      "bio4": "                   E é claro que não podemos esquecer nossos voluntários. São eles que fazem a \"mágica\" acontecer, que traduzem nossos valores para o mundo real. Não recebem nada em troca, mas mesmo assim dedicam parte de seu tempo para fazer o bem.\n                  ",
+      "donationinfo": "                Para doações em dinheiro, nossa chave pix é: 198.420.544-09\n                Para doações de materiais, recebemos de segunda à sexta, das 8:00 às 16:00, no endereço Rua da Bahia número 305, bairro Savassi - Belo Horizonte, Minas Gerais.\n                Caso deseje voluntariar, favor entrar em contato via WhatsApp com o número (31)92735-2119.\n              ",
+      "belongsTo": 4,
+      "id": 2,
+      "img1": "https://cdn.pixabay.com/photo/2017/09/09/08/40/inclusion-2731343_1280.png",
+      "img2": "https://cdn.pixabay.com/photo/2013/12/06/10/21/disability-224130_640.jpg",
+      "img3": "https://cdn.pixabay.com/photo/2017/04/08/16/16/disability-2213622_640.jpg",
+      "img4": "https://cdn.pixabay.com/photo/2016/01/16/21/49/swing-1144064_640.jpg",
+      "img5": "https://cdn.pixabay.com/photo/2016/12/12/17/11/hospice-1902144_1280.jpg",
+      "img6": "https://cdn.pixabay.com/photo/2017/07/24/18/43/disability-2535663_640.jpg"
+    },
+    {
+      "ongname": "Vira Lata é Dez",
+      "heading1": "Fundada em 2003",
+      "heading2": "Nossa história",
+      "heading3": "Estrutura",
+      "bio1": "                    Fundada em 2003, a ONG Vira-Lata é Dez busca transformar animais de rua em animais de estimação, promovendo histórias inspiradoras e finais felizes.\n                  ",
+      "bio2": "                  Buscamos promover campanhas de castração e programas educativos que visam a conscientização quanto a posse responsável; conhecimentos e esclarecimentos no tratamento e respeito aos animais.\n                ",
+      "bio3": "                 Todos os canis estão no interior do Estado de São Paulo e possuem uma área abrigada e cada cão possui casinha de madeira individual, ração e água à vontade. Abrigamos cerca de 920 animais e contamos com 21 funcionários, tendo um gasto diário de 17 sacos de ração. Somando as despesas (o que inclui medicamentos, carro e combustível, produtos de limpeza e custos veterinários), nosso custo operacional é em torno de R$ 95.000,00 por mês.                ",
+      "bio4": "                   Possuímos um Lar Transitório localizado na grande São Paulo, em um terreno com 3 mil metros quadrados. Neste local os animais são preparados para adoção, ou seja: passam por vermifugação, vacinação, são castrados e então enviados ao Centro de Adoção. Também usamos o Lar Transitório para cuidar de animais com deficiências e animais idosos que necessitam de cuidados especiais.                  ",
+      "donationinfo": "                Para doações em dinheiro, nossa chave pix é: CNPJ: 05.551.027/0001-96\n                Para doações de materiais, recebemos todos os dias, das 10:00 às 18:00, na Cobasi Villa Lobos (Rua Manuel Velasco, 90. Vila Leopoldina-SP).\n                ",
+      "belongsTo": 5,
+      "id": 3,
+      "img1": "https://cdn.pixabay.com/photo/2017/07/28/23/35/pyrenees-2550225_1280.jpg",
+      "img2": "https://cdn.pixabay.com/photo/2013/02/10/13/39/dog-80069_640.jpg",
+      "img3": "https://cdn.pixabay.com/photo/2012/03/01/15/44/dog-20428_640.jpg",
+      "img4": "https://cdn.pixabay.com/photo/2013/11/23/01/05/pedigree-216112_640.jpg",
+      "img5": "https://cdn.pixabay.com/photo/2018/11/05/02/07/dog-3795349_1280.jpg",
+      "img6": "https://cdn.pixabay.com/photo/2014/09/04/00/15/australian-shepherd-435210_1280.jpg"
+    },
+    {
+      "ongname": "Gatópoles",
+      "heading1": "Criada em 2013",
+      "heading2": "Nossa história",
+      "heading3": "Atuação",
+      "bio1": "                    Em setembro de 2013, em São Paulo (SP), um grupo de amantes de gatinhos se uniu e fundou a Gatópoles, que encaminha para adoção responsável felinos retirados das mais variadas situações de risco.\n                  ",
+      "bio2": "                  Formada por cerca de 80 voluntários que dedicam o tempo livre para cuidar dos gatinhos, a Gatópoles não conta com o apoio de nenhuma empresa e nem do governo e depende de doações feitas por simpatizantes da causa animal.\n                ",
+      "bio3": "                  Ao chegarem ao abrigo ou às casas das voluntárias, que oferecem um lar temporário aos bichanos, os animais recebem todo o tratamento veterinário necessário. Quando estão saudáveis, são encaminhados para adoção",
+      "bio4": "                   Os gatos são doados apenas castrados, pois acreditamos que esta é a única forma de controlar a população de animais que vivem nas ruas. Eles também são vermifugados, vacinados e testados para Fiv e Felv antes de irem para seus novos lares.\n                  Em mais de 7 anos de atividades, a Gatópoles já doou mais de 1000 gatos para lares responsáveis. Neste momento, a ONG cuida de cerca de 200 gatinhos, que esperam por adoção.",
+      "donationinfo": "                Para doações em dinheiro, nossa chave pix é: CNPJ: 26.308.667/0001-40\n               Para voluntariar, favor entrar em contato via e-mail: informacoes@gatopoles.com.br               ",
+      "belongsTo": 6,
+      "id": 4,
+      "img1": "https://cdn.pixabay.com/photo/2015/03/27/13/16/maine-coon-694730_1280.jpg",
+      "img2": "https://cdn.pixabay.com/photo/2017/04/30/18/33/kittens-2273598_640.jpg",
+      "img3": "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_640.jpg",
+      "img4": "https://cdn.pixabay.com/photo/2017/02/15/12/12/cat-2068462_640.jpg",
+      "img5": "https://cdn.pixabay.com/photo/2019/05/08/21/21/cat-4189697_640.jpg",
+      "img6": "https://cdn.pixabay.com/photo/2015/06/19/14/20/cat-814952_640.jpg"
+    },
+    {
+      "ongname": "Focinhos de Luz",
+      "heading1": "Criada em 2010",
+      "heading2": "Sobre nós",
+      "heading3": "Atuação",
+      "bio1": "                    A Associação Focinhos de Luz é uma organização sem fins lucrativos que luta pela reintrodução de animais abandonados à sociedade\n                  ",
+      "bio2": "                  Construída por apaixonados pela causa animal e inconformados com o abandono recorrente, a nossa casa de passagem abriga em torno de 100 animais, que passam por cuidados até estarem aptos a adoção, onde podem finalmente encontrar um lar definitivo e amoroso.\n                ",
+      "bio3": "                  Cada animal resgatado é colocado em um espaço de quarentena para que seja tratado e reabilitado, seguindo nosso protocolo de saúde. Em seguida, é direcionado para os canis e gatis gerais, onde pode conviver com os outros animais já disponíveis para adoção. Só doamos animais avaliados pelas nossas veterinárias, vacinados, desparasitados e, de acordo com a idade, castrados.\n                ",
+      "bio4": "                   Para adotar um animal, o candidato deve preencher um questionário que é avaliado pela nossa diretoria e passar por uma entrevista. No momento da adoção é assinado um contrato (termo de adoção) e fazemos um acompanhamento de, no mínimo, 6 meses desse animal com a nova família. Só doamos gatos para residências totalmente sem risco de fuga ou queda: casas totalmente sem acesso à rua ou apartamentos com rede de proteção. Por fim, se a família desistir da adoção seja qual for o motivo, deve devolver o animal para nós!                  ",
+      "donationinfo": "                Para doações em dinheiro, nossa chave pix é: 13.339.013/0001-31 (CNPJ)\n               Para voluntariar, favor entrar em contato via e-mail: contato@focinhosdeluz.com",
+      "belongsTo": 7,
+      "id": 5,
+      "img1": "https://cdn.pixabay.com/photo/2018/01/09/11/04/dog-3071334_1280.jpg",
+      "img2": "https://cdn.pixabay.com/photo/2016/01/05/17/51/maltese-1123016_640.jpg",
+      "img3": "https://cdn.pixabay.com/photo/2014/04/05/11/40/dog-316598_640.jpg",
+      "img4": "https://cdn.pixabay.com/photo/2019/03/27/15/24/animal-4085255_640.jpg",
+      "img5": "https://cdn.pixabay.com/photo/2020/11/06/19/12/kid-5718703_640.jpg",
+      "img6": "https://cdn.pixabay.com/photo/2022/06/21/07/50/dogs-7275314_640.jpg"
+    },
+    {
+      "ongname": "Iniciativa Verde",
+      "heading1": "Fundada em 2005",
+      "heading2": "Sobre nós",
+      "heading3": "Atuação",
+      "bio1": "                    Contribuimos para a melhoria de serviços ambientais como biodiversidade, água e qualidade do ar. Com isso, auxiliamos na mitigação e adaptação à crise climática, por meio de projetos próprios de recomposição florestal, em parceria com outras instituições.  \n                  ",
+      "bio2": "                  Consistência e a atualização científica são pilares da instituição, que direciona seu trabalho para a geração e difusão de conhecimento. Também apoiamos a formulação, implementação e fomento de políticas públicas que sejam capazes de garantir a conservação de ecossistemas, assim como o bem-estar e a melhoria das condições de comunidades rurais.\n                ",
+      "bio3": "                  Nossa instituição acumula mais de 3 mil hectares plantados. O projeto Plantando Águas já beneficiou mais de 430 famílias no interior do estado de São Paulo, em assentamentos rurais, unidades de conservação e pequenas propriedades agrícolas. Com ações de saneamento, recuperação florestal, sistemas agroflorestais e educação ambiental, recebemos o certificado de tecnologia social pela Fundação Banco do Brasil em 2019. \n                ",
+      "bio4": "                   Atualmente a Iniciativa Verde tem uma equipe fixa de aproximadamente 20 pessoas, uma parte em trabalho de campo e outra na sede da instituição, na cidade de São Paulo. Os projetos da ONG são todos desenvolvidos em parceria com outras instituições do terceiro setor, instituições de ensino e pesquisa, governos locais e empresas, a fim de fortalecer a sustentabilidade e continuidade das ações.                   ",
+      "donationinfo": "                Para doações em dinheiro, por favor acesse nosso site: https://iniciativaverde.org.br/doacoes\n               Todo o dinheiro arrecadado é usado para subsidiar a restauração florestal.",
+      "belongsTo": 8,
+      "id": 6,
+      "img1": "https://cdn.pixabay.com/photo/2017/02/15/11/50/forest-2068375_1280.jpg",
+      "img2": "https://cdn.pixabay.com/photo/2014/04/05/11/20/grass-315184_640.jpg",
+      "img3": "https://cdn.pixabay.com/photo/2020/01/17/19/39/landscape-4773879_640.jpg",
+      "img4": "https://cdn.pixabay.com/photo/2015/01/16/15/00/jungle-601542_640.jpg",
+      "img5": "https://cdn.pixabay.com/photo/2020/02/13/22/36/landscape-4847020_640.jpg",
+      "img6": "https://cdn.pixabay.com/photo/2019/08/02/00/27/landscape-4378490_640.jpg"
     }
   ],
   "posts": [
@@ -258,14 +329,89 @@
       "postId": 1,
       "belongsTo": 4,
       "ongPageURL": "./ongpage.html?ong_id=4",
-      "ongName": "teste",
-      "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "ongName": "Gatópoles",
+      "text": "Sabia que não há perigo em adotar um gatinho Fiv ou FelV positivo? Embora seja indicado não possuir outros gatos, não há risco de contaminação para humanos ou outros animais. Eles podem viver uma vida longa e feliz, assim como qualquer outro gatinho. Se você tem interesse em adotar um gatinho especial, entre em contato conosco!",
       "time": 1702214654454,
       "comments": null,
       "id": 1,
-      "images":[
+      "images": [
         {
-          "src": "https://picsum.photos/400/350"
+          "src": "https://cdn.pixabay.com/photo/2016/03/09/09/43/cat-1245963_1280.jpg"
+        }
+      ]
+    },
+    {
+      "postId": 2,
+      "belongsTo": 5,
+      "ongPageURL": "./ongpage.html?ong_id=5",
+      "ongName": "Focinhos de Luz",
+      "text": "Cachorro não é símbolo de status! Muitos deixam de adotar vira-latas por vergonha de ter um animal sem raça definida. Mas a verdade é que eles são tão bons quanto qualquer outro cachorro. Eles são dóceis, carinhosos e fiéis.",
+      "time": 1702214654454,
+      "comments": null,
+      "id": 2,
+      "images": [
+        {
+          "src": ""
+        }
+      ]
+    },
+    {
+      "postId": 3,
+      "belongsTo": 5,
+      "ongPageURL": "./ongpage.html?ong_id=5",
+      "ongName": "Focinhos de Luz",
+      "text": "Amanhã estaremos na praça da Savassi, das 10:00 às 16:00, com alguns de nossos animais para adoção. Venha nos visitar!",
+      "time": 1702214654454,
+      "comments": null,
+      "id": 3,
+      "images": [
+        {
+          "src": "https://cdn.pixabay.com/photo/2020/11/17/18/20/dog-5753302_1280.jpg"
+        }
+      ]
+    },
+    {
+      "postId": 4,
+      "belongsTo": 6,
+      "ongPageURL": "./ongpage.html?ong_id=6",
+      "ongName": "Iniciativa Verde",
+      "text": "A Mata Atlântica é um dos biomas mais ricos em biodiversidade do mundo, mas também um dos mais ameaçados. Apenas 12% da cobertura original ainda existe. A Iniciativa Verde trabalha para recuperar áreas degradadas e aumentar a cobertura florestal do bioma.",
+      "time": 1702214654454,
+      "comments": null,
+      "id": 4,
+      "images": [
+        {
+          "src": "https://cdn.pixabay.com/photo/2019/10/22/18/30/atlantic-forest-4569459_1280.jpg"
+        }
+      ]
+    },
+    {
+      "postId": 5,
+      "belongsTo": 1,
+      "ongPageURL": "./ongpage.html?ong_id=1",
+      "ongName": "QuatroPatas",
+      "text": "É com muito orgulho que anunciamos ter atingido a marca de 20 animais adotados esta semana! Com as doações recebidas e os animais adotados, disponibilizaremos novas vagas para resgate e abrigo de animais.",
+      "time": 1702214654454,
+      "comments": null,
+      "id": 5,
+      "images": [
+        {
+          "src": ""
+        }
+      ]
+    },
+    {
+      "postId": 6,
+      "belongsTo": 3,
+      "ongPageURL": "./ongpage.html?ong_id=2",
+      "ongName": "Vira Lata é Dez",
+      "text": "Os filhotes que resgatamos setembro agora estão crescidos o suficiente para serem adotados! Eles estão com as vacinas em dia, e os donos receberão um voucher para castrá-los daqui a 5 meses.",
+      "time": 1702214654454,
+      "comments": null,
+      "id": 6,
+      "images": [
+        {
+          "src": ""
         }
       ]
     }

@@ -121,6 +121,7 @@ head3.textContent = onginfo.heading3;
 head3Div.appendChild(head3);
 
 const emptyDiv = document.createElement('div');
+emptyDiv.classList.add('empty');
 boxDiv.appendChild(emptyDiv);
 
 var bloco2Div = document.createElement('div');
@@ -132,6 +133,7 @@ bloco2.textContent = onginfo.bio3;
 bloco2Div.appendChild(bloco2);
 
 var img5Div = document.createElement('div');
+img5Div.classList.add('last2');
 emptyDiv.appendChild(img5Div);
 
 var img5 = document.createElement('img');
@@ -147,6 +149,7 @@ bloco3.textContent = onginfo.bio4;
 bloco3Div.appendChild(bloco3);
 
 var img6Div = document.createElement('div');
+img6Div.classList.add('last2');
 emptyDiv.appendChild(img6Div);
 
 var img6 = document.createElement('img');
