@@ -105,6 +105,15 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/EbldRGQSbjxAl4lERFublNYBcHBleOlWiiDE-pANNzsXew?e=AnjVwV| 
 
 
+|*Caso de Teste*                                 |*TC-06 - Exibir as principais informações de uma ONG*                                         |
+|---|---|
+|Requisito Associado | RF-005 - Exibir as principais informações das ONGs selecionadas|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/ERbTs53Olk1Bg4MwUTabu_cBZEusCOy4idqG9MoUZvcqQA?e=9ooOIc| 
+
+
+
+
+
 
 
 
