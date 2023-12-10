@@ -1,6 +1,6 @@
 const main = async() => {
 
-    const JSONServerURL = "http://localhost:3001"
+    const JSONServerURL = 'http://localhost:3001'
     const postsURL = `${JSONServerURL}/posts`
 
     const getResultsFromQueryParams = () => {

@@ -25,8 +25,8 @@ class NavigationBar extends HTMLElement {
       href: './home-logged.html',
     },
     {
-      label: 'Mapa de Ongs',
-      href: './ongs-map.html',
+      label: 'Encontrar Ongs',
+      href: './search-page.html',
     },
     {
       label: 'Cadastrar ONG',
@@ -41,8 +41,8 @@ class NavigationBar extends HTMLElement {
         href: './home-logged.html',
       },
       {
-        label: 'Mapa de Ongs',
-        href: './ongs-map.html',
+        label: 'Encontrar Ongs',
+        href: './search-page.html',
       },
       {
         label: 'Minha Ong',
