@@ -6,14 +6,14 @@ const getResultsFromQueryParams = () => {
     const params = new Proxy(new URLSearchParams(window.location.search), {
         get: (searchParams, prop) => searchParams.get(prop),
       })
-      return params.ongid
+      return params.ong_id
 }
 
 const ongid = getResultsFromQueryParams()
 
 
 fetch(
-    `${ongpageURL}/${ongid}`,
+    `http://localhost:3001/ongpages/${ongid}`,
     {
     headers: {
         'Content-Type': 'application/json'
