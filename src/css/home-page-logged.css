@@ -101,7 +101,7 @@ body {
 
 .post {
   background-color: var(--accent);
-  max-width: 90vw;
+  max-width: 80vw;
   margin: 20px auto;
   border: 1px solid var(--border-color);
   box-shadow: 0 0 5px var(--box-shadow);
@@ -127,20 +127,25 @@ body {
 .user-details {
   display: flex;
   flex-direction: column;
+  margin-left: 10%;
 }
 
 .user-name {
+  font-size: xx-large;
   font-weight: bold;
-  color: var(--dark-text);
+  color: var(--primary);
 }
 
 .post-time {
-  color: var(--light-text);
+  font-size: small;
+  color: var(--dark-text);
 }
 
 .post-text {
-  font-size: normal;
+  font-size: large;
   line-height: 1.4;
+  color: var(--light-text);
+  margin: 0 15%;
 }
 
 .post-image-container {

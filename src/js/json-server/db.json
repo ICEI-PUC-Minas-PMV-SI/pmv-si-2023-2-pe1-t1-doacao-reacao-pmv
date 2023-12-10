@@ -88,23 +88,40 @@
   },
   "ongpages": [
     {
-    "id": 1,
-    "ongname": "QuatroPatas",
-    "heading1": "",
-    "heading2": "",
-    "heading3": "",
-    "bio1": "",
-    "bio2": "",
-    "bio3": "",
-    "bio4": "",
-    "donationinfo": "",
-    "belongsTo": "",
-    "img1": "https://picsum.photos/1366/591",
-    "img2": "https://picsum.photos/400/350",
-    "img3": "https://picsum.photos/400/350",
-    "img4": "https://picsum.photos/400/350",
-    "img5": "https://picsum.photos/608/450",
-    "img6": "https://picsum.photos/608/450"
+      "id": 4,
+      "ongname": "QuatroPatas",
+      "heading1": "",
+      "heading2": "",
+      "heading3": "",
+      "bio1": "",
+      "bio2": "",
+      "bio3": "",
+      "bio4": "",
+      "donationinfo": "",
+      "belongsTo": "",
+      "img1": "https://picsum.photos/1000/200",
+      "img2": "https://picsum.photos/400/350",
+      "img3": "https://picsum.photos/400/350",
+      "img4": "https://picsum.photos/400/350",
+      "img5": "https://picsum.photos/608/450",
+      "img6": "https://picsum.photos/608/450"
+    }
+  ],
+  "posts": [
+    {
+      "postId": 1,
+      "belongsTo": 4,
+      "ongPageURL": "./ongpage.html?ong_id=4",
+      "ongName": "teste",
+      "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "time": 1702214654454,
+      "comments": null,
+      "id": 1,
+      "images":[
+        {
+          "src": "https://picsum.photos/400/350"
+        }
+      ]
     }
   ]
 }
