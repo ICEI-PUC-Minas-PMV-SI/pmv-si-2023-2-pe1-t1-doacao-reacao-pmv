@@ -24,6 +24,7 @@ onginfo.addEventListener("submit", async (e) => {
             },
             method: 'POST',
             body: JSON.stringify({
+                id: localStorage.getItem("ong_id"),
                 ongname: onginfo.ongname.value,
                 heading1: onginfo.heading1.value,
                 heading2: onginfo.heading2.value,
