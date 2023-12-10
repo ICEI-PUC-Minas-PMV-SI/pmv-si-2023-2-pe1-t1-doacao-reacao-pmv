@@ -48,5 +48,6 @@ signupForm.addEventListener("submit", async (e) => {
             postResponse.json()
         })
         .then(postResponse => console.log(postResponse))
+    localStorage.setItem("user_id", accounts.length)
     location.replace(loggedOngPage);
 })
