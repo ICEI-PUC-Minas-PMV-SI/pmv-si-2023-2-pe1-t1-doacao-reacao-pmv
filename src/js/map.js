@@ -18,6 +18,8 @@ async function initMap() {
         .then(
             ongs => {
                 ongs.forEach(ong => {
+                    if (ong.location && ong.location !== null && ong.location.position !== null){
+                    console.log (ong.location.position)
                     const [lat, lng] = ong.location.position.split(',');
                     const marker = new google.maps.Marker({
                         position: { lat: parseFloat(lat), lng: parseFloat(lng) },
@@ -28,6 +30,7 @@ async function initMap() {
                     marker.addListener('click', function () {
                         window.open(`./ongpage.html?ongid=${ong.id}`, '_blank');
                     });
+                }
                 })
             }
         )
