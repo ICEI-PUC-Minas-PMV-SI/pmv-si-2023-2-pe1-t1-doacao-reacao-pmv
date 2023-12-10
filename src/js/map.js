@@ -8,7 +8,7 @@ const mapProperties = {
 }
 
 //TODO const heartIcon = './assets/heart-icon.png';
-const JSONServerURL = 'http://localhost:3001'
+const JSONServerURL = process.env.JSON_SERVER_URL || 'http://localhost:3001'
 const ongsURL = `${JSONServerURL}/ongs`
 let map
 async function initMap() {
