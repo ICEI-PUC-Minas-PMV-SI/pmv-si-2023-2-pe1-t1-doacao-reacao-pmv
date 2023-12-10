@@ -1,6 +1,6 @@
 const JSONServerURL = 'http://localhost:3001'
 const ongpageURL = `${JSONServerURL}/ongpages`
-const loggedOngPage = './ongpage.html?ongid=4'
+const ongPage = './ongpage.html'
 
 const onginfo = document.getElementById("onginfo");
 
@@ -30,4 +30,5 @@ onginfo.addEventListener("submit", async (e) => {
             }),
         })
         .then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
+        location.replace(`${ongPage}/?ongid=${localStorage.getItem("ong_id")}`);
 })
