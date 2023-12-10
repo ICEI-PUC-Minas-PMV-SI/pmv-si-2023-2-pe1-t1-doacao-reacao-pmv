@@ -2,7 +2,7 @@ const signupForm = document.getElementById("signup-form")
 const mailErrorMsg = document.getElementById("mail-error-msg")
 
 const loggedOngPage = "./home-logged.html"
-const JSONServerURL = 'http://localhost:3001'
+const JSONServerURL = process.env.JSON_SERVER_URL || 'http://localhost:3001'
 const accountsURL = `${JSONServerURL}/accounts`
 
 signupForm.addEventListener("submit", async (e) => {
