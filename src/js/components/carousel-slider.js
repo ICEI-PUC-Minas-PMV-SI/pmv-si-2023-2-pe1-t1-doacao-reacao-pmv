@@ -1,4 +1,4 @@
-const JSONServerURL = process.env.JSON_SERVER_URL || 'http://localhost:3001'
+const JSONServerURL = 'http://localhost:3001'
 const ongsURL = `${JSONServerURL}/ongs`
 
 class CarouselSlider extends HTMLElement {

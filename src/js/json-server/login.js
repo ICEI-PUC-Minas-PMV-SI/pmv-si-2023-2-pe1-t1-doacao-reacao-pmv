@@ -2,7 +2,7 @@ const loginForm = document.getElementById("login-form")
 const mailErrorMsg = document.getElementById("mail-error-msg")
 const passwordErrorMsg = document.getElementById("password-error-msg")
 
-const JSONServerURL = process.env.JSON_SERVER_URL || 'http://localhost:3001'
+const JSONServerURL = 'http://localhost:3001'
 const accountsURL = `${JSONServerURL}/accounts`
 const loggedPage = './home-logged.html'
 
