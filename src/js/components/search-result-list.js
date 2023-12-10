@@ -1,5 +1,4 @@
-const JSONServerURL = 'http://localhost:3001'
-const ongsURL = `${JSONServerURL}/ongs`
+
 
 
 const buildOngAdress = (ong) => {
@@ -13,7 +12,7 @@ const getResultsFromQueryParams = () => {
 }
 
 const getOngsList = async() => {
-    const ongsJson = await fetch(ongsURL)
+    const ongsJson = await fetch(' http://localhost:3001/ongs')
     const ongsList = await ongsJson.json()
     return ongsList
 }

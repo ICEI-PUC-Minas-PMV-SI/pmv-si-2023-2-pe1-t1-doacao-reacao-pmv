@@ -1,8 +1,5 @@
 const main = async() => {
 
-    const JSONServerURL = 'http://localhost:3001'
-    const postsURL = `${JSONServerURL}/posts`
-
     const getResultsFromQueryParams = () => {
         const params = new Proxy(new URLSearchParams(window.location.search), {
             get: (searchParams, prop) => searchParams.get(prop),
@@ -11,7 +8,7 @@ const main = async() => {
     }
 
     const getPostsList = async() => {
-        const postsJson = await fetch(postsURL)
+        const postsJson = await fetch("http://localhost:3001/posts")
         const postsList = await postsJson.json()
         return postsList
     }

@@ -1,7 +1,7 @@
-const JSONServerURL = 'http://localhost:3001'
+
 
 const getPostsList = async() => {
-    const postsJson = await fetch(postsURL)
+    const postsJson = await fetch("http://localhost:3001/posts")
     const postsList = await postsJson.json()
     return postsList
 }
