@@ -36,5 +36,5 @@ onginfo.addEventListener("submit", async (e) => {
             }),
         })
         .then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
-        location.replace(`${ongPage}/?ongid=${localStorage.getItem("ong_id")}`);
+        location.replace(`${ongPage}?ongid=${localStorage.getItem("ong_id")}`);
 })
