@@ -35,7 +35,8 @@ class CarouselSlider extends HTMLElement {
 
     makeSlideImg(imgSrc) {
         let img = document.createElement('img');
-        img.src = imgSrc;
+        //img.src = imgSrc;
+        img.src = 'https://placehold.co/600x400';
         return img;
     }
 

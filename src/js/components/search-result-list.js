@@ -34,9 +34,9 @@ const main = async() => {
         let searchResultDiv = document.createElement("div")
         searchResultDiv.classList.add("searchresult")
 
-        const img = document.createElement("img")
+        /* const img = document.createElement("img")
         img.src = ong.profilePicture
-        searchResultDiv.appendChild(img)
+        searchResultDiv.appendChild(img) */
 
         let searchResultContentDiv = document.createElement("div")
         searchResultDiv.classList.add("searchresult-content")
