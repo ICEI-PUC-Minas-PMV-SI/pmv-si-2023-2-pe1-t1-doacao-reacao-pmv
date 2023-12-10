@@ -55,5 +55,5 @@ ongInfoForm.addEventListener("submit", async (e) => {
         body: JSON.stringify({ong: newOngId}),
     })
     localStorage.setItem("ong_id", newOngId)
-    location.replace(`${editOngPageAdress}?id=${newOngId}`);
+    location.replace(`${editOngPageAdress}`);
 })
