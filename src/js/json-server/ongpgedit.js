@@ -5,7 +5,6 @@ const ongPage = './ongpage.html'
 const onginfo = document.getElementById("onginfo");
 
 onginfo.addEventListener("submit", async (e) => {
-    
     e.preventDefault();
     console.log("SALVE");
     console.log(onginfo)
@@ -44,7 +43,7 @@ onginfo.addEventListener("submit", async (e) => {
             }),
         })
         .then(postResponse => postResponse.json()).then(postResponse => console.log(postResponse))
-        sleep(1000).then(() => {
+        sleep(3000).then(() => {
         location.replace(`${ongPage}?ongid=${localStorage.getItem("ong_id")}`);
         })
 })
