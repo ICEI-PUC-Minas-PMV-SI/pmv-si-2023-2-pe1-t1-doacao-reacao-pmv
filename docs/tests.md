@@ -24,22 +24,56 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
-
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Criar conta usuário**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
+**Procedimento** | 1) Usuário informa nome, sobrenome, email, senha e confirma a senha e clica no botão "Cadastrar". <br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
+**Requisitos associados** | RF-004
+**Resultado esperado** | Ser redirecionado para a página inicial não logada, sendo agora possível realizar login.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Criar conta ONG**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
+**Procedimento**  | 1) Usuário já cadastrado e logado clica em "Cadastrar ONG" na navbar. <br>2)Usuário é redirecionado para página de cadastro onde deverá informar nome da ONG, endereço completo e causa da organização.
+**Requisitos associados** | RF-004
+**Resultado esperado** | Prosseguir para a página de edição do perfil da ONG.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Criar perfil da ONG**
+ :--------------: | ------------
+**Procedimento**  | Usuário edita as informações do perfil da ONG dentro de um modelo fixo, incluindo adicionar 6 fotos.
+**Requisitos associados** | RF-004
+**Resultado esperado** | Usuário é redirecionado para o perfil pronto de sua ONG.
+**Dados de entrada** | Inserção de dados válidos na página de edição.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT04 - Filtrar ONGs por causa**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica em "Encontrar ONGs" na navbar e é redirecionado para a página de pesquisa. <br>2) Usuário clica em "Filtrar por causa". <br>3) Abre um pop-up com as causas de ONGs cadastradas. <br>4) Usuário seleciona uma ou mais causas. <br>5) Usuário clica no ícone de pesquisa (lupa).
+**Requisitos associados** | RF-002
+**Resultado esperado** | Usuário é redirecionado para uma página com os resultados em formato de lista.
+**Dados de entrada** | Escolha em forma de checkbox.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT05 - Exibir as principais informações de uma ONG**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário encontra o nome de uma ONG, seja pela sugestão da página inicial, busca por nome, busca por causa ou por localização. <br>2) Usuário clica no nome dessa ONG.
+**Requisitos associados** | RF-003
+**Resultado esperado** | Usuário é redirecionado para a página de perfil da ONG selecionada, onde se econtram as principais informações sobre ela. 
+**Dados de entrada** | 1) Em caso de sugestão, nenhum. <br>2) Em caso de busca por nome, um nome de ONG cadastrada. <br>3) Em caso de busca por causa, seleção em forma de checkbox. <br>4) E em caso de localização, seleção por meio de clicar na ONG no mapa.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT06 - Exibir feed de publicações de ONGs para usuários**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica em "Página inicial" na navbar.
+**Requisitos associados** | RF-005
+**Resultado esperado** | Usuário é redirecionado para a página inicial, onde recebe todos os posts de ONGs em um feed.
+**Dados de entrada** | Nenhum.
+**Resultado obtido** | Sucesso.
+
+
+
 
 ## Registro dos Testes de Software
 
