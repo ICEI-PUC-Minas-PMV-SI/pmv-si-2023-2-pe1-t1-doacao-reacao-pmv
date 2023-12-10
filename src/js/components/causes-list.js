@@ -1,7 +1,6 @@
-const ongsURL = 'http://localhost:3001/ongs'
 
 const causesList = async() => {
-    const ongsResponse = await fetch(ongsURL)
+    const ongsResponse = await fetch(' http://localhost:3001/ongs')
     const ongs = await ongsResponse.json()
     const uniqueCauses = [...new Set(ongs.filter(ong => Boolean(ong.cause)).map(ong => ong.cause))]
     return Array.from(uniqueCauses)

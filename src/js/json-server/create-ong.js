@@ -1,7 +1,6 @@
 const ongInfoForm = document.getElementById("create-ong-info")
 
 const editOngPageAdress = "./ongpgedit.html"
-const ongsURL = 'http://localhost:3001/ongs'
 const accountsURL = 'http://localhost:3001/accounts'
 
 ongInfoForm.addEventListener("submit", async (e) => {
@@ -9,7 +8,7 @@ ongInfoForm.addEventListener("submit", async (e) => {
 
     console.log(ongInfoForm)
 
-    const response = await fetch(ongsURL)
+    const response = await fetch(' http://localhost:3001/ongs')
     const ongs = await response.json()
 
     const causes = ongInfoForm.causas
@@ -32,7 +31,7 @@ ongInfoForm.addEventListener("submit", async (e) => {
     }
 
     fetch(
-        ongsURL,
+        ' http://localhost:3001/ongs',
         {
             headers: {
                 'Content-Type': 'application/json'
