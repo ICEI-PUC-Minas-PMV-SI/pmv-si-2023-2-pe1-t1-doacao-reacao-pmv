@@ -1,7 +1,3 @@
-const JSONServerURL = 'https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app'
-const ongpageURL = `${JSONServerURL}/ongpages`
-const loggedOngPage = './ongpage.html?ongid=4'
-
 const getResultsFromQueryParams = () => {
     const params = new Proxy(new URLSearchParams(window.location.search), {
         get: (searchParams, prop) => searchParams.get(prop),
@@ -10,7 +6,6 @@ const getResultsFromQueryParams = () => {
 }
 
 const ongid = getResultsFromQueryParams()
-
 
 fetch(
     `https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/ongpages/${ongid}`,
@@ -21,7 +16,6 @@ fetch(
     method: 'GET',
 }
 ).then(onginfo => onginfo.json()).then(onginfo => { 
-
 
 let ongpage = document.getElementById('ongpage');   
 
