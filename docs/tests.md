@@ -89,6 +89,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-004 - Cadastrar uma organização não listada no site|
 |Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/EWgvHXY8ultGrVBOt5tMNWEBGjCtNCIgI5pnOUyGK9Zvjg?e=Mun0xo | 
 
+|*Caso de Teste*                                 |*TC-03 - Criar conta da ONG*                                         |
+|---|---|
+|Requisito Associado | RF-004 - Cadastrar uma organização não listada no site|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1490964_sga_pucminas_br/EdYFs8xrpRtJrtheVjfz6bkBYHwmK339OLlU9sTy6PnZjQ | 
+
 
 ## Avaliação dos Testes de Software
 
