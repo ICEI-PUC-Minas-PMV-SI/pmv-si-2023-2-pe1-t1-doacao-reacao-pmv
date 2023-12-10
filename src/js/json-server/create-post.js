@@ -27,7 +27,7 @@ postForm.addEventListener("submit", async (e) => {
             body: JSON.stringify({
                 postId: posts.length + 1,
                 belongsTo: postingOngId,
-                ongPageURL: `./ongpage.html?ong_id=${postingOngId}`,
+                ongPageURL: `./ongpage.html?ongid=${postingOngId}`,
                 ongName: ong.title,
                 text: postForm.post.value,
                 time: today.getTime(),
