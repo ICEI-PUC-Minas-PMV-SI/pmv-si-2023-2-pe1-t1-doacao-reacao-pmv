@@ -12,3 +12,10 @@
 
 **[6]** - _ABDURAIMOV MO'MINJON_, **google search results page**. Disponível em: https://codepen.io/MuminjonGuru/pen/XQBOge. Acesso em: 06 de dez. de 2023
 
+**[7]** - _FOCINHOS DE LUZ, **Quem somos**. Disponível em: https://www.focinhosdeluz.com/quem-somos Acesso em: 8 Dez 2023_
+
+**[8]** - _GATÓPOLES, **Quem somos nós**. Disponível em: http://www.gatopoles.com.br/quem-somos.php Acesso em: 8 Dez 2023_
+
+**[9]** - _VIRA LATA É DEZ, **Nossa história**. Disponível em: https://www.ongviralataedez.com/sobre Acesso em: 8 Dez 2023_
+
+**[10]** - _INICIATIVA VERDE, **Que somos**. Disponível em: https://iniciativaverde.org.br/quem-somos Acesso em: 8 Dez 2023_
