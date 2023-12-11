@@ -218,7 +218,7 @@ Cenário 3: Você é uma pessoa que deseja cadastrar sua ONG. Entre no site e ca
 
      Comentários dos usuários: Achei que poderia ser mais livre na hora de criar o perfil, e ter que usar links pra imagens é ruim.
 
-Cenário 3: Você é uma pessoa que deseja visualizar a atividade de ONGs. Encontre no site o feed de atividades.
+Cenário 4: Você é uma pessoa que deseja visualizar a atividade de ONGs. Encontre no site o feed de atividades.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -228,9 +228,7 @@ Cenário 3: Você é uma pessoa que deseja visualizar a atividade de ONGs. Encon
 | 4       | SIM             | 5                    | 54 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 49,75 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 4 | 25 segundos |
-Você é uma pessoa que deseja visualizar a atividade de ONGs. Encontre no site o feed de atividades.
-
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 25 segundos |
 
 ## Avaliação dos Testes de Usabilidade
 
