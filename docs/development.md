@@ -16,6 +16,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | RF-004 | Cadastrar uma organização não listada no site           | ALTA       |link-social.html|
 | RF-005 | Enviar feed de atividades da ONG para os usuários       | ALTA       |home-logged.html|
 | RF-006* | Permitir que ONGs criem anúncios de recrutamento de voluntários | MÉDIA |create-post.html|
+
 *Requisito atendido de forma parcial, há espaço pra melhoria.
 
 ### Requisitos Não Funcionais
@@ -24,6 +25,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |------|------------------------|------------|-----------------|
 |RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móveis   | ALTA      | 
 |RNF-002* | Deve processar requisições do usuário em no máximo 3s                | BAIXA     | 
+
 *Para a implementação em servidor foi criado um mecanismo que previne problemas com delay no arquivo ongpgedit.js. Esse pode ser removido.
 
 ## Descrição das estruturas:
