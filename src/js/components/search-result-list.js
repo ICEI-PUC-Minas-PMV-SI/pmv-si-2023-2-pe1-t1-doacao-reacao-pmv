@@ -36,7 +36,7 @@ const main = async() => {
 
         /* const img = document.createElement("img")
         img.src = ong.profilePicture
-        searchResultDiv.appendChild(img) */
+        searchResultDiv.appendChild(img) Poderia ser implementado em uma futura versão em que há profile picture da ONG*/ 
 
         let searchResultContentDiv = document.createElement("div")
         searchResultDiv.classList.add("searchresult-content")

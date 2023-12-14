@@ -1,12 +1,12 @@
 
 
-const getPostsList = async() => {
+const getPostsList = async () => {
     const postsJson = await fetch("https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/posts")
     const postsList = await postsJson.json()
     return postsList
 }
 
-const main = async() => {
+const main = async () => {
     const posts = await getPostsList()
     const resultsPosts = posts.sort(() => Math.random() - 0.5).slice(0, 9)
 
@@ -27,7 +27,7 @@ const main = async() => {
         let postTime = document.createElement("p")
         postTime.classList.add("post-time")
         const time = new Date(Number(post.time))
-        formattedTime = time.toLocaleDateString('pt-Br',{ dateStyle: 'long' })
+        formattedTime = time.toLocaleDateString('pt-Br', { dateStyle: 'long' })
         postTime.textContent = formattedTime
         userDetailsDiv.appendChild(userName)
         userDetailsDiv.appendChild(postTime)
@@ -38,14 +38,14 @@ const main = async() => {
         postText.classList.add("post-text")
         postText.textContent = post.text
         postDiv.appendChild(postText)
-        
+
         let postImageContainer = document.createElement("div")
         postImageContainer.classList.add("post-image-container")
         let postImages = post.images
-        postImages.forEach((image) =>{
+        postImages.forEach((image) => {
             {
                 let imageLinkElement = document.createElement("a")
-                imageLinkElement.href = image.src //TODO: link to image page
+                imageLinkElement.href = image.src
                 imageLinkElement.classList.add("post-image-link")
                 let imageElement = document.createElement("img")
                 imageElement.src = image.src
@@ -56,16 +56,15 @@ const main = async() => {
         })
         postDiv.appendChild(postImageContainer)
 
-        /*
-        let postActionsDiv = document.createElement("div")
-        postActionsDiv.classList.add("post-actions")
-        let shareButton = document.createElement("button")
-        let shareButtonIcon = document.createElement("i")
-        shareButtonIcon.classList.add("fas")
-        //let commentButton = document.createElement("button")
-*/    
+        /* não foi usado nessa implementação do projeto mas Cabe em um V2 com maior integração de interações do usuário        let postActionsDiv = document.createElement("div")
+                postActionsDiv.classList.add("post-actions")
+                let shareButton = document.createElement("button")
+                let shareButtonIcon = document.createElement("i")
+                shareButtonIcon.classList.add("fas")
+                //let commentButton = document.createElement("button")
+        */
         randomPostsListSpace.appendChild(postDiv)
-    }) 
+    })
 }
 
 main()

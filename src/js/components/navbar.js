@@ -8,7 +8,6 @@ class NavigationBar extends HTMLElement {
       label: 'Mapa de Ongs',
       href: './ongs-map.html',
     },
-    //ao fazer conteúdo dinâmico, não queremos que o cliente logado veja esse elemento
     {
       label: 'Entrar',
       href: './login.html',

@@ -26,7 +26,6 @@ class CustomFooter extends HTMLElement {
     ];
     contactTitle = 'Contato'
     contactItens = [
-        //TODO: Add icons
         {
             label: 'WhatsApp',
             href: '#wa.me',
@@ -100,7 +99,6 @@ class CustomFooter extends HTMLElement {
         this.classList.add('custom-footer');
         this.id = 'cfoot';
         this.appendChild(this.makeWrapperDiv());
-        //this.appendChild(this.copyrightP());
     }
 
     makeListItems(ul) {

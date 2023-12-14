@@ -2,7 +2,6 @@ const JSONServerURL = 'https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-s
 const ongpagesURL = `${JSONServerURL}/ongpages`
 
 class CarouselSlider extends HTMLElement {
-    //PRECISAREMOS PEGAR DO ONGPAGE, ao invés do ONGS
     async getCarouselSlidesContent() {
         try {
             const response = await fetch(ongpagesURL);
