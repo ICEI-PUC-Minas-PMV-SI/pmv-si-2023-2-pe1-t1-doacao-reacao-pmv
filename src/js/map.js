@@ -1,5 +1,5 @@
 const mapProperties = {
-    center: { //TODO precisa ser localização do cliente
+    center: { //precisaria ser localização do cliente numa versão live
         lat: -19.919157028198242,
         lng: -43.93867874145508,
     },
@@ -7,7 +7,6 @@ const mapProperties = {
     map_id: "DEMO_MAP_ID",
 }
 
-//TODO const heartIcon = './assets/heart-icon.png';
 let map
 async function initMap() {
     map = new google.maps.Map(document.getElementById('ongs-map'), mapProperties);
@@ -23,7 +22,6 @@ async function initMap() {
                         position: { lat: parseFloat(lat), lng: parseFloat(lng) },
                         title: ong.title,
                         map: map,
-                        // TODO icon: heartIcon,
                     });
                     marker.addListener('click', function () {
                         window.open(`./ongpage.html?ongid=${ong.id}`, '_blank');

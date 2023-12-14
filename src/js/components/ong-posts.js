@@ -1,13 +1,13 @@
-const main = async() => {
+const main = async () => {
 
     const getResultsFromQueryParams = () => {
         const params = new Proxy(new URLSearchParams(window.location.search), {
             get: (searchParams, prop) => searchParams.get(prop),
-          })
-          return params.ongid
+        })
+        return params.ongid
     }
 
-    const getPostsList = async() => {
+    const getPostsList = async () => {
         const postsJson = await fetch("https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app/posts")
         const postsList = await postsJson.json()
         return postsList
@@ -16,10 +16,10 @@ const main = async() => {
     const postingOngId = Number(getResultsFromQueryParams())
 
     const posts = await getPostsList()
-    const resultsPosts = posts.filter(post => post.belongsTo === postingOngId )
+    const resultsPosts = posts.filter(post => post.belongsTo === postingOngId)
 
 
-    if (resultsPosts.length <= 0){
+    if (resultsPosts.length <= 0) {
         return null
     }
 
@@ -41,7 +41,7 @@ const main = async() => {
         let postTime = document.createElement("p")
         postTime.classList.add("post-time")
         const time = new Date(Number(post.time))
-        formattedTime = time.toLocaleDateString('pt-Br',{ dateStyle: 'long' })
+        formattedTime = time.toLocaleDateString('pt-Br', { dateStyle: 'long' })
         postTime.textContent = formattedTime
         userDetailsDiv.appendChild(userName)
         userDetailsDiv.appendChild(postTime)
@@ -52,11 +52,11 @@ const main = async() => {
         postText.classList.add("post-text")
         postText.textContent = post.text
         postDiv.appendChild(postText)
-        
+
         let postImageContainer = document.createElement("div")
         postImageContainer.classList.add("post-image-container")
         let postImages = post.images
-        postImages.forEach((image) =>{
+        postImages.forEach((image) => {
             {
                 let imageLinkElement = document.createElement("a")
                 imageLinkElement.href = image.src //TODO: link to image page
@@ -70,16 +70,16 @@ const main = async() => {
         })
         postDiv.appendChild(postImageContainer)
 
-        /*
+        /* não foi usado nessa implementação do projeto mas Cabe em um V2 com maior integração de interações do usuário
         let postActionsDiv = document.createElement("div")
         postActionsDiv.classList.add("post-actions")
         let shareButton = document.createElement("button")
         let shareButtonIcon = document.createElement("i")
         shareButtonIcon.classList.add("fas")
-        //let commentButton = document.createElement("button")
-*/    
+        let commentButton = document.createElement("button")
+        */
         postsListSpace.appendChild(postDiv)
-    }) 
+    })
 }
 
 main()
