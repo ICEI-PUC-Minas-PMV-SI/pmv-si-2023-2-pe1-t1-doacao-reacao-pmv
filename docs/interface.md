@@ -13,11 +13,17 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
-### Exemplo
+![Wireframe Home Page](img/wireframe-1.png)
+![Wireframe Maps](img/wireframe-2.png)
+![Wireframe Ong Page](img/wireframe-3.png)
+![Wireframe Search Page](img/wireframe-4.png)
+![Wireframe Ong Sign Up Page](img/wireframe-5.png)
+![Wireframe Search Result Page](img/wireframe-6.png)
 
-A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+
+
+
 
  
 > **Links Úteis**:
