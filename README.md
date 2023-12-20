@@ -8,6 +8,12 @@
 
 Um site visando conectar ONGs, doadores e voluntários.
 
+O site foi hospedado sob o domínio do https://vercel.com/
+  -  [Aplicação Web](https://pmv-si-2023-2-pe1-t1-doacao-reacao-pmv.vercel.app/index.html) . 
+Ele usa o JSON SERVER para simular um servidor de dados
+- [Servidor](https://api-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server.vercel.app)
+- [Repositório](https://github.com/ICEI-PUC-Minas-PMV-SI/API-pmv-si-2023-2-pe1-t1-doacao-reacao-pmv-json-server)
+
 ## Integrantes
 
 * Maria Clara Freitas Soares @myverita
