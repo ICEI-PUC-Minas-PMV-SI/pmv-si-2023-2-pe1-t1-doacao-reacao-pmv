@@ -1,28 +1,26 @@
-cff-version: 1.0.1
+cff-version: 1.2.0
 message: Please cite this software using these metadata.
-title:
+title: Aplicação Web Doação e Reação
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
-    affiliation: PUC Minas
-    family-names:
-    given-names:
+  - given-names: Maria Clara
+    family-names: Freitas Soares
+    email: maria.soares.1490964@sga.pucminas.br
+    affiliation: PUC Minas Virtual
+  - given-names: Vítor César
+    family-names: Reis Francisco
+    email: vcrfrancisco@sga.pucminas.br
+    affiliation: PUC Minas Virtual
 keywords:
-  -
-  -
+  - ONG
+  - Terceiro Setor
+  - Web
+  - css
+  - javascript
+  - html
 repository-code:
 license: CC-BY-4.0
 version: 1.0.0
